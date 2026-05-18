@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python scripts (future)
+__pycache__/
+*.pyc
+.venv/
+
+# Extracted text cache (future compile scripts)
+shared/scripts/cache/
