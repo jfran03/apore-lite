@@ -14,7 +14,7 @@ Claude AI chat is the runtime. The folder structure is the architecture.
 
 | Domain | Folder | Chapters |
 |--------|--------|----------|
-| _(none yet)_ | — | — |
+| Discrete Math | `discrete-math/` | 1 |
 
 ---
 
@@ -99,6 +99,7 @@ Rules:
 5. At session end:
    - Write updated ratings to `progress/ratings.md`
    - Ask: "Want to rate this session? (optional)" — if yes, append an entry to `progress/feedback.md`
+   - For every question answered incorrectly that session, provide a **Suggested Readings** list citing the specific `wiki/` file and section the learner should review
 
 ---
 

@@ -9,3 +9,6 @@ __pycache__/
 
 # Extracted text cache (future compile scripts)
 shared/scripts/cache/
+
+# Raw source materials (PDFs, transcripts, etc.)
+sources/
