@@ -13,6 +13,13 @@
 
 ---
 
+## 2026-05-21
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** focused weakness session — all former hard/ok questions cleared to easy
+
+---
+
 <!-- Feedback entry format (do not delete this comment):
 
 ## {YYYY-MM-DD}
