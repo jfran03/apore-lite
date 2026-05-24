@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/098538df-e799-4e75-a764-4d9e9767e5f3
+
 # apore-lite
 
 An LLM-powered tutoring harness that turns your study materials into a personalized, grounded quiz system.
