@@ -33,6 +33,7 @@ A set must be well-defined — you must be able to clearly decide whether someth
 | Symbol | Name | Members |
 |--------|------|---------|
 | ℕ | Natural numbers | {0, 1, 2, 3, …} |
+| ℤ⁺ | Positive integers | {1, 2, 3, …} |
 | ℤ | Integers | {…, −2, −1, 0, 1, 2, …} |
 | ℚ | Rational numbers | fractions like ½, ¾ |
 | ℝ | Real numbers | all decimals and fractions |

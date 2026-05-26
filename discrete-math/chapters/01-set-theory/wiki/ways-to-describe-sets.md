@@ -30,7 +30,7 @@ Neither method is better than the other — each is useful in different contexts
   > Source: Ways to Describe Sets.html
 
 ### Set-Builder Notation
-- { x ∈ ℕ | x < 5 } → "the set of natural numbers less than 5" = {0, 1, 2, 3, 4}
+- { x ∈ ℕ | x < 5 } → "the set of natural numbers less than 5" = {1, 2, 3, 4}
 - { x ∈ ℤ | x is even } → "the set of even integers"
   > Source: Ways to Describe Sets.html
 

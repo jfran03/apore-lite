@@ -20,6 +20,20 @@
 
 ---
 
+## 2026-05-22
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** —
+
+---
+
+## 2026-05-25
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** some questions spell out the answer (e.g. Q035 with explicit identity) — avoid this; questions should require deriving the answer. Session 2: intermediate/advanced with hard+gap topics mixed in — difficulty level appropriate
+
+---
+
 <!-- Feedback entry format (do not delete this comment):
 
 ## {YYYY-MM-DD}
