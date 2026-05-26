@@ -34,6 +34,13 @@
 
 ---
 
+## 2026-05-26
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** good session; intermediate/hard mix with careless mistakes on computation and reading comprehension (strictly between, disjoint check, proper subset symbol). Focus area: large set operations need careful element tracking.
+
+---
+
 <!-- Feedback entry format (do not delete this comment):
 
 ## {YYYY-MM-DD}
