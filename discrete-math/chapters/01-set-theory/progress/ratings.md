@@ -40,17 +40,17 @@
 | Q031 | active | easy | 2 | 1 | 2026-05-25 | mixed up Z+ and ℕ; missing upper bound condition |
 | Q032 | active | easy | 1 | 1 | 2026-05-25 | — |
 | Q033 | active | easy | 1 | 1 | 2026-05-25 | — |
-| Q034 | active | hard | 1 | 0 | 2026-05-25 | confused union definition — thought union only includes elements in both sets |
+| Q034 | active | hard | 2 | 1 | 2026-05-26 | careless error on large set computation — included/excluded wrong elements |
 | Q035 | active | easy | 1 | 1 | 2026-05-25 | — |
 | Q036 | active | easy | 1 | 1 | 2026-05-25 | — |
 | Q037 | active | easy | 1 | 1 | 2026-05-25 | — |
-| Q038 | active | hard | 1 | 0 | 2026-05-25 | forgot that A − B would be smaller if B ⊆ A |
-| Q039 | active | ok | 1 | 0 | 2026-05-25 | misread question — provided only one partition instead of three |
-| Q040 | active | ok | 1 | 0 | 2026-05-25 | forgot that set difference is not commutative |
-| Q041 | active | ok | 1 | 0 | 2026-05-22 | didn't read "strictly between" — used ≤ instead of < |
+| Q038 | active | hard | 2 | 1 | 2026-05-26 | — |
+| Q039 | active | easy | 2 | 1 | 2026-05-26 | didn't check for disjoint subsets — allowed element to appear in multiple parts |
+| Q040 | active | ok | 2 | 1 | 2026-05-26 | — |
+| Q041 | active | ok | 2 | 1 | 2026-05-26 | misread "strictly between" again — used ≤ instead of < |
 | Q042 | active | easy | 1 | 1 | 2026-05-25 | — |
-| Q043 | active | ok | 1 | 0 | 2026-05-22 | didn't realize empty set follows same proper subset rule as other sets |
+| Q043 | active | ok | 2 | 0 | 2026-05-26 | confused proper subset rule — thought ∅ ⊂ ∅; didn't distinguish ⊂ vs ⊆ |
 | Q044 | active | ok | 1 | 1 | 2026-05-25 | — |
-| Q045 | active | hard | 2 | 0 | 2026-05-25 | forgot to reverse the power set formula |
-| Q046 | active | ok | 1 | 0 | 2026-05-25 | misread the question — confused 'is' with 'contains' |
+| Q045 | active | hard | 3 | 1 | 2026-05-26 | — |
+| Q046 | active | ok | 2 | 1 | 2026-05-26 | — |
 | Q047 | active | easy | 1 | 1 | 2026-05-22 | — |
