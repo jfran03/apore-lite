@@ -286,3 +286,448 @@ D) Tautology
 **Focus Area:** double negation
 **Question:** Simplify ¬¬p. Name the logical equivalence law used.
 **Answer:** ¬¬p ≡ p. This is the Double Negation law: removing two negations does not change the truth value of a proposition. (See tautologies-contradictions-and-equivalence.md)
+
+## Q026
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** introduction-to-proofs
+**Focus Area:** definition of a proof
+**Question:** Which of the following best describes a proof?
+A) A guess that is probably true
+B) A convincing argument, built from axioms, premises and previously proven results, that demonstrates a proposition is true
+C) A statement that has not yet been tested
+D) An example that satisfies a claim
+**Answer:** B) A proof is a valid logical argument built from axioms (statements assumed true), premises or hypotheses, and previously proven theorems or definitions, applying rules of inference step-by-step to reach the desired conclusion. (See introduction-to-proofs.md)
+
+## Q027
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** introduction-to-proofs
+**Focus Area:** proof terminology
+**Question:** A lemma is a "helping theorem" — a smaller result proved mainly to help prove a larger one.
+**Answer:** True. A lemma is a smaller result proved mainly to help prove a larger theorem. (See introduction-to-proofs.md)
+
+## Q028
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** introduction-to-proofs
+**Focus Area:** conjecture vs. theorem
+**Question:** What is the difference between a conjecture and a theorem? Give the historical example used to illustrate this.
+**Answer:** A conjecture is a statement believed to be true based on evidence or intuition but not yet proven; once proven, it becomes a theorem. Example: for centuries mathematicians conjectured there were infinitely many primes, until Euclid proved it by contradiction in 300 BCE, turning the conjecture into a theorem. (See introduction-to-proofs.md)
+
+## Q029
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** direct-proofs
+**Focus Area:** definition of direct proof
+**Question:** A direct proof of p → q works by:
+A) Assuming q is false and deriving a contradiction
+B) Assuming p is true and using definitions and known results to show q must also be true
+C) Finding one example where p is true and q is false
+D) Proving ¬q → ¬p instead
+**Answer:** B) A direct proof assumes the hypothesis p is true, then applies logical reasoning, definitions and previously known results to show that the conclusion q must also be true. (See direct-proofs.md)
+
+## Q030
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** direct-proofs
+**Focus Area:** sum of two even numbers
+**Question:** Using a direct proof, show that the sum of two even numbers is even.
+**Answer:** Let the two even numbers be 2a and 2b, where a and b are integers. Their sum is 2a + 2b = 2(a + b). Since a + b is an integer, the sum can be expressed as 2k for some integer k = a + b, so the sum is even. (See direct-proofs.md)
+
+## Q031
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** direct-proofs
+**Focus Area:** structure of a direct proof
+**Question:** Describe the four-step general structure used to build a direct proof.
+**Answer:** (1) Start with what's given — restate the assumption p clearly and translate it into a usable form. (2) Apply logical steps — use definitions, known results or algebraic manipulation, justifying each step. (3) Arrive at what you want to show (q) — connect your reasoning back to the target conclusion. (4) Conclude with clarity — state that the conclusion follows directly from the assumption, often ending with ∎. (See direct-proofs.md)
+
+## Q032
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** proof-by-cases
+**Focus Area:** when to use proof by cases
+**Question:** Proof by cases is most appropriate when:
+A) You want to disprove a "for all" statement
+B) The statement's truth depends on different conditions, such as whether a number is even or odd
+C) You want to assume the conclusion is false
+D) The statement only needs one chain of reasoning
+**Answer:** B) Proof by cases divides a problem into distinct, logical cases (e.g., even/odd, positive/negative) and proves the statement holds in each case; once all cases are shown true, the whole statement is proven. (See proof-by-cases.md)
+
+## Q033
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-cases
+**Focus Area:** n^2 + n is even
+**Question:** Using proof by cases, show that n² + n is even for any integer n.
+**Answer:** Case 1: n is even, so n = 2k. Then n² + n = 4k² + 2k = 2(2k² + k), which is even. Case 2: n is odd, so n = 2k + 1. Then n² + n = (2k+1)² + (2k+1) = 4k² + 6k + 2 = 2(2k² + 3k + 1), which is even. Since both cases give an even result, n² + n is even for all integers n. (See proof-by-cases.md)
+
+## Q034
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** proof-by-cases
+**Focus Area:** product of three consecutive integers
+**Question:** Outline the three cases used to prove that the product of three consecutive integers is divisible by 6.
+**Answer:** Let the integers be n, n+1, n+2. Case 1: n is divisible by 3 — the product includes a factor of 3, and one of the three numbers is even, giving divisibility by 6. Case 2: n leaves remainder 1 when divided by 3 — then n+2 is divisible by 3, and one number is even. Case 3: n leaves remainder 2 when divided by 3 — then n+1 is divisible by 3, and one number is even. In all three cases the product is divisible by both 2 and 3, hence by 6. (See proof-by-cases.md)
+
+## Q035
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** proof-by-contrapositive
+**Focus Area:** identifying the contrapositive
+**Question:** What is the contrapositive of "If p, then q" (p ⇒ q)?
+A) If q, then p
+B) If not p, then not q
+C) If not q, then not p
+D) If p, then not q
+**Answer:** C) If not q, then not p (¬q ⇒ ¬p). The contrapositive switches and negates both p and q, and is logically equivalent to the original statement. (See proof-by-contrapositive.md)
+
+## Q036
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** proof-by-contrapositive
+**Focus Area:** logical equivalence of contrapositive
+**Question:** A statement and its contrapositive always have the same truth value.
+**Answer:** True. The original statement (p ⇒ q) and its contrapositive (¬q ⇒ ¬p) are logically equivalent, so proving one proves the other. (See proof-by-contrapositive.md)
+
+## Q037
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** proof-by-contrapositive
+**Focus Area:** n^2 even implies n even
+**Question:** Prove "If n² is even, then n is even" using a proof by contrapositive.
+**Answer:** The contrapositive is: if n is odd, then n² is odd. Assume n is odd, so n = 2k + 1 for some integer k. Then n² = (2k+1)² = 4k² + 4k + 1 = 4(k² + k) + 1, which is one more than a multiple of 2, so n² is odd. Since n² is odd whenever n is odd, the contrapositive holds, so the original statement "If n² is even, then n is even" is true. (See proof-by-contrapositive.md)
+
+## Q038
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** proof-by-contradiction
+**Focus Area:** definition of proof by contradiction
+**Question:** In a proof by contradiction, you begin by:
+A) Assuming the statement p is true and deriving q
+B) Assuming the negation ¬p is true and showing it leads to an impossibility
+C) Finding a counterexample to p
+D) Proving the converse of p
+**Answer:** B) To prove p, you temporarily assume ¬p is true, then show through logical reasoning or algebraic manipulation that this leads to a contradiction (something that cannot possibly be true), allowing you to conclude p must be true. (See proof-by-contradiction.md)
+
+## Q039
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** when to use proof by contradiction
+**Question:** Name two situations where proof by contradiction is particularly effective.
+**Answer:** Proof by contradiction is particularly effective when a direct proof seems complex or circular, when the statement involves words like "impossible," "no," "cannot," or "not," or when the structure involves negations or inequalities. (See proof-by-contradiction.md)
+
+## Q040
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** proof-by-counterexample
+**Focus Area:** definition of proof by counterexample
+**Question:** A proof by counterexample is used to:
+A) Prove a "for all" statement is true
+B) Disprove a universal ("for all") statement by finding one case where it fails
+C) Prove a conditional statement using its contrapositive
+D) Show that a set has a smallest element
+**Answer:** B) A proof by counterexample disproves a universal statement by finding just one specific example where the statement does not hold. If even one case violates the claim, the statement fails completely and no further proof is needed. (See proof-by-counterexample.md)
+
+## Q041
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-counterexample
+**Focus Area:** disproving "all even numbers are divisible by 4"
+**Question:** Give a counterexample to the claim "All even numbers are divisible by 4."
+**Answer:** Consider 6. It is even because 6 = 2 × 3, but 6 ÷ 4 = 1.5, which is not an integer. Since 6 is even but not divisible by 4, the claim is false. (See proof-by-counterexample.md)
+
+## Q042
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** proof-by-counterexample
+**Focus Area:** sum of two irrational numbers
+**Question:** The sum of two irrational numbers is always irrational.
+**Answer:** False. Counterexample: let x = π and y = −π. Both are irrational, but x + y = π + (−π) = 0, which is rational (it can be written as 0/1). This single example shows the claim fails. (See proof-by-counterexample.md)
+
+## Q043
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** comparing-proof-techniques
+**Focus Area:** choosing a proof strategy
+**Question:** A statement claims something is true for all integers and depends on recursive patterns. Which proof strategy is most appropriate according to the "Choosing a Proof Strategy" guide?
+A) Proof by counterexample
+B) Proof by contradiction
+C) Mathematical induction or strong induction
+D) Proof by contrapositive
+**Answer:** C) When a statement claims something is true for all integers (especially involving recursive patterns), induction or strong induction is the recommended strategy. (See comparing-proof-techniques.md)
+
+## Q044
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** comparing-proof-techniques
+**Focus Area:** categorizing proof techniques
+**Question:** According to the comparison of proof techniques, how are direct/contrapositive proofs, contradiction/counterexample, and induction/well-ordering categorized?
+**Answer:** Direct and contrapositive proofs are described as "logical builders." Contradiction and counterexample are "error detectors." Induction and well-ordering are "infinite reasoners." All share the goal of turning belief into certainty, and the art of mathematics is knowing which tool fits the problem. (See comparing-proof-techniques.md)
+
+## Q045
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** mathematical-induction
+**Focus Area:** structure of mathematical induction
+**Question:** To prove P(n) is true for all integers n ≥ k using mathematical induction, you must:
+A) Show P(k) is true and find a counterexample
+B) Show P(k) is true (base case) and show P(n) true implies P(n+1) true (inductive step)
+C) Assume ¬P(n) and derive a contradiction
+D) Show P(1), P(2), ..., P(k) are all true
+**Answer:** B) Mathematical induction requires a base case (P(k) is true) and an inductive step (assuming P(n) is true for an arbitrary n, prove P(n+1) is true). If both hold, P(n) is true for all n ≥ k. (See mathematical-induction.md)
+
+## Q046
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** mathematical-induction
+**Focus Area:** base case for sum formula
+**Question:** What is the base case for proving 1 + 2 + 3 + ... + n = n(n+1)/2 by induction, and does it hold?
+**Answer:** The base case is n = 1: the sum is 1, and the formula gives 1·(1+1)/2 = 1. Since both sides equal 1, the base case holds. (See mathematical-induction.md)
+
+## Q047
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** mathematical-induction
+**Focus Area:** importance of the base case
+**Question:** Using the ladder analogy, explain why the base case is essential to a proof by induction.
+**Answer:** The base case is like stepping onto the first rung of an infinite ladder. The inductive step shows that from any rung you can climb to the next, but without first establishing that you can step onto the first rung, the chain of implications P(k) ⇒ P(k+1) ⇒ ... has nothing to start from, so the statement cannot be shown true for any case. (See mathematical-induction.md)
+
+## Q048
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** strong-induction
+**Focus Area:** strong vs. regular induction
+**Question:** How does strong induction differ from ordinary (regular) induction?
+A) Strong induction does not require a base case
+B) Strong induction assumes only P(k) to prove P(k+1), like regular induction
+C) Strong induction assumes all of P(1), P(2), ..., P(k) are true to prove P(k+1)
+D) Strong induction is used only for inequalities
+**Answer:** C) Regular induction assumes just one prior case P(k), while strong induction assumes all prior cases P(1), P(2), ..., P(k) are true in order to prove P(k+1). (See strong-induction.md)
+
+## Q049
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** strong-induction
+**Focus Area:** prime factorization proof
+**Question:** In the strong induction proof that every integer greater than 1 can be written as a product of primes, what are the two cases considered in the inductive step for k+1?
+**Answer:** Case 1: k+1 is prime, so it is trivially a product of one prime (itself). Case 2: k+1 is composite, so k+1 = a · b where 1 < a < k+1 and 1 < b < k+1; by the inductive hypothesis a and b can each be written as products of primes, so their product k+1 = a · b is also a product of primes. (See strong-induction.md)
+
+## Q050
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** strong-induction
+**Focus Area:** alternate names for strong induction
+**Question:** Strong induction is sometimes called "complete induction" because ordinary induction is incomplete or invalid.
+**Answer:** False. Strong induction is sometimes called the Second Principle of Mathematical Induction or Complete Induction, but the term "complete" does not mean ordinary induction is incomplete — both methods are logically equivalent. The difference is only how much is assumed in the inductive step. (See strong-induction.md)
+
+## Q051
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** well-ordering-principle
+**Focus Area:** definition of the well-ordering principle
+**Question:** The Well-Ordering Principle states that:
+A) Every set of integers is infinite
+B) Every non-empty set of non-negative integers has a smallest element
+C) Every integer can be written as a product of primes
+D) Every conditional statement has an equivalent contrapositive
+**Answer:** B) Every non-empty set of non-negative integers has a smallest element. For example, the set {4, 7, 12} has smallest element 4. (See well-ordering-principle.md)
+
+## Q052
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** well-ordering-principle
+**Focus Area:** template for well-ordering proofs
+**Question:** Describe the four-step template for using the Well-Ordering Principle to prove a statement P(n) is true for all positive integers n.
+**Answer:** (1) Define the set of counterexamples C = { n ∈ N | P(n) is false }. (2) Assume for contradiction that C is non-empty. (3) By the Well-Ordering Principle, C has a smallest element n. (4) Reach a contradiction by showing either that P(n) must actually be true, or that a smaller counterexample than n exists, contradicting that n was smallest. This forces C to be empty, so P(n) is true for all positive integers n. (See well-ordering-principle.md)
+
+## Q053
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** well-ordering-principle
+**Focus Area:** connection to induction
+**Question:** How are the Well-Ordering Principle and Mathematical Induction logically connected?
+**Answer:** They are logically equivalent and rely on the same idea: if a statement fails for some number, that failure must occur at a smallest number; once you show that smallest counterexample cannot exist, the statement holds for all numbers. Induction proves that there's no "first failure," while the Well-Ordering Principle explains why that reasoning is valid. (See well-ordering-principle.md)
+
+## Q054
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** introduction-to-proofs
+**Focus Area:** lemma vs. conjecture
+**Question:** A lemma is a statement that has not yet been proven but is believed to be true.
+**Answer:** False. That describes a conjecture. A lemma is a "helping theorem" — a smaller result that has been proven, used mainly to help prove a larger one. (See introduction-to-proofs.md)
+
+## Q055
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** introduction-to-proofs
+**Focus Area:** corollary definition
+**Question:** Which of the following statements describes a corollary?
+A) A statement that can be shown to be true using direct reasoning
+B) A smaller result used to prove a theorem
+C) A result that follows directly from another proven theorem
+D) A statement that is believed to be true but not yet proven
+**Answer:** C) A corollary is a statement that follows directly from a theorem that's already been proven. B describes a lemma, and D describes a conjecture. (See introduction-to-proofs.md)
+
+## Q056
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** introduction-to-proofs
+**Focus Area:** why computer scientists care about proofs
+**Question:** Why do computer scientists care about proofs? Select all that apply.
+A) Proofs ensure that an algorithm or system will always behave as expected under all conditions.
+B) Proofs help replace assumptions and testing with logical certainty.
+C) Proofs are only used in pure mathematics, not in computing.
+D) Proofs provide a way to formally verify security, correctness and termination in programs.
+E) Proofs allow programmers to guess how a system might behave in most cases.
+**Answer:** A, B, and D. Proofs guarantee correctness in every possible situation (not just testing scenarios), replace trial-and-error with logical certainty, and underpin formal verification, compiler correctness, and security protocols. C is false — proofs are central across computing disciplines. E is false — proofs eliminate guessing through formal reasoning. (See introduction-to-proofs.md)
+
+## Q057
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-contrapositive
+**Focus Area:** identifying the contrapositive vs. converse and inverse
+**Question:** Which of the following is the contrapositive of the statement "If a number is divisible by 4, then it is even"?
+A) If a number is even, then it is divisible by 4.
+B) If a number is not even, then it is not divisible by 4.
+C) If a number is not divisible by 4, then it is not even.
+D) If a number is divisible by 2, then it is divisible by 4.
+**Answer:** B) The contrapositive switches and negates both parts: "if not q, then not p." A is the converse (switches without negating), C is the inverse (negates without switching), and D is an unrelated statement. (See proof-by-contrapositive.md)
+
+## Q058
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-contrapositive
+**Focus Area:** identifying the contrapositive vs. converse and inverse
+**Question:** Which of the following is the contrapositive of the statement "If a number is greater than 5, then its square is greater than 25"?
+A) If a number's square is greater than 25, then the number is greater than 5.
+B) If a number is not greater than 5, then its square is not greater than 25.
+C) If a number's square is not greater than 25, then the number is not greater than 5.
+D) If a number's square is equal to 25, then the number is 5.
+**Answer:** C) The contrapositive switches and negates both parts: "if not q, then not p." A is the converse, B is the inverse, and D only describes one specific case. (See proof-by-contrapositive.md)
+
+## Q059
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-contrapositive
+**Focus Area:** when to choose proof by contrapositive
+**Question:** Why might you choose a proof by contrapositive instead of a direct proof?
+A) Because it avoids using algebra altogether.
+B) Because the contrapositive is easier to prove or simplifies the assumptions.
+C) Because it gives a stronger conclusion than a direct proof.
+D) Because it proves the converse of the statement.
+**Answer:** B) Proof by contrapositive is useful when starting with the original assumption (p) is complicated or abstract, or when the negation of the conclusion (¬q) gives you something easier to analyze. It is logically equivalent to the original statement — not stronger, not the converse — and may still involve algebra. (See proof-by-contrapositive.md)
+
+## Q060
+**Status:** active
+**Type:** mcq
+**Difficulty:** advanced
+**Topic:** proof-by-contrapositive
+**Focus Area:** why the contrapositive simplifies the n² even proof
+**Question:** In the proof "If n² is even, then n is even," what is the key idea that makes the contrapositive easier to prove?
+A) Odd numbers have a clear algebraic form (2k + 1).
+B) Even numbers are harder to describe mathematically.
+C) The statement no longer involves a square.
+D) The contrapositive requires no cases.
+**Answer:** A) Odd numbers have a clear algebraic form (2k + 1) that makes the pattern obvious: squaring 2k + 1 gives 4(k² + k) + 1, which automatically stays odd. The contrapositive still involves n², and the simplification comes from the algebraic form, not from avoiding cases. (See proof-by-contrapositive.md)
+
+## Q061
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** completing a proof by contradiction
+**Question:** In a proof by contradiction, what must you demonstrate to complete the proof?
+A) That the assumption leads to a new theorem.
+B) That both the statement and its opposite are true.
+C) That you can prove the contrapositive.
+D) That the assumption leads to a false or impossible result.
+**Answer:** D) After assuming the negation ¬p, you must show through logical reasoning or algebraic manipulation that it leads to a contradiction — something that cannot possibly be true. This disproves the assumption, allowing you to conclude p must be true. (See proof-by-contradiction.md)
+
+## Q062
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-counterexample
+**Focus Area:** which statements can be disproved by counterexample
+**Question:** Which of the following statements could be disproved by a counterexample?
+A) There are infinitely many prime numbers.
+B) Every integer is divisible by 2.
+C) If n is even, then n + 2 is even.
+D) There exists a largest prime number.
+**Answer:** B) "Every integer is divisible by 2" is a universal ("every") statement, so a single counterexample — such as 3 — disproves it. Counterexamples disprove universal statements; A and D are existence claims, which cannot be disproved by a single example, and C is true for all integers, so no valid counterexample exists. (See proof-by-counterexample.md)
+
+## Q063
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** mathematical-induction
+**Focus Area:** goal of mathematical induction
+**Question:** Which of the following best describes the goal of mathematical induction?
+A) To prove a statement that applies to one particular value only.
+B) To prove a general statement by testing a few specific examples.
+C) To prove a statement that holds for all integers by connecting each case to the next.
+D) To disprove a universal statement by finding a single counterexample.
+**Answer:** C) Induction shows that if one case is true, then so is the next, creating a chain of truth that covers every integer that follows — like dominoes falling or climbing a ladder. It proves infinitely many cases, not one value; testing examples is not a formal proof; and D describes proof by counterexample. (See mathematical-induction.md)
+
+## Q064
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** mathematical-induction
+**Focus Area:** ladder analogy — meaning of the rungs
+**Question:** In the ladder analogy for induction, what do the rungs of the ladder represent?
+A) The very first base case that begins the induction process.
+B) Each specific case P(n) showing the statement is true for that step.
+C) The assumption that the entire statement must be false.
+D) The reasoning step that produces a logical contradiction.
+**Answer:** B) Each rung corresponds to one particular case P(n) being true. The first rung represents the base case, but the ladder has infinitely many rungs; the rule for moving up is the inductive step. (See mathematical-induction.md)
+
+## Q065
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** strong-induction
+**Focus Area:** why strong induction is called complete induction
+**Question:** Why is strong induction sometimes called complete induction?
+A) Because it's the final topic in mathematical induction.
+B) Because it can prove results without a base case.
+C) Because it assumes a complete set of previous truths up to k.
+D) Because it's a stronger logical system than ordinary induction.
+**Answer:** C) It is "complete" because the inductive step assumes all previous cases P(1), P(2), ..., P(k) are true to prove P(k+1). The term does not mean ordinary induction is incomplete — both methods are logically equivalent, a base case is still necessary, and it is not a stronger logical system. (See strong-induction.md)

@@ -2,7 +2,7 @@
 
 **Domain:** Discrete Math
 **Topics:** Logic helps us understand how statements connect and how to build valid arguments. A logical statement is one that is either true or false, like "all computers have memory" or "3 is greater than 7." In computer science, it's used in everything from writing conditional code to designing circuits. In this unit, you'll explore truth tables, logical operators and various proof techniques like direct proofs, contradiction and mathematical induction to help you reason clearly and build strong arguments.
-**Compile Status:** compiled 2026-06-01
+**Compile Status:** compiled 2026-06-10
 
 ## Sources Ingested
 
@@ -24,12 +24,49 @@
 | 3.PNG | 2026-06-01 |
 | 4.PNG | 2026-06-01 |
 | 5.PNG | 2026-06-01 |
+| Introduction to Proofs.html | 2026-06-10 |
+| Direct Proofs.html | 2026-06-10 |
+| Proofs by Cases.html | 2026-06-10 |
+| Proof by Contrapositive.html | 2026-06-10 |
+| Proof by Contradiction.html | 2026-06-10 |
+| Proof by Counterexample.html | 2026-06-10 |
+| Comparing Proof Techniques.html | 2026-06-10 |
+| Introduction to Induction.html | 2026-06-10 |
+| Strong Induction.html | 2026-06-10 |
+| The Well-Ordering Principle.html | 2026-06-10 |
+| config-1759771391556.practice.json | 2026-06-10 |
+| config-1759771426806.practice.json | 2026-06-10 |
+| config-1759771574388.practice.json | 2026-06-10 |
+| config-1759780666917.practice.json | 2026-06-10 |
+| config-1759853409887.practice.json | 2026-06-10 |
+| config-1759853534799.practice.json | 2026-06-10 |
+| config-1759853596299.practice.json | 2026-06-10 |
+| config-1759853829610.practice.json | 2026-06-10 |
+| config-1759854874265.practice.json | 2026-06-10 |
+| config-1759854932241.practice.json | 2026-06-10 |
+| config-1759868506088.practice.json | 2026-06-10 |
+| config-1759870969824.practice.json | 2026-06-10 |
+| config-1759871060124.practice.json | 2026-06-10 |
+| config-1759871118452.practice.json | 2026-06-10 |
+| config-1759956381234.practice.json | 2026-06-10 |
+| config-1759956602876.practice.json | 2026-06-10 |
+| config-1759956701253.practice.json | 2026-06-10 |
 
 ## Topics Covered
 
 - propositions-and-truth-values
 - logical-operators-and-truth-tables
 - tautologies-contradictions-and-equivalence
+- introduction-to-proofs
+- direct-proofs
+- proof-by-cases
+- proof-by-contrapositive
+- proof-by-contradiction
+- proof-by-counterexample
+- comparing-proof-techniques
+- mathematical-induction
+- strong-induction
+- well-ordering-principle
 
 ---
 
