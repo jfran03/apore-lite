@@ -35,20 +35,20 @@
 | Q026 | active | new | 0 | 0 | — | — |
 | Q027 | active | new | 0 | 0 | — | — |
 | Q028 | active | new | 0 | 0 | — | — |
-| Q029 | active | new | 0 | 0 | — | — |
-| Q030 | active | new | 0 | 0 | — | — |
+| Q029 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q030 | active | easy | 1 | 1 | 2026-06-15 | — |
 | Q031 | active | new | 0 | 0 | — | — |
-| Q032 | active | new | 0 | 0 | — | — |
-| Q033 | active | new | 0 | 0 | — | — |
+| Q032 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q033 | active | easy | 1 | 1 | 2026-06-15 | — |
 | Q034 | active | new | 0 | 0 | — | — |
 | Q035 | active | new | 0 | 0 | — | — |
-| Q036 | active | new | 0 | 0 | — | — |
+| Q036 | active | easy | 1 | 1 | 2026-06-15 | — |
 | Q037 | active | new | 0 | 0 | — | — |
 | Q038 | active | new | 0 | 0 | — | — |
-| Q039 | active | new | 0 | 0 | — | — |
+| Q039 | active | ok | 1 | 0 | 2026-06-15 | Wasn't aware of the situations where contradiction is effective |
 | Q040 | active | new | 0 | 0 | — | — |
-| Q041 | active | new | 0 | 0 | — | — |
-| Q042 | active | new | 0 | 0 | — | — |
+| Q041 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q042 | active | ok | 1 | 0 | 2026-06-15 | Assumed irrational numbers must be positive |
 | Q043 | active | new | 0 | 0 | — | — |
 | Q044 | active | new | 0 | 0 | — | — |
 | Q045 | active | new | 0 | 0 | — | — |
@@ -63,12 +63,16 @@
 | Q054 | active | new | 0 | 0 | — | — |
 | Q055 | active | new | 0 | 0 | — | — |
 | Q056 | active | new | 0 | 0 | — | — |
-| Q057 | active | new | 0 | 0 | — | — |
+| Q057 | active | easy | 1 | 1 | 2026-06-15 | — |
 | Q058 | active | new | 0 | 0 | — | — |
 | Q059 | active | new | 0 | 0 | — | — |
 | Q060 | active | new | 0 | 0 | — | — |
-| Q061 | active | new | 0 | 0 | — | — |
+| Q061 | active | ok | 1 | 0 | 2026-06-15 | Misread the question as asking about contrapositive |
 | Q062 | active | new | 0 | 0 | — | — |
 | Q063 | active | new | 0 | 0 | — | — |
 | Q064 | active | new | 0 | 0 | — | — |
 | Q065 | active | new | 0 | 0 | — | — |
+| Q066 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q067 | active | ok | 1 | 0 | 2026-06-15 | Confused which statement (p vs ¬p) is assumed at the start |
+| Q068 | active | easy | 1 | 0 | 2026-06-15 | Question wording was double-barreled/confusing |
+| Q069 | active | easy | 1 | 1 | 2026-06-15 | — |

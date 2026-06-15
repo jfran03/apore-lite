@@ -731,3 +731,43 @@ B) Because it can prove results without a base case.
 C) Because it assumes a complete set of previous truths up to k.
 D) Because it's a stronger logical system than ordinary induction.
 **Answer:** C) It is "complete" because the inductive step assumes all previous cases P(1), P(2), ..., P(k) are true to prove P(k+1). The term does not mean ordinary induction is incomplete — both methods are logically equivalent, a base case is still necessary, and it is not a stronger logical system. (See strong-induction.md)
+
+## Q066
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** recognizing when to use proof by contradiction
+**Question:** If a problem statement contains words like "impossible," "no," or "cannot," that's often a signal that proof by contradiction may be an effective approach.
+**Answer:** True. Proof by contradiction is particularly effective when the statement involves words like "impossible," "no," "cannot," or "not," or when the structure involves negations or inequalities. (See proof-by-contradiction.md)
+
+## Q067
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** why proof by contradiction works
+**Question:** Explain the logical principle ("Why It Works") that justifies proof by contradiction.
+**Answer:** Every statement is either true or false — there is no middle ground. So if assuming the opposite (¬p) of a statement leads to an impossibility, then the only remaining option is that the statement (p) itself must be true. (See proof-by-contradiction.md)
+
+## Q068
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** proof-by-counterexample
+**Focus Area:** counterexamples need not satisfy unstated constraints
+**Question:** In the proof that "the sum of two irrational numbers is always irrational" is false, the counterexample uses x = π and y = −π. Is −π a valid choice even though it's negative — i.e., does a counterexample need to satisfy any constraints beyond what the original claim states?
+**Answer:** Yes, −π is valid. The claim only requires the numbers to be irrational — it says nothing about being positive. A counterexample only needs to satisfy the exact conditions stated in the claim ("two irrational numbers"); since −π is irrational, it qualifies, and finding one such pair where the sum is rational (0) is enough to disprove the universal claim. (See proof-by-counterexample.md)
+
+## Q069
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** what is assumed at the start of a proof by contradiction
+**Question:** To prove a statement p using proof by contradiction, what do you assume at the start?
+A) p is true
+B) ¬p is true
+C) p is false and q is true
+D) The contrapositive of p
+**Answer:** B) ¬p is true. You temporarily assume the opposite (negation) of what you want to prove, then show this assumption leads to a contradiction — an impossibility. This forces ¬p to be false, so p must be true. (See proof-by-contradiction.md)
