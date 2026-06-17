@@ -14,3 +14,13 @@
 **Style notes:** {e.g. "need more application questions", "too abstract", "want more MCQs"}
 
 -->
+
+## 2026-06-02 (Session 1)
+**Difficulty feel:** too easy
+**Coverage gaps:** —
+**Style notes:** treat these as recall questions; good for warmup but want more depth/application
+
+## 2026-06-02 (Session 2)
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** focus on applying concepts by writing them out (proofs, truth tables, equivalence derivations) rather than multiple choice

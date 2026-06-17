@@ -7,26 +7,26 @@
 
 | ID | Status | Difficulty | Times Seen | Times Correct | Last Seen | Wrong Reason |
 |----|--------|------------|------------|---------------|-----------|--------------|
-| Q001 | active | new | 0 | 0 | — | — |
-| Q002 | active | new | 0 | 0 | — | — |
-| Q003 | active | new | 0 | 0 | — | — |
-| Q004 | active | new | 0 | 0 | — | — |
-| Q005 | active | new | 0 | 0 | — | — |
-| Q006 | active | new | 0 | 0 | — | — |
-| Q007 | active | new | 0 | 0 | — | — |
-| Q008 | active | new | 0 | 0 | — | — |
-| Q009 | active | new | 0 | 0 | — | — |
-| Q010 | active | new | 0 | 0 | — | — |
-| Q011 | active | new | 0 | 0 | — | — |
-| Q012 | active | new | 0 | 0 | — | — |
-| Q013 | active | new | 0 | 0 | — | — |
-| Q014 | active | new | 0 | 0 | — | — |
-| Q015 | active | new | 0 | 0 | — | — |
-| Q016 | active | new | 0 | 0 | — | — |
-| Q017 | active | new | 0 | 0 | — | — |
-| Q018 | active | new | 0 | 0 | — | — |
-| Q019 | active | new | 0 | 0 | — | — |
-| Q020 | active | new | 0 | 0 | — | — |
+| Q001 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q002 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q003 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q004 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q005 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q006 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q007 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q008 | active | ok | 1 | 0 | 2026-06-02 | confused implication with biconditional |
+| Q009 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q010 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q011 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q012 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q013 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q014 | active | ok | 1 | 1 | 2026-06-02 | — |
+| Q015 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q016 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q017 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q018 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q019 | active | easy | 1 | 1 | 2026-06-02 | — |
+| Q020 | active | ok | 1 | 0 | 2026-06-02 | unfamiliar with De Morgan's Laws notation |
 | Q021 | active | new | 0 | 0 | — | — |
 | Q022 | active | new | 0 | 0 | — | — |
 | Q023 | active | new | 0 | 0 | — | — |
