@@ -76,3 +76,20 @@
 | Q067 | active | ok | 1 | 0 | 2026-06-15 | Confused which statement (p vs ¬p) is assumed at the start |
 | Q068 | active | easy | 1 | 0 | 2026-06-15 | Question wording was double-barreled/confusing |
 | Q069 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q070 | active | new | 0 | 0 | — | — |
+| Q071 | active | new | 0 | 0 | — | — |
+| Q072 | active | new | 0 | 0 | — | — |
+| Q073 | active | new | 0 | 0 | — | — |
+| Q074 | active | new | 0 | 0 | — | — |
+| Q075 | active | new | 0 | 0 | — | — |
+| Q076 | active | new | 0 | 0 | — | — |
+| Q077 | active | new | 0 | 0 | — | — |
+| Q078 | active | new | 0 | 0 | — | — |
+| Q079 | active | new | 0 | 0 | — | — |
+| Q080 | active | new | 0 | 0 | — | — |
+| Q081 | active | new | 0 | 0 | — | — |
+| Q082 | active | new | 0 | 0 | — | — |
+| Q083 | active | new | 0 | 0 | — | — |
+| Q084 | active | new | 0 | 0 | — | — |
+| Q085 | active | new | 0 | 0 | — | — |
+| Q086 | active | new | 0 | 0 | — | — |

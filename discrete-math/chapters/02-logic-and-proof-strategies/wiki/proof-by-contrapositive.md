@@ -41,6 +41,16 @@ In many proofs, it's easier to show that the contrapositive of a statement is tr
 - In Example 1, "odd" numbers have a clear algebraic form that makes the pattern obvious; in Example 2, reasoning about the same sign of x and y is much simpler than handling all possible absolute value combinations directly — both examples start by flipping and negating the statement, allowing the proof to rely on simpler reasoning.
   > Source: Proof by Contrapositive.html
 
+## Practice Problems
+
+**Prove by contrapositive:**
+1. If n is an integer such that 3n + 2 is odd, then n is odd.
+2. If n² is an even integer then n is an even integer.
+3. If x and y are both integers, such that xy is even and x + y is even, then both x and y are even.
+4. Let r be a number. If 5r is not rational then r is not rational.
+5. If p is a prime number greater than 2, then p² is odd.
+  > Source: 15.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Direct Proofs](direct-proofs.md)

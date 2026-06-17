@@ -42,6 +42,30 @@ A proof of a proposition is a convincing argument that demonstrates the proposit
 - **History of Proof:** Ancient Greeks, especially Euclid, built the first formal system of proofs in *Elements* (circa 300 BCE), with a structure of definitions, axioms and theorems still used today. In the 20th century, logicians like Bertrand Russell and Kurt Gödel showed that formal systems have both power and limits — Gödel's Incompleteness Theorem proved that not every true statement can be proven within a system. In computer science, proofs evolved into automated reasoning and formal verification, where proof assistants check logical steps for correctness.
   > Source: Introduction to Proofs.html
 
+## Practice Problems
+
+**Determine which statements are true (no proof required):** Determine which of the following mathematical statements are True:
+- |−20.26| = −20
+- For all a, b ∈ ℤ, if a | b, then a | 2b.
+- For all n ∈ {0, 1, 2, 3, 4, 5, 6}, n | 360.
+- For all x, y ∈ ℝ, if ⌊x⌋ = |y|, then x = y.
+- The number 57 is not a composite number.
+- For all a, b ∈ ℤ, if 5 | a + b, then 5 | a or 5 | b.
+- There exists n ∈ ℚ such that, for all m ∈ ℚ, n · m ∈ ℤ.
+- For all m, n ∈ ℤ, if m + n is odd, then m + 2n is even.
+- For all n ∈ ℝ, there exists m ∈ ℝ such that ⌊n⌋ + ⌈m⌉ = 1.
+- For all x, y ∈ ℝ, if x + y is irrational, then x and y are irrational.
+  > Source: 11.PNG
+
+**Determine True/False and write a complete proof for each:**
+- (a) For all integers a, b, c, d, if a | b and c | d, then a + b | c + d.
+- (b) For all integers m, there exists an integer n such that 3 | m + n.
+- (c) For all real numbers x, y, ⌊x · y⌋ = ⌊x⌋ · ⌊y⌋.
+- (d) For all real numbers x, y, if x · y is rational, then x is rational or y is rational.
+- (e) For all integers m, n, if m and n are odd, then m² + n² is even.
+  > Source: 18.PNG
+  > Note: several of these involve floor/ceiling and quantifier reasoning beyond the proof-technique content currently compiled in this wiki; transcribed here for completeness.
+
 ## Related Topics
 - [Direct Proofs](direct-proofs.md)
 - [Proof by Cases](proof-by-cases.md)

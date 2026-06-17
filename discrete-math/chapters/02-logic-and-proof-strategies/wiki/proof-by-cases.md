@@ -38,6 +38,15 @@ Sometimes a statement can't be proven with a single chain of reasoning: it depen
   Since the statement holds in all three cases, the product of three consecutive integers is divisible by 6. ∎
   > Source: Proofs by Cases.html
 
+## Practice Problems
+
+**Prove by cases:**
+1. Let x and y be real numbers. If x ≠ 0 or y ≠ 0, then x² + y² ≠ 0.
+2. If x or y are even, then xy is even.
+3. If x and y are either both even or both odd, then x + y is even.
+4. If n is an integer, then n³ − n is always even.
+  > Source: 14.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Direct Proofs](direct-proofs.md)

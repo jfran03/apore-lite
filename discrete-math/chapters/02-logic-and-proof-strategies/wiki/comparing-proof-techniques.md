@@ -32,6 +32,15 @@ Each proof technique has the same goal — to show that a statement is logically
 - **Categorizing the Toolkit:** Direct and contrapositive proofs are logical builders. Contradiction and counterexample are error detectors. Induction and well-ordering are infinite reasoners. All proof methods share one goal: to turn belief into certainty — the art of mathematics is knowing which tool fits the problem best.
   > Source: Comparing Proof Techniques.html
 
+## Practice Problems
+
+**Proving one statement with two different techniques:** Consider the mathematical statement:
+"For all real numbers x and y, if x · y is irrational, then x is irrational or y is irrational."
+Prove this statement is True using each of the specified proof techniques (two separate proofs):
+- (a) Proof by contradiction.
+- (b) Proof by contrapositive.
+  > Source: 19.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Direct Proofs](direct-proofs.md)

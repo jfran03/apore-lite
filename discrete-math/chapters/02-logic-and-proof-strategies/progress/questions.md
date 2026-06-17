@@ -771,3 +771,160 @@ B) ¬p is true
 C) p is false and q is true
 D) The contrapositive of p
 **Answer:** B) ¬p is true. You temporarily assume the opposite (negation) of what you want to prove, then show this assumption leads to a contradiction — an impossibility. This forces ¬p to be false, so p must be true. (See proof-by-contradiction.md)
+
+## Q070
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** propositions-and-truth-values
+**Focus Area:** classifying sentences as propositions
+**Question:** From this list, which sentences are propositions and which are not? "Are you going to finish this assignment?", "The number 97 is a prime number.", "Let n ∈ ℤ be an arbitrary integer.", "There exists a bird that cannot fly.", "Cats are smarter than dogs."
+**Answer:** Propositions (statements that are either true or false): "The number 97 is a prime number." and "There exists a bird that cannot fly." Not propositions: "Are you going to finish this assignment?" is a question; "Let n ∈ ℤ be an arbitrary integer." is a command/declaration, not a statement with a truth value; "Cats are smarter than dogs." is a vague/opinion expression with no definite truth value. Questions, commands, and vague expressions are not propositions. (See propositions-and-truth-values.md)
+
+## Q071
+**Status:** active
+**Type:** mcq
+**Difficulty:** advanced
+**Topic:** logical-operators-and-truth-tables
+**Focus Area:** evaluating a compound statement under a truth assignment
+**Question:** For the statement [ ((P ⊕ S) ⇒ ¬R) ∨ (S ⇒ (Q ∧ ¬P)) ] ∨ [ (P ∧ (R ∨ ¬S)) ∧ (S ∨ (¬Q ∨ ¬P)) ], which assignment makes it false?
+A) P→T, Q→T, R→F, S→T
+B) P→T, Q→F, R→T, S→F
+C) P→F, Q→F, R→T, S→T
+D) P→F, Q→T, R→T, S→F
+**Answer:** C) P→F, Q→F, R→T, S→T. The whole statement is a disjunction X ∨ Y, so it is false only when both X and Y are false. For the right block Y to be false it is enough that P is false (then P ∧ (R ∨ ¬S) is false). For the left block X = ((P ⊕ S) ⇒ ¬R) ∨ (S ⇒ (Q ∧ ¬P)) to be false, both implications must be false: S ⇒ (Q ∧ ¬P) false needs S=T and Q ∧ ¬P = F; (P ⊕ S) ⇒ ¬R false needs P ⊕ S = T (so P≠S, giving P=F since S=T) and ¬R = F (so R=T); with P=F, Q ∧ ¬P = Q, so it is F when Q=F. That gives P=F, Q=F, R=T, S=T. (See logical-operators-and-truth-tables.md)
+
+## Q072
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** tautologies-contradictions-and-equivalence
+**Focus Area:** identifying a tautology
+**Question:** Is A := (P ⇒ Q) ∨ (Q ⇒ R) ∨ (R ⇒ P) a tautology? Justify.
+**Answer:** Yes, A is a tautology. An implication is false only when its hypothesis is true and its conclusion is false. For all three of P ⇒ Q, Q ⇒ R, R ⇒ P to be false simultaneously, we would need (P=T, Q=F), (Q=T, R=F), and (R=T, P=F) at once — but Q cannot be both F and T. So at least one disjunct is always true, making A true in every row of its truth table, i.e., a tautology. (See tautologies-contradictions-and-equivalence.md and logical-operators-and-truth-tables.md)
+
+## Q073
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** tautologies-contradictions-and-equivalence
+**Focus Area:** disproving a logical equivalence
+**Question:** With A := (P ⇒ Q) ∨ (Q ⇒ R) ∨ (R ⇒ P) and B := P ∨ Q ∨ R, is A ⟺ B? If not, give a truth assignment that breaks it.
+**Answer:** No, A and B are not logically equivalent. A is a tautology (always true), but B = P ∨ Q ∨ R is false when P, Q, R are all false. Take P=F, Q=F, R=F: then A=T while B=F, so they differ in that row. Since logical equivalence requires identical truth values in every case, A ⟺ B fails. (See tautologies-contradictions-and-equivalence.md)
+
+## Q074
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** direct-proofs
+**Focus Area:** direct proof with even/odd definitions
+**Question:** Prove directly: if n is an even integer, then 7n + 4 is even.
+**Answer:** Assume n is even, so n = 2k for some integer k (definition of even). Then 7n + 4 = 7(2k) + 4 = 14k + 4 = 2(7k + 2). Since 7k + 2 is an integer, 7n + 4 has the form 2m, so it is even. ∎ (See direct-proofs.md)
+
+## Q075
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** direct-proofs
+**Focus Area:** direct proof with even/odd definitions
+**Question:** Prove directly: if n is an even integer, then n² is even.
+**Answer:** Assume n is even, so n = 2k for some integer k. Then n² = (2k)² = 4k² = 2(2k²). Since 2k² is an integer, n² has the form 2m, so n² is even. ∎ (See direct-proofs.md)
+
+## Q076
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** direct-proofs
+**Focus Area:** sum of two consecutive integers
+**Question:** Prove directly that the sum of two consecutive integers is odd.
+**Answer:** Let the two consecutive integers be n and n + 1. Their sum is n + (n + 1) = 2n + 1. Since n is an integer, 2n + 1 has the form 2k + 1 (with k = n), which is the definition of an odd integer. Therefore the sum of two consecutive integers is odd. ∎ (See direct-proofs.md)
+
+## Q077
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** direct-proofs
+**Focus Area:** divisibility direct proof
+**Question:** Prove directly: if a, b, c are integers with a | b and a | c, then a | (b + c).
+**Answer:** Assume a | b and a | c. By the meaning of divisibility (dividing leaves no remainder), b = a·s and c = a·t for some integers s and t. Then b + c = a·s + a·t = a(s + t). Since s + t is an integer, a divides b + c. ∎ (See direct-proofs.md; divisibility as defined in proof-by-counterexample.md)
+
+## Q078
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-cases
+**Focus Area:** proof by cases with even/odd
+**Question:** Using proof by cases, prove: if x or y is even, then xy is even.
+**Answer:** Case 1: x is even, so x = 2k for some integer k. Then xy = 2k·y = 2(ky), which is even. Case 2: y is even, so y = 2k for some integer k. Then xy = x·2k = 2(xk), which is even. In either case xy has the form 2m, so xy is even. ∎ (See proof-by-cases.md)
+
+## Q079
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-cases
+**Focus Area:** proof by cases with even/odd
+**Question:** Using proof by cases, prove that n³ − n is even for every integer n.
+**Answer:** Case 1: n is even, n = 2k. Then n³ − n = (2k)³ − 2k = 8k³ − 2k = 2(4k³ − k), which is even. Case 2: n is odd, n = 2k + 1. Then n³ is odd (an odd times odd times odd is odd) and n is odd, and odd − odd is even; explicitly n³ − n = n(n² − 1), and since n is odd, n² − 1 = (2k+1)² − 1 = 4k² + 4k = 2(2k² + 2k) is even, so the product n³ − n is even. In both cases n³ − n is even. ∎ (See proof-by-cases.md)
+
+## Q080
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-contrapositive
+**Focus Area:** proof by contrapositive with even/odd
+**Question:** Prove by contrapositive: if 3n + 2 is odd, then n is odd.
+**Answer:** The contrapositive is: if n is even, then 3n + 2 is even. Assume n is even, so n = 2k for some integer k. Then 3n + 2 = 3(2k) + 2 = 6k + 2 = 2(3k + 1), which is even. Since the contrapositive holds and a statement is logically equivalent to its contrapositive, the original statement "if 3n + 2 is odd, then n is odd" is true. ∎ (See proof-by-contrapositive.md)
+
+## Q081
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-contradiction
+**Focus Area:** proof by contradiction
+**Question:** Prove by contradiction that there is no largest integer.
+**Answer:** Assume the opposite: that there is a largest integer N. Since N is an integer, N + 1 is also an integer, and N + 1 > N. This contradicts the assumption that N is the largest integer. Because assuming "there is a largest integer" leads to an impossibility, the assumption must be false, so there is no largest integer. ∎ (See proof-by-contradiction.md)
+
+## Q082
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** proof-by-contradiction
+**Focus Area:** proof by contradiction with even/odd
+**Question:** Prove by contradiction that there are no integers n and m such that n² = 4m + 2.
+**Answer:** Assume for contradiction that such integers exist, so n² = 4m + 2 = 2(2m + 1). Then n² is even, which forces n to be even (if n were odd, n² would be odd). So write n = 2k; then n² = 4k². Substituting: 4k² = 4m + 2, i.e., 2k² = 2m + 1. The left side 2k² is even and the right side 2m + 1 is odd, so an even number equals an odd number — a contradiction. Therefore no such integers n and m exist. ∎ (See proof-by-contradiction.md; even/odd definitions in direct-proofs.md)
+
+## Q083
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** proof-by-counterexample
+**Focus Area:** disproving a universal claim
+**Question:** Disprove by counterexample: "For every real number x, if x < 1 then x² < 1."
+**Answer:** Counterexample: let x = −2. Then x < 1 is true, but x² = (−2)² = 4, which is not less than 1. Since one case satisfies the hypothesis yet violates the conclusion, the universal claim is false. ∎ (See proof-by-counterexample.md)
+
+## Q084
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** mathematical-induction
+**Focus Area:** induction with divisibility
+**Question:** Prove by induction that 6ⁿ − 1 is divisible by 5 for all integers n ≥ 1.
+**Answer:** Base case (n = 1): 6¹ − 1 = 5, which is divisible by 5. Inductive step: assume 6ⁿ − 1 is divisible by 5, so 6ⁿ − 1 = 5t for some integer t (inductive hypothesis). Then 6^(n+1) − 1 = 6·6ⁿ − 1 = 6·6ⁿ − 6 + 5 = 6(6ⁿ − 1) + 5 = 6(5t) + 5 = 5(6t + 1). Since 6t + 1 is an integer, 6^(n+1) − 1 is divisible by 5. By induction, 6ⁿ − 1 is divisible by 5 for all n ≥ 1. ∎ (See mathematical-induction.md)
+
+## Q085
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** mathematical-induction
+**Focus Area:** induction with even/odd
+**Question:** Prove by induction that 5ⁿ − 3ⁿ is even for all integers n ≥ 1.
+**Answer:** Base case (n = 1): 5¹ − 3¹ = 2, which is even. Inductive step: assume 5ⁿ − 3ⁿ is even, so 5ⁿ − 3ⁿ = 2t for some integer t (inductive hypothesis). Then 5^(n+1) − 3^(n+1) = 5·5ⁿ − 3·3ⁿ = 5·5ⁿ − 5·3ⁿ + 5·3ⁿ − 3·3ⁿ = 5(5ⁿ − 3ⁿ) + 3ⁿ(5 − 3) = 5(2t) + 2·3ⁿ = 2(5t + 3ⁿ). Since 5t + 3ⁿ is an integer, 5^(n+1) − 3^(n+1) is even. By induction, 5ⁿ − 3ⁿ is even for all n ≥ 1. ∎ (See mathematical-induction.md)
+
+## Q086
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** comparing-proof-techniques
+**Focus Area:** contradiction vs. contrapositive for the same statement
+**Question:** For "if x · y is irrational, then x is irrational or y is irrational," how do a proof by contradiction and a proof by contrapositive each begin, and why do both work?
+**Answer:** Proof by contradiction begins by assuming the whole statement is false: x·y is irrational AND (x is rational and y is rational); you then derive an impossibility (a rational times a rational cannot be irrational), so the assumption fails and the statement holds. Proof by contrapositive instead proves the logically equivalent "if x is rational AND y is rational, then x·y is rational"; assuming x and y are both rational, you show x·y is rational, which establishes the original. Both work because a statement is logically equivalent to its contrapositive, and because every statement is either true or false, so ruling out its negation proves it. (See comparing-proof-techniques.md, proof-by-contradiction.md, proof-by-contrapositive.md)

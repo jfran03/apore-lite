@@ -25,6 +25,12 @@ A proof by counterexample disproves a universal statement (a statement that clai
 - Proof by counterexample reminds us that in logic, universality is fragile: a single exception proves that "always" is too strong, and it only takes one clear example to bring down an entire claim.
   > Source: Proof by Counterexample.html
 
+## Practice Problems
+
+**Prove by counterexample:**
+1. For real number x, if x < 1 then x² < 1.
+  > Source: 17.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Comparing Proof Techniques](comparing-proof-techniques.md)

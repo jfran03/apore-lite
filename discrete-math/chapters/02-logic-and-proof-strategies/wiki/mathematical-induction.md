@@ -31,6 +31,21 @@ To prove a statement P(n) is true for all integers n ≥ k, we use mathematical 
 - The base case is essential — without verifying the first case, the chain of implications P(k) ⇒ P(k+1) ⇒ ... has nothing to start from, even if the inductive step is valid.
   > Source: Introduction to Induction.html
 
+## Practice Problems
+
+**Prove by induction:** (If the range is not specified, first identify the range where the relation is false, exclude those values and begin the induction in the remaining set.)
+1. 2ⁿ > n + 4.
+2. 1 + ... + n = n(n+1)/2 for all natural numbers.
+3. 6ⁿ − 1 is divisible by 5.
+4. The set of all n-bit strings has exactly 2ⁿ elements.
+5. The power set of a set with n elements has 2ⁿ elements.
+6. Every positive integer is a product of prime numbers.
+7. For all natural numbers n: 1/2! + 2/3! + 3/4! + ... + n/(n+1)! = 1 − 1/(n+1)!.
+  > Source: 17.PNG
+
+**Prove the following using induction:** For all integers n ≥ 1, 5ⁿ − 3ⁿ is even.
+  > Source: 20.PNG
+
 ## Related Topics
 - [Strong Induction](strong-induction.md)
 - [The Well-Ordering Principle](well-ordering-principle.md)

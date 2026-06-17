@@ -23,6 +23,14 @@ To prove a statement p, assume temporarily that ¬p (the opposite of the stateme
 - **√2 is irrational:** The classic example of proof by contradiction is proving that √2 is irrational by assuming it is rational and showing this assumption leads to an impossibility.
   > Source: Proof by Contradiction.html
 
+## Practice Problems
+
+**Prove by contradiction:**
+1. There is no largest integer.
+2. Let q be a non-zero rational number and r be an irrational number, then qr is irrational.
+3. There are no integers n and m such that n² = 4m + 2.
+  > Source: 16.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Proof by Contrapositive](proof-by-contrapositive.md)

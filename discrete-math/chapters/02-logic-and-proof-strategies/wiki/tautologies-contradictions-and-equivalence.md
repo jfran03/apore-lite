@@ -70,6 +70,19 @@ When working with logic, some statements are always true (tautologies), some are
 |  | p ∧ q ≡ q ∧ p |  |
 > Source: Tautologies, Contradictions, and Equivalence.html
 
+## Practice Problems
+
+**Tautology and equivalence via truth tables:** Consider the compound statements
+A := (P ⇒ Q) ∨ (Q ⇒ R) ∨ (R ⇒ P)    and    B := P ∨ Q ∨ R.
+- (a) Determine if statement A is a tautology by constructing a truth table.
+- (b) Determine if A ⟺ B. If so, provide reasoning as to why. If not, provide a sample of truth values for the individual propositions P, Q, R that cause the logical equivalence to fail.
+  > Source: 8.PNG
+
+**Proving logical equivalence using the equivalence axioms:** Prove the following logical equivalence using the logical equivalence axioms (state the name of the axiom(s) used in each step):
+( (P ⇒ Q) ∨ ¬R ) ⇒ ( P ∧ ¬(Q ⇒ R) )    ⟺    P ∧ (Q ⊕ R).
+  > Source: 9.PNG
+  > Note: a full step-by-step derivation requires equivalence laws (e.g., distribution, absorption) beyond the subset listed under "Common Logical Equivalences" above; transcribed here for completeness.
+
 ## Related Topics
 - [Propositions and Truth Values](propositions-and-truth-values.md)
 - [Logical Operators and Truth Tables](logical-operators-and-truth-tables.md)

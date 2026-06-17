@@ -2,7 +2,7 @@
 
 **Domain:** Discrete Math
 **Topics:** Logic helps us understand how statements connect and how to build valid arguments. A logical statement is one that is either true or false, like "all computers have memory" or "3 is greater than 7." In computer science, it's used in everything from writing conditional code to designing circuits. In this unit, you'll explore truth tables, logical operators and various proof techniques like direct proofs, contradiction and mathematical induction to help you reason clearly and build strong arguments.
-**Compile Status:** compiled 2026-06-10
+**Compile Status:** compiled 2026-06-16
 
 ## Sources Ingested
 
@@ -51,6 +51,21 @@
 | config-1759956381234.practice.json | 2026-06-10 |
 | config-1759956602876.practice.json | 2026-06-10 |
 | config-1759956701253.practice.json | 2026-06-10 |
+| 6.PNG | 2026-06-16 |
+| 7.PNG | 2026-06-16 |
+| 8.PNG | 2026-06-16 |
+| 9.PNG | 2026-06-16 |
+| 10.PNG | 2026-06-16 |
+| 11.PNG | 2026-06-16 |
+| 12.PNG | 2026-06-16 |
+| 13.PNG | 2026-06-16 |
+| 14.PNG | 2026-06-16 |
+| 15.PNG | 2026-06-16 |
+| 16.PNG | 2026-06-16 |
+| 17.PNG | 2026-06-16 |
+| 18.PNG | 2026-06-16 |
+| 19.PNG | 2026-06-16 |
+| 20.PNG | 2026-06-16 |
 
 ## Topics Covered
 

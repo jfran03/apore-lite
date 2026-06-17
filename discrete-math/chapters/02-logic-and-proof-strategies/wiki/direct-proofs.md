@@ -36,6 +36,21 @@ A direct proof of a conditional statement p → q is constructed by assuming tha
 - **The Sum of Two Consecutive Integers Is Odd:** Theorem: The sum of two consecutive integers is always odd. Proof: Let the two consecutive integers be n and n+1. Then n + (n+1) = 2n + 1. Since 2n+1 has the form 2k+1 for integer k=n, the sum is odd. ∎
   > Source: Direct Proofs.html
 
+## Practice Problems
+
+**Prove directly:**
+1. If n is an even integer then 7n + 4 is an even integer.
+2. If n is an even integer then n² is an even integer.
+3. If n is an even integer then 5n + 3n³ is even.
+4. If m is an even integer and n is an odd integer then m + n is an odd integer.
+5. If m is an even integer and n is an odd integer then mn is an even integer.
+6. The sum of two consecutive integers is odd.
+7. If a, b and c are integers such that a | b and a | c then a | b + c.
+8. If a, b and c are integers such that a | b and b | c then a | c.
+9. The sum of two rational numbers is rational.
+10. If p is a prime number greater than 2, then p² is odd.
+  > Source: 13.PNG
+
 ## Related Topics
 - [Introduction to Proofs](introduction-to-proofs.md)
 - [Proof by Cases](proof-by-cases.md)
