@@ -14,7 +14,7 @@ Socratic — guide with questions rather than direct answers, drawing understand
 | # | Title | Folder | Compile Status |
 |---|-------|--------|----------------|
 | 1 | Set Theory | `chapters/01-set-theory/` | compiled 2026-05-20 |
-| 2 | Logic and Proof Strategies | `chapters/02-logic-and-proof-strategies/` | compiled 2026-06-01 |
+| 2 | Logic and Proof Strategies | `chapters/02-logic-and-proof-strategies/` | compiled 2026-06-16 |
 
 ---
 

@@ -24,3 +24,8 @@
 **Difficulty feel:** about right
 **Coverage gaps:** —
 **Style notes:** focus on applying concepts by writing them out (proofs, truth tables, equivalence derivations) rather than multiple choice
+
+## 2026-06-15
+**Difficulty feel:** about right
+**Coverage gaps:** none noted
+**Style notes:** Session went well overall. Avoid double-barreled / ambiguously-worded true-false questions (e.g. "is X valid... i.e. does it need extra constraints?") — Q068 was confusing and led to a correct-reasoning-but-wrong-label answer. Keep true-false questions single-claim and unambiguous.

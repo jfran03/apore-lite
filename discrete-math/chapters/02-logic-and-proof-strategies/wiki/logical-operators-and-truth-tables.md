@@ -99,6 +99,17 @@ A **truth table** is a tool that shows all the possible truth values of a propos
 - XOR: p = "The cake is chocolate." q = "The cake is vanilla." → p ⊕ q = "The cake is either chocolate or vanilla (but not both)."
   > Source: Logical Operators & Truth Tables.html
 
+## Practice Problems
+
+**Finding the truth values that make a statement false (MCQ):** Consider the logical statement
+[ ((P ⊕ S) ⇒ ¬R) ∨ (S ⇒ (Q ∧ ¬P)) ] ∨ [ (P ∧ (R ∨ ¬S)) ∧ (S ∨ (¬Q ∨ ¬P)) ].
+Which of the following combinations of truth values would result in this statement being false?
+- (a) P → True, Q → True, R → False, S → True
+- (b) P → True, Q → False, R → True, S → False
+- (c) P → False, Q → False, R → True, S → True
+- (d) P → False, Q → True, R → True, S → False
+  > Source: 10.PNG
+
 ## Related Topics
 - [Propositions and Truth Values](propositions-and-truth-values.md)
 - [Tautologies, Contradictions, and Equivalence](tautologies-contradictions-and-equivalence.md)
