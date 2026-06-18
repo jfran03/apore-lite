@@ -43,11 +43,11 @@
 | Q034 | active | new | 0 | 0 | — | — |
 | Q035 | active | new | 0 | 0 | — | — |
 | Q036 | active | easy | 1 | 1 | 2026-06-15 | — |
-| Q037 | active | new | 0 | 0 | — | — |
+| Q037 | active | hard | 1 | 1 | 2026-06-18 | — |
 | Q038 | active | new | 0 | 0 | — | — |
 | Q039 | active | ok | 1 | 0 | 2026-06-15 | Wasn't aware of the situations where contradiction is effective |
 | Q040 | active | new | 0 | 0 | — | — |
-| Q041 | active | easy | 1 | 1 | 2026-06-15 | — |
+| Q041 | active | hard | 2 | 0 | 2026-06-18 | Set up claim reversed (2x\|4 instead of 4\|2x) — same divisor/dividend confusion as Q077/Q084 |
 | Q042 | active | ok | 1 | 0 | 2026-06-15 | Assumed irrational numbers must be positive |
 | Q043 | active | new | 0 | 0 | — | — |
 | Q044 | active | new | 0 | 0 | — | — |
@@ -83,13 +83,14 @@
 | Q074 | active | new | 0 | 0 | — | — |
 | Q075 | active | new | 0 | 0 | — | — |
 | Q076 | active | new | 0 | 0 | — | — |
-| Q077 | active | new | 0 | 0 | — | — |
-| Q078 | active | new | 0 | 0 | — | — |
+| Q077 | active | hard | 1 | 1 | 2026-06-17 | — |
+| Q078 | active | hard | 1 | 0 | 2026-06-18 | Distributed (2k+1)(2k') incorrectly in Case 2 — wrote (k+1)(k') instead of k'(2k+1) |
 | Q079 | active | new | 0 | 0 | — | — |
 | Q080 | active | new | 0 | 0 | — | — |
-| Q081 | active | new | 0 | 0 | — | — |
+| Q081 | active | hard | 1 | 1 | 2026-06-18 | — |
 | Q082 | active | new | 0 | 0 | — | — |
 | Q083 | active | new | 0 | 0 | — | — |
-| Q084 | active | new | 0 | 0 | — | — |
+| Q084 | active | hard | 1 | 0 | 2026-06-18 | Reversed the inductive hypothesis (wrote 5=(6^n-1)x instead of 6^n-1=5x) — recurring a\|b divisor/dividend mixup |
 | Q085 | active | new | 0 | 0 | — | — |
 | Q086 | active | new | 0 | 0 | — | — |
+| Q087 | active | new | 0 | 0 | — | — |

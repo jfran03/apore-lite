@@ -928,3 +928,12 @@ D) P→F, Q→T, R→T, S→F
 **Focus Area:** contradiction vs. contrapositive for the same statement
 **Question:** For "if x · y is irrational, then x is irrational or y is irrational," how do a proof by contradiction and a proof by contrapositive each begin, and why do both work?
 **Answer:** Proof by contradiction begins by assuming the whole statement is false: x·y is irrational AND (x is rational and y is rational); you then derive an impossibility (a rational times a rational cannot be irrational), so the assumption fails and the statement holds. Proof by contrapositive instead proves the logically equivalent "if x is rational AND y is rational, then x·y is rational"; assuming x and y are both rational, you show x·y is rational, which establishes the original. Both work because a statement is logically equivalent to its contrapositive, and because every statement is either true or false, so ruling out its negation proves it. (See comparing-proof-techniques.md, proof-by-contradiction.md, proof-by-contrapositive.md)
+
+## Q087
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** proof-by-cases
+**Focus Area:** sum of two integers with the same parity is even
+**Question:** Using proof by cases, prove that if x and y are either both even or both odd, then x + y is even.
+**Answer:** Case 1: x and y are both even, so x = 2k and y = 2j for some integers k, j. Then x + y = 2k + 2j = 2(k + j), which is even. Case 2: x and y are both odd, so x = 2k + 1 and y = 2j + 1 for some integers k, j. Then x + y = (2k + 1) + (2j + 1) = 2k + 2j + 2 = 2(k + j + 1), which is even. Since both cases give an even result, x + y is even. ∎ (See proof-by-cases.md)
