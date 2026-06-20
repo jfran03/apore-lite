@@ -937,3 +937,21 @@ D) P→F, Q→T, R→T, S→F
 **Focus Area:** sum of two integers with the same parity is even
 **Question:** Using proof by cases, prove that if x and y are either both even or both odd, then x + y is even.
 **Answer:** Case 1: x and y are both even, so x = 2k and y = 2j for some integers k, j. Then x + y = 2k + 2j = 2(k + j), which is even. Case 2: x and y are both odd, so x = 2k + 1 and y = 2j + 1 for some integers k, j. Then x + y = (2k + 1) + (2j + 1) = 2k + 2j + 2 = 2(k + j + 1), which is even. Since both cases give an even result, x + y is even. ∎ (See proof-by-cases.md)
+
+## Q088
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** direct-proofs
+**Focus Area:** divisibility transitivity (wrong-answer-targeting follow-up to Q077's a|b mixup)
+**Question:** Prove directly: if a, b, c are integers such that a | b and b | c, then a | c.
+**Answer:** Assume a | b and b | c. By the meaning of divisibility, b = a·s for some integer s, and c = b·t for some integer t. Substituting the first equation into the second: c = (a·s)·t = a(s·t). Since s·t is an integer, a divides c. ∎ (See direct-proofs.md; divisibility as defined in proof-by-counterexample.md)
+
+## Q089
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** tautologies-contradictions-and-equivalence
+**Focus Area:** distinguishing tautology from merely-satisfiable (wrong-answer-targeting follow-up to Q072)
+**Question:** Classify (P ⟹ Q) ∨ (P ∧ ¬Q) as a tautology, a satisfiable-but-not-tautology proposition, or a contradiction. Justify by checking whether it holds in every row of its truth table, not just some.
+**Answer:** It is a tautology. Checking every row: P=T,Q=T → P⟹Q=T, so the disjunction is T. P=T,Q=F → P⟹Q=F but P∧¬Q=T, so the disjunction is T. P=F,Q=T → P⟹Q=T, so the disjunction is T. P=F,Q=F → P⟹Q=T, so the disjunction is T. Since the disjunction is T in all four rows (not just some), it is a tautology, not merely satisfiable — note that P ∧ ¬Q is exactly the negation of P ⟹ Q, so this is the Law of the Excluded Middle in disguise: (P⟹Q) ∨ ¬(P⟹Q). (See tautologies-contradictions-and-equivalence.md)

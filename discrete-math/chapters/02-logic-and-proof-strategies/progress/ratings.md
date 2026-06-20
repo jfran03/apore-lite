@@ -78,7 +78,7 @@
 | Q069 | active | easy | 1 | 1 | 2026-06-15 | — |
 | Q070 | active | new | 0 | 0 | — | — |
 | Q071 | active | new | 0 | 0 | — | — |
-| Q072 | active | new | 0 | 0 | — | — |
+| Q072 | active | ok | 1 | 0 | 2026-06-20 | Wording slip — said tautology is "true for at least one condition" (definition of satisfiable) instead of "true in every row"; truth table itself was correct |
 | Q073 | active | new | 0 | 0 | — | — |
 | Q074 | active | new | 0 | 0 | — | — |
 | Q075 | active | new | 0 | 0 | — | — |
@@ -88,9 +88,11 @@
 | Q079 | active | new | 0 | 0 | — | — |
 | Q080 | active | new | 0 | 0 | — | — |
 | Q081 | active | hard | 1 | 1 | 2026-06-18 | — |
-| Q082 | active | new | 0 | 0 | — | — |
+| Q082 | active | hard | 1 | 1 | 2026-06-20 | — |
 | Q083 | active | new | 0 | 0 | — | — |
 | Q084 | active | hard | 1 | 0 | 2026-06-18 | Reversed the inductive hypothesis (wrote 5=(6^n-1)x instead of 6^n-1=5x) — recurring a\|b divisor/dividend mixup |
-| Q085 | active | new | 0 | 0 | — | — |
+| Q085 | active | hard | 1 | 0 | 2026-06-20 | Algebra/computation was correct, but unsure how to close out a proof — inductive hypothesis wasn't stated as an explicit equation, and no closing "therefore P(n+1) holds, by induction..." sentence was written |
 | Q086 | active | new | 0 | 0 | — | — |
 | Q087 | active | new | 0 | 0 | — | — |
+| Q088 | active | ok | 1 | 0 | 2026-06-20 | Reused the same constant k for two independent divisibility witnesses (a\|b and b\|c) instead of introducing distinct integers; self-corrected after feedback using k and k' |
+| Q089 | active | new | 0 | 0 | — | — |
