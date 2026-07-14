@@ -7,16 +7,16 @@
 
 | ID | Status | Difficulty | Times Seen | Times Correct | Last Seen | Wrong Reason |
 |----|--------|------------|------------|---------------|-----------|--------------|
-| Q001 | active | new | 0 | 0 | — | — |
-| Q002 | active | new | 0 | 0 | — | — |
-| Q003 | active | new | 0 | 0 | — | — |
-| Q004 | active | new | 0 | 0 | — | — |
-| Q005 | active | new | 0 | 0 | — | — |
-| Q006 | active | new | 0 | 0 | — | — |
-| Q007 | active | new | 0 | 0 | — | — |
-| Q008 | active | new | 0 | 0 | — | — |
-| Q009 | active | new | 0 | 0 | — | — |
-| Q010 | active | new | 0 | 0 | — | — |
+| Q001 | active | ok | 1 | 0 | 2026-07-13 | second guessed myself; didn't see the plus sign in option D |
+| Q002 | active | easy | 1 | 1 | 2026-07-13 | — |
+| Q003 | active | ok | 1 | 1 | 2026-07-13 | — |
+| Q004 | active | easy | 1 | 0 | 2026-07-13 | forgot the negative sign on quotient |
+| Q005 | active | easy | 1 | 1 | 2026-07-13 | — |
+| Q006 | active | easy | 1 | 1 | 2026-07-13 | — |
+| Q007 | active | ok | 1 | 1 | 2026-07-13 | — |
+| Q008 | active | easy | 1 | 1 | 2026-07-13 | — |
+| Q009 | active | easy | 1 | 1 | 2026-07-13 | — |
+| Q010 | active | hard | 1 | 0 | 2026-07-13 | did not put right number (wrong exponent) |
 | Q011 | active | new | 0 | 0 | — | — |
 | Q012 | active | new | 0 | 0 | — | — |
 | Q013 | active | new | 0 | 0 | — | — |

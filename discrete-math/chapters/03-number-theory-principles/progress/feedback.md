@@ -14,3 +14,8 @@
 **Style notes:** {e.g. "need more application questions", "too abstract", "want more MCQs"}
 
 -->
+
+## 2026-07-13
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** —
