@@ -380,3 +380,12 @@
 **Focus Area:** Euclidean Algorithm and key generation
 **Question:** What role does the Euclidean Algorithm play in generating encryption keys like those in RSA?
 **Answer:** It confirms that two numbers are coprime (gcd = 1), which guarantees a modular inverse exists. That inverse (the private exponent) is what allows an encrypted message to be decrypted; without it, key generation for RSA would not work.
+
+## Q041
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** bezouts-identity
+**Focus Area:** Non-uniqueness of coefficients (targeted follow-up to Q021)
+**Question:** You compute 18 = 4 × 252 − 5 × 198, expressing gcd(252, 198) as a linear combination. Does finding this one pair (s, t) = (4, −5) mean it is the *only* pair of coefficients that works? Explain.
+**Answer:** No. Bézout coefficients are not unique — many integer pairs (s, t) satisfy gcd(a, b) = s·a + t·b, and (4, −5) is just one valid pair. Any valid pair produces the same gcd.

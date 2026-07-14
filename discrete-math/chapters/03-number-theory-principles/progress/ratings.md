@@ -18,28 +18,28 @@
 | Q009 | active | easy | 1 | 1 | 2026-07-13 | — |
 | Q010 | active | hard | 1 | 0 | 2026-07-13 | did not put right number (wrong exponent) |
 | Q011 | active | new | 0 | 0 | — | — |
-| Q012 | active | new | 0 | 0 | — | — |
+| Q012 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q013 | active | new | 0 | 0 | — | — |
 | Q014 | active | new | 0 | 0 | — | — |
 | Q015 | active | new | 0 | 0 | — | — |
-| Q016 | active | new | 0 | 0 | — | — |
+| Q016 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q017 | active | new | 0 | 0 | — | — |
 | Q018 | active | new | 0 | 0 | — | — |
 | Q019 | active | new | 0 | 0 | — | — |
 | Q020 | active | new | 0 | 0 | — | — |
-| Q021 | active | new | 0 | 0 | — | — |
+| Q021 | active | ok | 1 | 0 | 2026-07-14 | thought Bézout coefficients are unique; conflated "a pair exists" with "only one pair" |
 | Q022 | active | new | 0 | 0 | — | — |
 | Q023 | active | new | 0 | 0 | — | — |
 | Q024 | active | new | 0 | 0 | — | — |
 | Q025 | active | new | 0 | 0 | — | — |
 | Q026 | active | new | 0 | 0 | — | — |
-| Q027 | active | new | 0 | 0 | — | — |
+| Q027 | active | ok | 1 | 1 | 2026-07-14 | — |
 | Q028 | active | new | 0 | 0 | — | — |
 | Q029 | active | new | 0 | 0 | — | — |
 | Q030 | active | new | 0 | 0 | — | — |
 | Q031 | active | new | 0 | 0 | — | — |
 | Q032 | active | new | 0 | 0 | — | — |
-| Q033 | active | new | 0 | 0 | — | — |
+| Q033 | active | hard | 1 | 0 | 2026-07-14 | needed full walk-through; modular-inverse concept not solid — flagged to read |
 | Q034 | active | new | 0 | 0 | — | — |
 | Q035 | active | new | 0 | 0 | — | — |
 | Q036 | active | new | 0 | 0 | — | — |
@@ -47,3 +47,4 @@
 | Q038 | active | new | 0 | 0 | — | — |
 | Q039 | active | new | 0 | 0 | — | — |
 | Q040 | active | new | 0 | 0 | — | — |
+| Q041 | active | easy | 1 | 1 | 2026-07-14 | — |
