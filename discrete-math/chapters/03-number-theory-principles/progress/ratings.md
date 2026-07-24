@@ -17,15 +17,15 @@
 | Q008 | active | easy | 1 | 1 | 2026-07-13 | — |
 | Q009 | active | easy | 1 | 1 | 2026-07-13 | — |
 | Q010 | active | hard | 1 | 0 | 2026-07-13 | did not put right number (wrong exponent) |
-| Q011 | active | new | 0 | 0 | — | — |
+| Q011 | active | ok | 1 | 0 | 2026-07-23 | wasn't familiar with the definition |
 | Q012 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q013 | active | new | 0 | 0 | — | — |
 | Q014 | active | new | 0 | 0 | — | — |
-| Q015 | active | new | 0 | 0 | — | — |
+| Q015 | active | ok | 1 | 0 | 2026-07-23 | forgot the process of finding lcm |
 | Q016 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q017 | active | ok | 1 | 1 | 2026-07-21 | — |
-| Q018 | active | new | 0 | 0 | — | — |
-| Q019 | active | new | 0 | 0 | — | — |
+| Q018 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q019 | active | ok | 1 | 0 | 2026-07-23 | didn't read the whole question, missed the part about naming the coefficients |
 | Q020 | active | new | 0 | 0 | — | — |
 | Q021 | active | ok | 1 | 0 | 2026-07-14 | thought Bézout coefficients are unique; conflated "a pair exists" with "only one pair" |
 | Q022 | active | hard | 1 | 1 | 2026-07-21 | — |
@@ -48,3 +48,18 @@
 | Q039 | active | new | 0 | 0 | — | — |
 | Q040 | active | new | 0 | 0 | — | — |
 | Q041 | active | easy | 1 | 1 | 2026-07-14 | — |
+| Q042 | active | ok | 1 | 0 | 2026-07-23 | missed that 24 isn't the least common multiple, just picked a common multiple |
+| Q043 | active | ok | 1 | 0 | 2026-07-23 | forgot to divide by the gcd, stopped at a × b |
+| Q044 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q045 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q046 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q047 | active | ok | 1 | 0 | 2026-07-23 | didn't know why dividing by gcd removes double-counted overlap |
+| Q048 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q049 | active | hard | 1 | 0 | 2026-07-23 | didn't know the full reasoning behind why a×b and lcm differ |
+| Q050 | active | ok | 1 | 1 | 2026-07-23 | — |
+| Q051 | active | ok | 1 | 1 | 2026-07-23 | — |
+| Q052 | active | ok | 1 | 0 | 2026-07-23 | didn't know the name "Bézout coefficients" or that they're non-unique |
+| Q053 | active | hard | 1 | 0 | 2026-07-24 | tried using the Euclidean Algorithm/back-substitution but made an error finding the coefficients |
+| Q054 | active | easy | 1 | 1 | 2026-07-23 | — |
+| Q055 | active | new | 0 | 0 | — | — |
+| Q056 | active | new | 0 | 0 | — | — |

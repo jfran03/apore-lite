@@ -19,3 +19,8 @@
 **Difficulty feel:** about right
 **Coverage gaps:** —
 **Style notes:** —
+
+## 2026-07-24
+**Difficulty feel:** about right — surfaced a lot of gaps ("caught me on many things")
+**Coverage gaps:** GCD–LCM relationship and reasoning (why divide by gcd), Bézout coefficient naming/uniqueness, back-substitution process for finding Bézout coefficients
+**Style notes:** —

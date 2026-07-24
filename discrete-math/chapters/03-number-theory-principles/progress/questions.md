@@ -389,3 +389,138 @@
 **Focus Area:** Non-uniqueness of coefficients (targeted follow-up to Q021)
 **Question:** You compute 18 = 4 × 252 − 5 × 198, expressing gcd(252, 198) as a linear combination. Does finding this one pair (s, t) = (4, −5) mean it is the *only* pair of coefficients that works? Explain.
 **Answer:** No. Bézout coefficients are not unique — many integer pairs (s, t) satisfy gcd(a, b) = s·a + t·b, and (4, −5) is just one valid pair. Any valid pair produces the same gcd.
+
+## Q042
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** gcd-and-lcm
+**Focus Area:** Computing LCM (targeted follow-up to Q015)
+**Question:** Find the least common multiple of 4 and 6.
+**Answer:** lcm(4, 6) = 12. Listing common multiples of 4 and 6: {12, 24, 36, …} — the smallest is 12.
+
+## Q043
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** LCM via the GCD–LCM relationship (targeted follow-up to Q015)
+**Question:** Given gcd(12, 18) = 6, use the GCD–LCM relationship to find lcm(12, 18).
+**Answer:** lcm(12, 18) = (12 × 18) / gcd(12, 18) = 216 / 6 = 36. Check: 6 × 36 = 216 = 12 × 18.
+
+## Q044
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** gcd-and-lcm
+**Focus Area:** Distinguishing "a common multiple" from "the least common multiple" (targeted follow-up to Q042)
+**Question:** 24 is a common multiple of 4 and 6. Is it the *least* common multiple? If not, what is?
+**Answer:** No. 24 is a common multiple, but not the smallest one. The least common multiple of 4 and 6 is 12 — the smallest positive integer that is a multiple of both.
+
+## Q045
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** gcd-and-lcm
+**Focus Area:** Computing LCM by listing multiples (targeted follow-up to Q042)
+**Question:** Find the least common multiple of 3 and 5 by listing common multiples.
+**Answer:** lcm(3, 5) = 15. Multiples of 3: 3, 6, 9, 12, 15…; multiples of 5: 5, 10, 15…; the smallest shared value is 15.
+
+## Q046
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** GCD–LCM relationship, remembering to divide (targeted follow-up to Q043)
+**Question:** Given gcd(8, 12) = 4, find lcm(8, 12) using the GCD–LCM relationship.
+**Answer:** lcm(8, 12) = (8 × 12) / gcd(8, 12) = 96 / 4 = 24.
+
+## Q047
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** Why divide by the gcd (targeted follow-up to Q043)
+**Question:** Why do we divide by the gcd when computing lcm(a, b) = (a × b) / gcd(a, b), rather than just using a × b?
+**Answer:** The GCD–LCM relationship states gcd(a, b) × lcm(a, b) = a × b. The raw product a × b double-counts the factors a and b share, so it's only a common multiple — not necessarily the *least* one (it only equals the lcm when gcd(a, b) = 1). Dividing by the gcd removes that double-counted overlap and gives the smallest common multiple.
+
+## Q048
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** When a × b equals lcm directly (targeted follow-up to Q047)
+**Question:** True or False: a × b equals lcm(a, b) only when gcd(a, b) = 1.
+**Answer:** True. Since gcd(a, b) × lcm(a, b) = a × b, if gcd(a, b) = 1 then lcm(a, b) = a × b directly. If gcd(a, b) ≠ 1, a × b double-counts the shared factors, so you must divide by the gcd to get the true lcm.
+
+## Q049
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** Seeing the double-counted overlap concretely (targeted follow-up to Q047)
+**Question:** For a = 6, b = 9 (gcd = 3), compute a × b and lcm(a, b) separately, and explain why they differ.
+**Answer:** a × b = 54. lcm(6, 9): 6 = 2×3, 9 = 3², so lcm uses the highest powers of each prime: 2 × 3² = 18. They differ because gcd(6, 9) = 3 ≠ 1, so a × b = 54 double-counts the shared factor of 3; dividing by the gcd (54 / 3 = 18) removes that overlap and matches gcd(a, b) × lcm(a, b) = a × b, i.e. 3 × 18 = 54.
+
+## Q050
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** gcd-and-lcm
+**Focus Area:** Applying a×b vs. lcm distinction (targeted follow-up to Q049)
+**Question:** For a = 4, b = 10 (gcd = 2), compute a × b, then find lcm(4, 10) using the GCD–LCM relationship.
+**Answer:** a × b = 40. lcm(4, 10) = 40 / gcd(4, 10) = 40 / 2 = 20.
+
+## Q051
+**Status:** active
+**Type:** conceptual
+**Difficulty:** introductory
+**Topic:** gcd-and-lcm
+**Focus Area:** Plain-language reason a×b isn't usually the lcm (targeted follow-up to Q049)
+**Question:** In plain terms, why isn't a × b usually the least common multiple of a and b?
+**Answer:** By the GCD–LCM relationship, gcd(a, b) × lcm(a, b) = a × b. If a and b share common factors (gcd(a, b) > 1), then a × b counts those shared factors twice, giving a common multiple bigger than necessary — not the least one. Only when a and b share no factors (gcd(a, b) = 1) does a × b equal the lcm exactly.
+
+## Q052
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** bezouts-identity
+**Focus Area:** Naming and uniqueness of the coefficients (targeted follow-up to Q019)
+**Question:** In the equation gcd(a, b) = s·a + t·b, what are s and t called, and are they unique?
+**Answer:** They are called the Bézout coefficients. They are not unique — different valid pairs of integers (s, t) can produce the same gcd.
+
+## Q053
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** bezouts-identity
+**Focus Area:** Identifying a valid coefficient pair (targeted follow-up to Q019)
+**Question:** For a = 6, b = 9, identify a valid pair of Bézout coefficients (s, t) satisfying gcd(6, 9) = s·6 + t·9.
+**Answer:** (s, t) = (2, −1) or (−1, 1) both work: 2×6 + (−1)×9 = 3, and (−1)×6 + 1×9 = 3, and gcd(6, 9) = 3.
+
+## Q054
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** bezouts-identity
+**Focus Area:** Naming check (targeted follow-up to Q052)
+**Question:** True or False: In gcd(a, b) = s·a + t·b, the integers s and t are called the Bézout coefficients.
+**Answer:** True.
+
+## Q055
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** bezouts-identity
+**Focus Area:** Back-substitution through Euclidean Algorithm steps (targeted follow-up to Q053)
+**Question:** Using the Euclidean Algorithm steps for gcd(30, 12) — 30 = 12×2 + 6; 12 = 6×2 + 0 — express gcd(30, 12) = 6 as a linear combination of 30 and 12.
+**Answer:** 6 = 30 − 12×2, so s = 1, t = −2.
+
+## Q056
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** bezouts-identity
+**Focus Area:** The back-substitution process itself (targeted follow-up to Q053)
+**Question:** Describe the general process for finding Bézout coefficients from the Euclidean Algorithm's steps.
+**Answer:** Each division step a = bq + r can be rewritten as r = a − bq. Substituting backward through the steps — replacing each remainder in terms of the previous pair — expresses the gcd entirely in terms of the original a and b, revealing the coefficients s and t.
