@@ -24,3 +24,8 @@
 **Difficulty feel:** about right — surfaced a lot of gaps ("caught me on many things")
 **Coverage gaps:** GCD–LCM relationship and reasoning (why divide by gcd), Bézout coefficient naming/uniqueness, back-substitution process for finding Bézout coefficients
 **Style notes:** —
+
+## 2026-07-24 (session 2)
+**Difficulty feel:** good
+**Coverage gaps:** direction of the gcd(a,m)=1 → modular-inverse-exists condition (mixed up which way the implication goes, twice); "why coprimality matters" applications (RSA/Extended Euclidean) still shaky
+**Style notes:** —

@@ -16,7 +16,7 @@
 | Q007 | active | ok | 1 | 1 | 2026-07-13 | — |
 | Q008 | active | easy | 1 | 1 | 2026-07-13 | — |
 | Q009 | active | easy | 1 | 1 | 2026-07-13 | — |
-| Q010 | active | hard | 1 | 0 | 2026-07-13 | did not put right number (wrong exponent) |
+| Q010 | active | easy | 2 | 1 | 2026-07-24 | — |
 | Q011 | active | ok | 1 | 0 | 2026-07-23 | wasn't familiar with the definition |
 | Q012 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q013 | active | new | 0 | 0 | — | — |
@@ -26,11 +26,11 @@
 | Q017 | active | ok | 1 | 1 | 2026-07-21 | — |
 | Q018 | active | easy | 1 | 1 | 2026-07-23 | — |
 | Q019 | active | ok | 1 | 0 | 2026-07-23 | didn't read the whole question, missed the part about naming the coefficients |
-| Q020 | active | new | 0 | 0 | — | — |
+| Q020 | active | easy | 1 | 1 | 2026-07-24 | — |
 | Q021 | active | ok | 1 | 0 | 2026-07-14 | thought Bézout coefficients are unique; conflated "a pair exists" with "only one pair" |
-| Q022 | active | hard | 1 | 1 | 2026-07-21 | — |
-| Q023 | active | new | 0 | 0 | — | — |
-| Q024 | active | new | 0 | 0 | — | — |
+| Q022 | active | ok | 2 | 1 | 2026-07-24 | messed up the arithmetic evaluation partway through, not a conceptual gap |
+| Q023 | active | easy | 1 | 1 | 2026-07-24 | — |
+| Q024 | active | hard | 1 | 0 | 2026-07-24 | did not think of it in the angle (missed that gcd=1 guarantees a modular inverse) |
 | Q025 | active | easy | 1 | 1 | 2026-07-21 | — |
 | Q026 | active | easy | 1 | 1 | 2026-07-21 | — |
 | Q027 | active | ok | 1 | 1 | 2026-07-14 | — |
@@ -59,7 +59,11 @@
 | Q050 | active | ok | 1 | 1 | 2026-07-23 | — |
 | Q051 | active | ok | 1 | 1 | 2026-07-23 | — |
 | Q052 | active | ok | 1 | 0 | 2026-07-23 | didn't know the name "Bézout coefficients" or that they're non-unique |
-| Q053 | active | hard | 1 | 0 | 2026-07-24 | tried using the Euclidean Algorithm/back-substitution but made an error finding the coefficients |
+| Q053 | active | easy | 2 | 1 | 2026-07-24 | — |
 | Q054 | active | easy | 1 | 1 | 2026-07-23 | — |
 | Q055 | active | new | 0 | 0 | — | — |
 | Q056 | active | new | 0 | 0 | — | — |
+| Q057 | active | hard | 1 | 1 | 2026-07-24 | — |
+| Q058 | active | hard | 1 | 0 | 2026-07-24 | had the gcd=1 / inverse-exists relationship backward |
+| Q059 | active | easy | 1 | 1 | 2026-07-24 | — |
+| Q060 | active | new | 0 | 0 | — | — |

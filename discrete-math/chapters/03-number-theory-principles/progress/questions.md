@@ -524,3 +524,39 @@
 **Focus Area:** The back-substitution process itself (targeted follow-up to Q053)
 **Question:** Describe the general process for finding Bézout coefficients from the Euclidean Algorithm's steps.
 **Answer:** Each division step a = bq + r can be rewritten as r = a − bq. Substituting backward through the steps — replacing each remainder in terms of the previous pair — expresses the gcd entirely in terms of the original a and b, revealing the coefficients s and t.
+
+## Q057
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** modular-inverses
+**Focus Area:** gcd = 1 as the existence condition for a modular inverse (targeted follow-up to Q024)
+**Question:** The Extended Euclidean Algorithm shows gcd(101, 4620) = 1. What does this guarantee exists, and what is the rule that establishes the guarantee?
+**Answer:** It guarantees that 101 has a modular inverse modulo 4620 (and that inverse is unique modulo 4620). Per the existence/uniqueness rule: if gcd(a, m) = 1, an inverse of a mod m exists and is unique modulo m; if gcd(a, m) ≠ 1, no inverse exists.
+
+## Q058
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** modern-applications
+**Focus Area:** Coprimality's role in generating a usable encryption key (targeted follow-up to Q024)
+**Question:** In the RSA walkthrough, e = 3 and φ(n) = 40 had to be coprime before the Extended Euclidean Algorithm could produce d = 27. Why does that coprimality requirement matter — what would fail without it?
+**Answer:** d is the modular inverse of e mod φ(n), and a modular inverse only exists when gcd(e, φ(n)) = 1. If e and φ(n) shared a common factor, no inverse d would exist, so the private decryption exponent could never be found — the Euclidean Algorithm confirms this coprimality is exactly what makes finding d possible.
+
+## Q059
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** modular-inverses
+**Focus Area:** Direction of the gcd = 1 condition (targeted follow-up to Q058)
+**Question:** True or False: If gcd(a, m) = 1, then a modular inverse of a mod m does NOT exist.
+**Answer:** False. gcd(a, m) = 1 is exactly the condition under which an inverse DOES exist (and is unique modulo m). No inverse exists only when gcd(a, m) ≠ 1 — the reverse of what this statement claims.
+
+## Q060
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** modular-inverses
+**Focus Area:** Applying the correct direction of the existence condition (targeted follow-up to Q058)
+**Question:** For 3x ≡ 1 (mod 40), does a modular inverse of 3 mod 40 exist? Use gcd(3, 40) to justify your answer, then state which direction is correct: "gcd = 1 → inverse exists" or "gcd = 1 → inverse does not exist."
+**Answer:** Yes — gcd(3, 40) = 1, so an inverse exists (3 × 27 = 81 = 2×40 + 1, so the inverse is 27). The correct direction is "gcd = 1 → inverse exists": coprimality guarantees existence, not the opposite.

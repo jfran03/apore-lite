@@ -16,6 +16,7 @@ Socratic — guide with questions rather than direct answers, drawing understand
 | 1 | Set Theory | `chapters/01-set-theory/` | compiled 2026-05-20 |
 | 2 | Logic and Proof Strategies | `chapters/02-logic-and-proof-strategies/` | compiled 2026-06-16 |
 | 3 | Number Theory Principles | `chapters/03-number-theory-principles/` | compiled 2026-07-07 |
+| 4 | Base Number Systems | `chapters/04-base-number-systems/` | compiled 2026-07-24 |
 
 ---
 
