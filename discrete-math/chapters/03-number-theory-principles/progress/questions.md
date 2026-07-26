@@ -560,3 +560,48 @@
 **Focus Area:** Applying the correct direction of the existence condition (targeted follow-up to Q058)
 **Question:** For 3x ≡ 1 (mod 40), does a modular inverse of 3 mod 40 exist? Use gcd(3, 40) to justify your answer, then state which direction is correct: "gcd = 1 → inverse exists" or "gcd = 1 → inverse does not exist."
 **Answer:** Yes — gcd(3, 40) = 1, so an inverse exists (3 × 27 = 81 = 2×40 + 1, so the inverse is 27). The correct direction is "gcd = 1 → inverse exists": coprimality guarantees existence, not the opposite.
+
+## Q061
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** congruences-and-properties
+**Focus Area:** Difference vs. sum in the congruence definition (targeted follow-up to Q028)
+**Question:** True or False: a ≡ b (mod m) holds exactly when m divides the sum (a + b).
+**Answer:** False. The definition uses the *difference*: a ≡ b (mod m) holds when m divides (a − b).
+
+## Q062
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** congruences-and-properties
+**Focus Area:** Applying the divides-the-difference definition (targeted follow-up to Q028)
+**Question:** Verify whether 17 ≡ 5 (mod 12) using the definition of congruence.
+**Answer:** Yes, it holds. 17 − 5 = 12, and 12 divides 12, so m | (a − b) is satisfied. Equivalently, both 17 and 5 leave remainder 5 when divided by 12.
+
+## Q063
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** modular-inverses
+**Focus Area:** Solving ax ≡ b (mod m) end to end, holding the modulus fixed (targeted follow-up to Q034)
+**Question:** Solve 3x ≡ 4 (mod 11). State the modulus you are working in at each step.
+**Answer:** x ≡ 5 (mod 11). The modulus is 11 throughout. The inverse of 3 mod 11 is 4, since 3 × 4 = 12 ≡ 1 (mod 11). Then x ≡ 4 × 4 = 16 ≡ 5 (mod 11). Check: 3 × 5 = 15 ≡ 4 (mod 11).
+
+## Q064
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** modular-inverses
+**Focus Area:** Checking solvability before solving (targeted follow-up to Q034)
+**Question:** Can 4x ≡ 3 (mod 6) be solved by multiplying through by a modular inverse? Justify using gcd.
+**Answer:** No. Solving ax ≡ b (mod m) this way requires a⁻¹ to exist, and an inverse exists only when gcd(a, m) = 1. Here gcd(4, 6) = 2 ≠ 1, so 4 has no inverse mod 6 and the method does not apply.
+
+## Q065
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** introduction-to-modular-arithmetic
+**Focus Area:** Reducing a result into the residue range as the final step (targeted follow-up to Q034/Q063)
+**Question:** A modular calculation leaves you with x ≡ 23 (mod 9). Is 23 an acceptable final answer? If not, reduce it and state the rule you applied.
+**Answer:** No. Every modulus defines a cycle of remainders 0 through m − 1 — for mod 9 that is {0, …, 8}, so the result must be reduced into that range. 23 = 9 × 2 + 5, so x ≡ 5 (mod 9).
