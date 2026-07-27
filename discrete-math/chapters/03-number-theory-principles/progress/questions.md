@@ -605,3 +605,21 @@
 **Focus Area:** Reducing a result into the residue range as the final step (targeted follow-up to Q034/Q063)
 **Question:** A modular calculation leaves you with x ≡ 23 (mod 9). Is 23 an acceptable final answer? If not, reduce it and state the rule you applied.
 **Answer:** No. Every modulus defines a cycle of remainders 0 through m − 1 — for mod 9 that is {0, …, 8}, so the result must be reduced into that range. 23 = 9 × 2 + 5, so x ≡ 5 (mod 9).
+
+## Q066
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** modular-inverses
+**Focus Area:** existence check before computing inverse (targeted follow-up to Q031)
+**Question:** Before trying to compute an actual inverse value, what single check should you do first to know whether a modular inverse of a mod m exists at all?
+**Answer:** Check whether gcd(a, m) = 1. This coprimality condition is exactly what guarantees a modular inverse exists (and is unique modulo m); if gcd(a, m) ≠ 1, no inverse exists.
+
+## Q067
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** divisibility-and-division-algorithm
+**Focus Area:** applying the Linear Combination Property concretely (targeted follow-up to Q003)
+**Question:** Given 3 | 6 and 3 | 9, is 3 | (2×6 − 9) true? Compute 2×6 − 9 and confirm using the Linear Combination Property.
+**Answer:** Yes. 2×6 − 9 = 3, and 3 | 3 (since 3 = 3×1). This confirms the Linear Combination Property: since 3 | 6 and 3 | 9, 3 divides any integer combination s×6 + t×9.

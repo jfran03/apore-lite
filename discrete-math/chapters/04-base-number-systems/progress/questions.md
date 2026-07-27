@@ -332,3 +332,30 @@
 **Focus Area:** true statements about octal and hexadecimal
 **Question:** Which statements about octal and hexadecimal are true? (a) Octal groups binary digits in sets of three. (b) Hexadecimal uses the digits 0–9 and letters A–F. (c) Both systems are easier for humans to read than binary. (d) Hexadecimal is only used for representing fractions. (e) Octal digits correspond to four binary bits.
 **Answer:** (a), (b), and (c) are true. Octal groups binary in sets of three; hexadecimal uses 0–9 and A–F; both are easier to read than binary. (d) is false (hex is not only for fractions) and (e) is false (octal digits correspond to three bits, not four). (See binary-octal-hex-representation.md)
+
+## Q036
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** understanding-base-number-systems
+**Focus Area:** base defines digit rollover (targeted follow-up to Q001)
+**Question:** Base 8 uses the digits 0 through 7. When you count upward in base 8 and reach 7, what happens next — and what does that tell you about the role the base plays?
+**Answer:** The next value is 10₈ — a new place value opens because 7 is the last unique digit available. This illustrates the role of the base: it defines how many unique digits exist before the count rolls over to a new place value. (See understanding-base-number-systems.md)
+
+## Q037
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** binary-octal-hex-representation
+**Focus Area:** byte value and hex-bit grouping (targeted follow-up to Q008)
+**Question:** If 1 byte = 8 bits, how many unique values can 1 byte represent — and how many bits does a single hexadecimal digit correspond to?
+**Answer:** 256 (2⁸) unique values. One hexadecimal digit corresponds to 4 binary bits. (See binary-octal-hex-representation.md)
+
+## Q038
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** converting-between-bases
+**Focus Area:** decimal to binary, reading remainder order (targeted follow-up to Q019)
+**Question:** Convert 241 (base 10) to binary using successive division, and explicitly state the order you read the remainders in.
+**Answer:** 11110001₂. 241÷2=120 r1, 120÷2=60 r0, 60÷2=30 r0, 30÷2=15 r0, 15÷2=7 r1, 7÷2=3 r1, 3÷2=1 r1, 1÷2=0 r1. Remainders must be read from bottom to top (last remainder computed is the most significant digit). (See converting-between-bases.md)

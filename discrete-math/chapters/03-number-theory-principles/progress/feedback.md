@@ -29,3 +29,8 @@
 **Difficulty feel:** good
 **Coverage gaps:** direction of the gcd(a,m)=1 → modular-inverse-exists condition (mixed up which way the implication goes, twice); "why coprimality matters" applications (RSA/Extended Euclidean) still shaky
 **Style notes:** —
+
+## 2026-07-26
+**Difficulty feel:** good
+**Coverage gaps:** "why divide by gcd" reasoning (Q047) is a recurring miss — slipped a second time after 2026-07-23; linear combination property (Q003) needs another pass; RSA coprimality application (Q040) flagged by user as low priority for now
+**Style notes:** —

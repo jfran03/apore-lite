@@ -9,7 +9,7 @@
 |----|--------|------------|------------|---------------|-----------|--------------|
 | Q001 | active | ok | 1 | 0 | 2026-07-13 | second guessed myself; didn't see the plus sign in option D |
 | Q002 | active | easy | 1 | 1 | 2026-07-13 | — |
-| Q003 | active | ok | 1 | 1 | 2026-07-13 | — |
+| Q003 | active | ok | 2 | 1 | 2026-07-26 | forgot the property; conflated "divisible by 4" with "equals 4" |
 | Q004 | active | easy | 1 | 0 | 2026-07-13 | forgot the negative sign on quotient |
 | Q005 | active | easy | 1 | 1 | 2026-07-13 | — |
 | Q006 | active | easy | 1 | 1 | 2026-07-13 | — |
@@ -35,9 +35,9 @@
 | Q026 | active | easy | 1 | 1 | 2026-07-21 | — |
 | Q027 | active | ok | 1 | 1 | 2026-07-14 | — |
 | Q028 | active | ok | 1 | 0 | 2026-07-25 | did not know the definition; thought m divides the sum (a+b) rather than the difference (a−b) |
-| Q029 | active | new | 0 | 0 | — | — |
+| Q029 | active | easy | 1 | 1 | 2026-07-26 | — |
 | Q030 | active | easy | 1 | 1 | 2026-07-25 | — |
-| Q031 | active | new | 0 | 0 | — | — |
+| Q031 | active | ok | 1 | 0 | 2026-07-26 | tried to search for the inverse value directly instead of checking gcd(a,m)=1 first |
 | Q032 | active | easy | 1 | 1 | 2026-07-25 | — |
 | Q033 | active | ok | 2 | 1 | 2026-07-21 | — |
 | Q034 | active | ok | 1 | 0 | 2026-07-25 | limited practice with the procedure; substituted the wrong modulus (11 instead of 7) mid-solve and mis-stated the goal remainder; reached the answer only with tutoring |
@@ -46,22 +46,22 @@
 | Q037 | active | new | 0 | 0 | — | — |
 | Q038 | active | new | 0 | 0 | — | — |
 | Q039 | active | new | 0 | 0 | — | — |
-| Q040 | active | new | 0 | 0 | — | — |
+| Q040 | active | easy | 1 | 0 | 2026-07-26 | not familiar with this application area; deprioritized by user request |
 | Q041 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q042 | active | ok | 1 | 0 | 2026-07-23 | missed that 24 isn't the least common multiple, just picked a common multiple |
 | Q043 | active | ok | 1 | 0 | 2026-07-23 | forgot to divide by the gcd, stopped at a × b |
 | Q044 | active | easy | 1 | 1 | 2026-07-23 | — |
 | Q045 | active | easy | 1 | 1 | 2026-07-23 | — |
 | Q046 | active | easy | 1 | 1 | 2026-07-23 | — |
-| Q047 | active | ok | 1 | 0 | 2026-07-23 | didn't know why dividing by gcd removes double-counted overlap |
+| Q047 | active | easy | 2 | 0 | 2026-07-26 | slipped my mind (recurring gap — also missed 2026-07-23) |
 | Q048 | active | easy | 1 | 1 | 2026-07-23 | — |
-| Q049 | active | hard | 1 | 0 | 2026-07-23 | didn't know the full reasoning behind why a×b and lcm differ |
+| Q049 | active | easy | 2 | 1 | 2026-07-26 | — |
 | Q050 | active | ok | 1 | 1 | 2026-07-23 | — |
 | Q051 | active | ok | 1 | 1 | 2026-07-23 | — |
 | Q052 | active | ok | 1 | 0 | 2026-07-23 | didn't know the name "Bézout coefficients" or that they're non-unique |
 | Q053 | active | easy | 2 | 1 | 2026-07-24 | — |
 | Q054 | active | easy | 1 | 1 | 2026-07-23 | — |
-| Q055 | active | easy | 1 | 1 | 2026-07-25 | — |
+| Q055 | active | easy | 2 | 2 | 2026-07-26 | — |
 | Q056 | active | new | 0 | 0 | — | — |
 | Q057 | active | hard | 1 | 1 | 2026-07-24 | — |
 | Q058 | active | hard | 1 | 0 | 2026-07-24 | had the gcd=1 / inverse-exists relationship backward |
@@ -71,4 +71,6 @@
 | Q062 | active | easy | 1 | 1 | 2026-07-25 | — |
 | Q063 | active | ok | 1 | 0 | 2026-07-25 | forgot the final reduction step — left the answer as 16 instead of reducing into the mod 11 residue range (second time this session) |
 | Q064 | active | new | 0 | 0 | — | — |
-| Q065 | active | new | 0 | 0 | — | — |
+| Q065 | active | easy | 1 | 1 | 2026-07-26 | — |
+| Q066 | active | easy | 1 | 1 | 2026-07-26 | — |
+| Q067 | active | easy | 1 | 1 | 2026-07-26 | — |
