@@ -30,7 +30,7 @@
 | Q021 | active | ok | 1 | 0 | 2026-07-14 | thought Bézout coefficients are unique; conflated "a pair exists" with "only one pair" |
 | Q022 | active | ok | 2 | 1 | 2026-07-24 | messed up the arithmetic evaluation partway through, not a conceptual gap |
 | Q023 | active | easy | 1 | 1 | 2026-07-24 | — |
-| Q024 | active | hard | 1 | 0 | 2026-07-24 | did not think of it in the angle (missed that gcd=1 guarantees a modular inverse) |
+| Q024 | active | easy | 2 | 0 | 2026-07-27 | gave the coprime conclusion but omitted why it matters (modular inverse existence) until prompted |
 | Q025 | active | easy | 1 | 1 | 2026-07-21 | — |
 | Q026 | active | easy | 1 | 1 | 2026-07-21 | — |
 | Q027 | active | ok | 1 | 1 | 2026-07-14 | — |
@@ -42,10 +42,10 @@
 | Q033 | active | ok | 2 | 1 | 2026-07-21 | — |
 | Q034 | active | ok | 1 | 0 | 2026-07-25 | limited practice with the procedure; substituted the wrong modulus (11 instead of 7) mid-solve and mis-stated the goal remainder; reached the answer only with tutoring |
 | Q035 | active | ok | 1 | 0 | 2026-07-25 | concept slipped — chose n−1 instead of the √n trial-division bound |
-| Q036 | active | new | 0 | 0 | — | — |
-| Q037 | active | new | 0 | 0 | — | — |
-| Q038 | active | new | 0 | 0 | — | — |
-| Q039 | active | new | 0 | 0 | — | — |
+| Q036 | active | easy | 1 | 1 | 2026-07-27 | — |
+| Q037 | active | easy | 1 | 1 | 2026-07-27 | — |
+| Q038 | active | new | 1 | 0 | 2026-07-27 | deprioritized by user — not expected on the test |
+| Q039 | active | easy | 1 | 1 | 2026-07-27 | — |
 | Q040 | active | easy | 1 | 0 | 2026-07-26 | not familiar with this application area; deprioritized by user request |
 | Q041 | active | easy | 1 | 1 | 2026-07-14 | — |
 | Q042 | active | ok | 1 | 0 | 2026-07-23 | missed that 24 isn't the least common multiple, just picked a common multiple |
@@ -62,15 +62,15 @@
 | Q053 | active | easy | 2 | 1 | 2026-07-24 | — |
 | Q054 | active | easy | 1 | 1 | 2026-07-23 | — |
 | Q055 | active | easy | 2 | 2 | 2026-07-26 | — |
-| Q056 | active | new | 0 | 0 | — | — |
-| Q057 | active | hard | 1 | 1 | 2026-07-24 | — |
-| Q058 | active | hard | 1 | 0 | 2026-07-24 | had the gcd=1 / inverse-exists relationship backward |
+| Q056 | active | ok | 1 | 1 | 2026-07-27 | — |
+| Q057 | active | easy | 2 | 2 | 2026-07-27 | — |
+| Q058 | active | easy | 2 | 1 | 2026-07-27 | — |
 | Q059 | active | easy | 1 | 1 | 2026-07-24 | — |
-| Q060 | active | new | 0 | 0 | — | — |
+| Q060 | active | easy | 1 | 1 | 2026-07-27 | — |
 | Q061 | active | easy | 1 | 1 | 2026-07-25 | — |
 | Q062 | active | easy | 1 | 1 | 2026-07-25 | — |
 | Q063 | active | ok | 1 | 0 | 2026-07-25 | forgot the final reduction step — left the answer as 16 instead of reducing into the mod 11 residue range (second time this session) |
-| Q064 | active | new | 0 | 0 | — | — |
+| Q064 | active | easy | 1 | 1 | 2026-07-27 | — |
 | Q065 | active | easy | 1 | 1 | 2026-07-26 | — |
 | Q066 | active | easy | 1 | 1 | 2026-07-26 | — |
 | Q067 | active | easy | 1 | 1 | 2026-07-26 | — |

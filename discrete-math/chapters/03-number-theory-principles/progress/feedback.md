@@ -34,3 +34,8 @@
 **Difficulty feel:** good
 **Coverage gaps:** "why divide by gcd" reasoning (Q047) is a recurring miss — slipped a second time after 2026-07-23; linear combination property (Q003) needs another pass; RSA coprimality application (Q040) flagged by user as low priority for now
 **Style notes:** —
+
+## 2026-07-27
+**Difficulty feel:** good
+**Coverage gaps:** finishing conceptual "why does it matter" follow-through on coprimality/modular-inverse questions (Q024) — knew the fact but didn't state its significance unprompted; modern-applications (Q038, RSA prime rationale) still flagged low priority by user
+**Style notes:** —
