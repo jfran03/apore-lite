@@ -17,13 +17,13 @@
 | Q008 | active | ok | 1 | 1 | 2026-08-09 | — |
 | Q009 | active | ok | 1 | 0 | 2026-08-09 | Unfamiliar with fundamental counting rule; understood after connection to multiplication rule |
 | Q010 | active | easy | 1 | 0 | 2026-08-09 | Notation/LaTeX unfamiliar, but concept understood |
-| Q011 | active | new | 0 | 0 | — | — |
-| Q012 | active | new | 0 | 0 | — | — |
+| Q011 | active | ok | 1 | 1 | 2026-08-10 | — |
+| Q012 | active | easy | 1 | 1 | 2026-08-10 | — |
 | Q013 | active | new | 0 | 0 | — | — |
 | Q014 | active | new | 0 | 0 | — | — |
 | Q015 | active | new | 0 | 0 | — | — |
 | Q016 | active | new | 0 | 0 | — | — |
-| Q017 | active | new | 0 | 0 | — | — |
+| Q017 | active | ok | 1 | 1 | 2026-08-10 | — |
 | Q018 | active | new | 0 | 0 | — | — |
 | Q019 | active | new | 0 | 0 | — | — |
 | Q020 | active | new | 0 | 0 | — | — |
@@ -34,7 +34,7 @@
 | Q025 | active | new | 0 | 0 | — | — |
 | Q026 | active | new | 0 | 0 | — | — |
 | Q027 | active | new | 0 | 0 | — | — |
-| Q028 | active | new | 0 | 0 | — | — |
+| Q028 | active | easy | 1 | 1 | 2026-08-10 | — |
 | Q029 | active | new | 0 | 0 | — | — |
 | Q030 | active | new | 0 | 0 | — | — |
 | Q031 | active | new | 0 | 0 | — | — |
@@ -47,7 +47,7 @@
 | Q038 | active | new | 0 | 0 | — | — |
 | Q039 | active | new | 0 | 0 | — | — |
 | Q040 | active | new | 0 | 0 | — | — |
-| Q041 | active | new | 0 | 0 | — | — |
+| Q041 | active | easy | 1 | 1 | 2026-08-10 | — |
 | Q042 | active | new | 0 | 0 | — | — |
 | Q043 | active | new | 0 | 0 | — | — |
 | Q044 | active | new | 0 | 0 | — | — |
@@ -55,12 +55,12 @@
 | Q046 | active | new | 0 | 0 | — | — |
 | Q047 | active | new | 0 | 0 | — | — |
 | Q048 | active | new | 0 | 0 | — | — |
-| Q049 | active | new | 0 | 0 | — | — |
+| Q049 | active | ok | 1 | 1 | 2026-08-10 | — |
 | Q050 | active | new | 0 | 0 | — | — |
 | Q051 | active | new | 0 | 0 | — | — |
 | Q052 | active | new | 0 | 0 | — | — |
 | Q053 | active | new | 0 | 0 | — | — |
-| Q054 | active | new | 0 | 0 | — | — |
+| Q054 | active | hard | 1 | 0 | 2026-08-10 | Knowledge decay from months without review |
 | Q055 | active | new | 0 | 0 | — | — |
 | Q056 | active | new | 0 | 0 | — | — |
 | Q057 | active | new | 0 | 0 | — | — |
@@ -68,7 +68,7 @@
 | Q059 | active | new | 0 | 0 | — | — |
 | Q060 | active | new | 0 | 0 | — | — |
 | Q061 | active | new | 0 | 0 | — | — |
-| Q062 | active | new | 0 | 0 | — | — |
+| Q062 | active | ok | 1 | 1 | 2026-08-10 | — |
 | Q063 | active | new | 0 | 0 | — | — |
 | Q064 | active | new | 0 | 0 | — | — |
 | Q065 | active | new | 0 | 0 | — | — |
@@ -76,6 +76,6 @@
 | Q067 | active | new | 0 | 0 | — | — |
 | Q068 | active | new | 0 | 0 | — | — |
 | Q069 | active | new | 0 | 0 | — | — |
-| Q070 | active | new | 0 | 0 | — | — |
+| Q070 | active | ok | 1 | 1 | 2026-08-10 | — |
 | Q071 | active | new | 0 | 0 | — | — |
-| Q072 | active | new | 0 | 0 | — | — |
+| Q072 | active | ok | 1 | 0 | 2026-08-10 | Knowledge decay from months without review |

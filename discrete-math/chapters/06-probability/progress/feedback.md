@@ -6,6 +6,11 @@
 
 ---
 
+## 2026-08-10
+**Difficulty feel:** about right
+**Coverage gaps:** permutations, combinations, applied probability scenarios
+**Style notes:** Request more applied/computational probability questions (e.g., password constraints, overlapping groups, real-world scenarios). Current question bank leans theoretical; need practical applications.
+
 ## 2026-08-09
 **Difficulty feel:** about right
 **Coverage gaps:** —
