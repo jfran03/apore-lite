@@ -6,6 +6,16 @@
 
 ---
 
+## 2026-08-13
+**Difficulty feel:** about right
+**Coverage gaps:** addition rule (overlap subtraction), variance/mean calculations, fair vs. biased probabilities
+**Style notes:** Session 2 showed weakness in foundational formula application (mean = ∑x·P(x), not sum of P(x)). User prefers rote memorization for famous problems (Monty Hall) but needs drill on mechanical calculations. Keep applied focus working well.
+
+## 2026-08-12
+**Difficulty feel:** about right
+**Coverage gaps:** permutations with counting constraints (0-9 vs. 1-9), conditional probability from tables
+**Style notes:** Good mastery of dependent events and complement rule. Formula setup (binomial) understood but fair-coin assumption caught user (p=1/2, not arbitrary). Continue mixed approach.
+
 ## 2026-08-10
 **Difficulty feel:** about right
 **Coverage gaps:** permutations, combinations, applied probability scenarios
