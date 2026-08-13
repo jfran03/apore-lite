@@ -18,7 +18,7 @@ Socratic — guide with questions rather than direct answers, drawing understand
 | 3 | Number Theory Principles | `chapters/03-number-theory-principles/` | compiled 2026-07-07 |
 | 4 | Base Number Systems | `chapters/04-base-number-systems/` | compiled 2026-07-24 |
 | 5 | Graphs and Trees | `chapters/05-graphs-and-trees/` | compiled 2026-07-28 |
-| 6 | Probability | `chapters/06-probability/` | compiled 2026-08-09 |
+| 6 | Probability | `chapters/06-probability/` | compiled 2026-08-12 |
 
 ---
 

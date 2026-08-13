@@ -45,6 +45,13 @@ Since the probability of all events — which is the sum of probabilities of all
 - **Security system:** A security system correctly blocks a malicious login attempt 97% of the time; the probability that a malicious attempt slips through is the complement of that.
   > Source: Introduction to Probability.html
 
+### Worksheet Problem — Bachelor's Degrees
+
+Based on data from the Census Bureau, when a woman over the age of 25 is randomly selected, there is a 0.218 probability that she has a bachelor's degree. Find the probability that she does **not** have a bachelor's degree.
+
+Applying the complement rule P(Aᶜ) = 1 − P(A): P(no bachelor's degree) = 1 − 0.218 = **0.782**.
+> Source: Capture6.PNG (problem as posed); complement rule applied from Introduction to Probability.html; Probability - Copy.pdf
+
 ## The Birthday Problem
 
 The Birthday Problem is one of the most surprising results in probability and a classic demonstration of why complements are so useful. The question: **how big would a group of people have to be for the probability that at least two people share a birthday** to exceed 50%? Most people guess you'd need a huge group, maybe 100 people. In reality, you only need **23 people**.

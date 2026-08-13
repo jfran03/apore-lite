@@ -132,6 +132,24 @@ Let 𝑋 = "sum of the two dice." The smallest sum is 2 (1+1) and the largest is
 The probabilities total 1, confirming a valid distribution. The most likely sum is **7**, occurring in six different ways (about 16.7%); the rarest sums (2 and 12) occur only once each (about 2.8%). This shape — low at the ends, high in the middle — is one of the first examples of a distribution curve. In computing, this type of distribution models aggregated random events such as packet delays or retry counts, where many small random factors add up to one combined result.
 > Source: Random Variables and Distributions.html
 
+### Worksheet Problem — Recovering a Missing Probability
+
+A random variable X has the probability distribution shown, with one entry missing:
+
+| X | P(X) |
+|---|---|
+| −4 | 0.65 |
+| 2 | ? |
+| 3 | 0.10 |
+| 5 | 0.05 |
+
+**Determine the missing value P(X = 2).** The second validity condition — that the probabilities of a distribution must sum to 1 — pins the missing entry down. The three known probabilities total 0.65 + 0.10 + 0.05 = 0.80, so:
+
+**P(X = 2) = 1 − 0.80 = 0.20**
+
+This is the standard use of the ∑P(x) = 1 condition: it is not only a sanity check on a completed table but a tool for recovering a single unknown entry. (The expected value and variance for this same distribution are worked in [Expected Value, Variance and Standard Deviation](expected-value-variance-standard-deviation.md).)
+> Source: Capture.PNG (problem and table as posed); validity conditions applied from Random Variables and Distributions.html; Discrete Random Variables - Copy.pdf
+
 ## Common Misconceptions
 
 - **"A table of probabilities is automatically a distribution."** It is not — both validity conditions must hold. A table summing to 0.94 fails the second condition and is not a genuine probability distribution.

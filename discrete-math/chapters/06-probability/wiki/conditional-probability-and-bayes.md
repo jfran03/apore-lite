@@ -157,10 +157,80 @@ Imagine someone has two children and you're told at least one of them is a girl.
 Each case is equally likely (¼ ÷ ¾ = ⅓ each). Only one of the three has two girls, so **P(both girls ∣ at least one girl) = ⅓**. The births themselves are independent — each child has a 0.5 chance of being a girl — but the information you're given filters the sample space in a different way.
 > Source: Expected Value, Variance and Standard Deviation.html
 
+## Worksheet Problems
+
+These problems are posed in the worksheet screenshots without solutions. The workings below apply the definitions and formulas stated above.
+
+### AJ's Commute — Bayes' Theorem
+
+When coming to SAIT, AJ either takes the train or calls an Uber. Define T = {AJ takes the train}, U = {AJ takes an Uber}, L = {AJ is late}. Given:
+
+- P(L∣T) = 0.15 — if he takes the train, he is late 15% of the time
+- P(L∣U) = 0.65 — if he takes an Uber, he is late 65% of the time
+- P(T) = 0.70 — he chooses the train 70% of the time, so P(U) = 1 − 0.70 = 0.30
+
+Given that AJ is late one day, determine the probability that he had taken an Uber — that is, P(U∣L). This reverses the direction of the conditioning, which is exactly what Bayes' Theorem is for:
+
+**P(U∣L) = P(L∣U)·P(U) / [ P(L∣T)P(T) + P(L∣U)P(U) ]**
+
+The joint probabilities are P(L∩U) = 0.65 × 0.30 = 0.195 and P(L∩T) = 0.15 × 0.70 = 0.105, so the denominator P(L) = 0.105 + 0.195 = 0.300. Then:
+
+P(U∣L) = 0.195 / 0.300 = **0.65**
+
+Note that the answer, 0.65, coincides numerically with P(L∣U) here — but only because of the particular numbers chosen. The two are different quantities, and confusing them is the classic error.
+> Source: Capture1.PNG (problem as posed); Bayes' Theorem applied from Probability - Copy.pdf
+
+### Stretching and Injuries — Completing a Contingency Table
+
+A survey of 800 athletes investigated the relationship between performing stretches and getting an injury. The table is given with entries missing:
+
+| | Had Injury | No Injury | TOTALS |
+|---|---|---|---|
+| **Stretches** | ? | 295 | ? |
+| **Doesn't Stretch** | 231 | ? | 450 |
+| **TOTALS** | ? | ? | ? |
+
+**Filling in the missing entries.** The grand total is 800. Since "Doesn't Stretch" totals 450, "Stretches" totals 800 − 450 = 350. Within the Stretches row, 350 − 295 = 55 had an injury. Within the Doesn't Stretch row, 450 − 231 = 219 had no injury. The column totals are then 55 + 231 = 286 injured and 295 + 219 = 514 uninjured, which check out: 286 + 514 = 800.
+
+| | Had Injury | No Injury | TOTALS |
+|---|---|---|---|
+| **Stretches** | 55 | 295 | 350 |
+| **Doesn't Stretch** | 231 | 219 | 450 |
+| **TOTALS** | 286 | 514 | 800 |
+
+- **(a) P(no injury)** — a marginal probability, read off the column total: 514/800 = **0.643**
+- **(b) P(stretches)** — a marginal probability, read off the row total: 350/800 = **0.438**
+- **(c) P(injury ∣ doesn't stretch)** — condition on the "Doesn't Stretch" row, so the denominator is that row's total: 231/450 ≈ **0.513**
+- **(d) P(stretches ∣ no injury)** — condition on the "No Injury" column, so the denominator is that column's total: 295/514 ≈ **0.574**
+
+Parts (c) and (d) illustrate that P(A∣B) ≠ P(B∣A): each conditions on a different total.
+> Source: Capture3.PNG (problem and table as posed); conditional probability and contingency-table method applied from Probability - Copy.pdf; Addition and Multiplication Rules.html
+
+*(This is a second, count-based version of the stretching-and-injuries scenario. The percentage-based version above, from Probability - Copy.pdf, uses different figures and is a separate problem.)*
+
+### Cirrhosis Among Alcoholic and Non-Alcoholic Patients
+
+A study of 210 patients found that of 75 alcoholic patients, 35 had cirrhosis of the liver, and of 135 non-alcoholic patients, 5 had cirrhosis. Laying this out as a contingency table:
+
+| | Cirrhosis | No Cirrhosis | total |
+|---|---|---|---|
+| **Alcoholic** | 35 | 40 | 75 |
+| **Non-alcoholic** | 5 | 130 | 135 |
+| **total** | 40 | 170 | 210 |
+
+- **(a) P(a non-alcoholic with cirrhosis)** — a joint probability, one cell over the grand total: 5/210 = 1/42 ≈ **0.024**
+- **(b) P(a patient with cirrhosis)** — a marginal probability: 40/210 = 4/21 ≈ **0.190**
+- **(c) P(an alcoholic with cirrhosis)** — a joint probability: 35/210 = 1/6 ≈ **0.167**
+
+All three are read from the table directly. Note that (a) and (c) ask for **joint** probabilities ("an alcoholic *with* cirrhosis", out of all 210 patients), not conditional ones — P(cirrhosis ∣ alcoholic) would instead be 35/75 ≈ 0.467.
+> Source: Capture10.PNG (problem as posed); joint/marginal/conditional distinction applied from Probability - Copy.pdf
+
 ## Common Misconceptions
 
 - **𝑃(𝐴∣𝐵) is not the same as 𝑃(𝐵∣𝐴).** Read carefully which condition comes after the word "given."
   > Source: Addition and Multiplication Rules.html
+- **Reading a joint probability as a conditional one.** "An alcoholic with cirrhosis" divides by the grand total (35/210); "cirrhosis given alcoholic" divides by the alcoholic row total (35/75). The wording determines the denominator.
+  > Source: Capture10.PNG; Probability - Copy.pdf
 - **"Given at least one girl, the other child is a girl with probability ½."** Independence of the two births does not carry over to the conditional question — conditioning removes only the Boy-Boy case, leaving three equally likely cases, so the answer is ⅓.
   > Source: Expected Value, Variance and Standard Deviation.html
 

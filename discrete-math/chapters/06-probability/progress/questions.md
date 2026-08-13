@@ -674,3 +674,306 @@
 **Focus Area:** Single observation vs sample mean
 **Question:** In the elevator problem, why are parts (a) and (b) different — the probability that one male weighs more than 156.25 lb versus the probability that a sample of 16 males has a mean weight greater than 156.25 lb?
 **Answer:** Part (a) uses the distribution of a **single** observation, X ~ N(182.9, 40.8). Part (b) uses the **sampling distribution** of the mean, X̄₁₆, which by the CLT has the same mean (μ_x̄ = 182.9) but a standard deviation reduced by a factor of √n: σ_x̄ = 40.8/√16. The sample mean is far less spread out than a single observation, so the two probabilities differ.
+
+## Q073
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** random-variables-and-distributions
+**Focus Area:** Recovering a missing probability
+**Question:** A random variable X has P(−4) = 0.65, P(2) = ?, P(3) = 0.10 and P(5) = 0.05. Determine the missing value P(X = 2).
+**Answer:** **P(X = 2) = 0.20.** The probabilities of a valid distribution must sum to 1. The known entries total 0.65 + 0.10 + 0.05 = 0.80, so the missing entry is 1 − 0.80 = 0.20.
+
+## Q074
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** expected-value-variance-standard-deviation
+**Focus Area:** Expected value with negative outcomes
+**Question:** For the distribution P(−4) = 0.65, P(2) = 0.20, P(3) = 0.10, P(5) = 0.05, compute the expected value E[X].
+**Answer:** **E[X] = −1.65.** Applying μ = ∑ₓ [x · P(x)]: (−4)(0.65) + (2)(0.20) + (3)(0.10) + (5)(0.05) = −2.60 + 0.40 + 0.30 + 0.25 = −1.65. The heavy 0.65 weight on x = −4 pulls the mean below zero.
+
+## Q075
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** expected-value-variance-standard-deviation
+**Focus Area:** Variance via the shortcut formula
+**Question:** For the distribution P(−4) = 0.65, P(2) = 0.20, P(3) = 0.10, P(5) = 0.05 with E[X] = −1.65, compute Var(X).
+**Answer:** **Var(X) = 10.6275.** Using Var(X) = E[X²] − (E[X])²: E[X²] = 16(0.65) + 4(0.20) + 9(0.10) + 25(0.05) = 10.40 + 0.80 + 0.90 + 1.25 = 13.35. Then Var(X) = 13.35 − (−1.65)² = 13.35 − 2.7225 = 10.6275. (σ = √10.6275 ≈ 3.26.)
+
+## Q076
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** expected-value-variance-standard-deviation
+**Focus Area:** Squaring a negative mean
+**Question:** True or False: When the expected value is negative, the term (E[X])² in the shortcut variance formula is added rather than subtracted.
+**Answer:** **False.** A negative mean squares to a positive number — (−1.65)² = +2.7225 — so it is still subtracted: Var(X) = E[X²] − (E[X])². The sign of the mean never changes the structure of the formula.
+
+## Q077
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** expected-value-variance-standard-deviation
+**Focus Area:** The mean need not be in the spectrum
+**Question:** The distribution P(−4) = 0.65, P(2) = 0.20, P(3) = 0.10, P(5) = 0.05 has E[X] = −1.65, which is not one of the four possible values of X. Is this a problem? What constraint does the mean satisfy?
+**Answer:** No — the mean need not be (and usually isn't) in the spectrum of X. The only constraint is **min x ≤ μ_X ≤ max x**, which holds here since −4 ≤ −1.65 ≤ 5.
+
+## Q078
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Bayes' Theorem — reversing the conditioning
+**Question:** AJ takes the train 70% of the time, otherwise an Uber. He is late 15% of the time when taking the train and 65% of the time when taking an Uber. Given that AJ is late, find the probability he took an Uber.
+**Answer:** **P(U∣L) = 0.65.** By Bayes' Theorem, P(U∣L) = P(L∣U)P(U) / [P(L∣T)P(T) + P(L∣U)P(U)]. The joints are P(L∩U) = 0.65 × 0.30 = 0.195 and P(L∩T) = 0.15 × 0.70 = 0.105, so P(L) = 0.300. Then 0.195/0.300 = 0.65.
+
+## Q079
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Why Bayes is needed
+**Question:** In the AJ commute problem the answer P(U∣L) = 0.65 is numerically the same as the given P(L∣U) = 0.65. Does this mean the two are the same quantity? Explain.
+**Answer:** No — the coincidence is an artefact of these particular numbers. P(L∣U) is the probability of being late given an Uber was taken; P(U∣L) is the probability an Uber was taken given lateness. They condition on different events and have different denominators. Treating P(A∣B) and P(B∣A) as interchangeable is the classic error that Bayes' Theorem exists to correct.
+
+## Q080
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Completing a contingency table
+**Question:** In a survey of 800 athletes: those who stretch had 295 with no injury; those who don't stretch had 231 injuries and total 450. Fill in the four missing entries of the contingency table.
+**Answer:** Stretches total = 800 − 450 = **350**; Stretches/Had Injury = 350 − 295 = **55**; Doesn't Stretch/No Injury = 450 − 231 = **219**; column totals = Had Injury **286** (55 + 231) and No Injury **514** (295 + 219). Check: 286 + 514 = 800.
+
+## Q081
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Conditional probability from a table
+**Question:** Using the completed athletes table (Stretches 55/295/350; Doesn't Stretch 231/219/450; totals 286/514/800), find the probability that an athlete had an injury given that they did not perform stretches.
+**Answer:** **231/450 ≈ 0.513.** Conditioning on "doesn't stretch" restricts the sample space to that row, so the denominator is the row total 450, not the grand total 800.
+
+## Q082
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Direction of conditioning
+**Question:** From the athletes table, P(injury ∣ doesn't stretch) = 231/450 while P(stretches ∣ no injury) = 295/514. Explain why the denominators differ.
+**Answer:** Each conditional probability restricts the sample space to whatever is given. Conditioning on "doesn't stretch" restricts to that **row**, so the denominator is the row total 450. Conditioning on "no injury" restricts to that **column**, so the denominator is the column total 514. The given event always supplies the denominator, which is why P(A∣B) ≠ P(B∣A).
+
+## Q083
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Marginal probability from counts
+**Question:** Of 210 patients, 75 were alcoholic (35 with cirrhosis) and 135 non-alcoholic (5 with cirrhosis). What is the probability that a randomly selected patient has cirrhosis?
+(a) 35/210 (b) 40/210 (c) 35/75 (d) 5/135
+**Answer:** **(b) 40/210 ≈ 0.190.** Total cirrhosis cases are 35 + 5 = 40 across all 210 patients — a marginal probability, so the denominator is the grand total.
+
+## Q084
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** conditional-probability-and-bayes
+**Focus Area:** Joint versus conditional probability
+**Question:** In the 210-patient study, "the probability of an alcoholic with cirrhosis" is 35/210 ≈ 0.167, but P(cirrhosis ∣ alcoholic) is 35/75 ≈ 0.467. What distinguishes the two?
+**Answer:** The first is a **joint** probability — of all 210 patients, how many are both alcoholic and cirrhotic — so the denominator is the grand total. The second is a **conditional** probability, which restricts the sample space to the 75 alcoholic patients, so the denominator is that subgroup. The wording ("an alcoholic with cirrhosis" versus "given that they are alcoholic") determines which denominator applies.
+
+## Q085
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Addition rule with mutually exclusive events
+**Question:** From the Titanic table (Men 332 survived/1360 died; Women 318/104; Boys 29/35; Girls 27/18; 2223 total), find the probability of selecting someone who is a woman or a child.
+**Answer:** **531/2223 ≈ 0.239.** "Woman" and "child" are mutually exclusive — no passenger is both — so P(A∪B) = P(A) + P(B) with no overlap term. Women = 422, children = 64 + 45 = 109, giving (422 + 109)/2223.
+
+## Q086
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Addition rule with overlap
+**Question:** From the same Titanic table, find the probability of selecting a child or someone who survived the sinking.
+**Answer:** **759/2223 ≈ 0.341.** These categories overlap — 29 + 27 = 56 children survived — so the full addition rule applies: P(A∪B) = P(A) + P(B) − P(A∩B) = (109 + 706 − 56)/2223. Omitting the subtraction would double-count the 56 surviving children.
+
+## Q087
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** When to subtract the overlap
+**Question:** In the Titanic problem, "woman or child" needs no overlap subtraction but "child or survived" does. What determines which form of the addition rule you use?
+**Answer:** Whether the two events can occur together. "Woman" and "child" are mutually exclusive categories in that table, so P(A∩B) = 0 and the rule simplifies to P(A) + P(B). "Child" and "survived" can both be true of the same passenger, so P(A∩B) ≠ 0 and the overlap must be subtracted once to avoid double-counting.
+
+## Q088
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** complement-events
+**Focus Area:** Applying the complement rule
+**Question:** When a woman over 25 is randomly selected, there is a 0.218 probability that she has a bachelor's degree. Find the probability that she does not have one.
+**Answer:** **0.782.** By the complement rule P(Aᶜ) = 1 − P(A) = 1 − 0.218 = 0.782.
+
+## Q089
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Identifying dependence
+**Question:** Which of these pairs of consecutive events is **dependent**?
+(a) Picking a black marble and placing it back, then picking another marble
+(b) Picking a black marble and leaving it outside, then picking another marble
+(c) Flipping a coin, then rolling a die
+(d) None of these
+**Answer:** **(b).** Leaving the marble out means the bag's contents change, so the first draw alters the probability of the second — the defining signature of a without-replacement draw. In (a) replacement restores the original state, so the draws are independent.
+
+## Q090
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Why replacement matters
+**Question:** Why does replacing a drawn marble make two consecutive draws independent, while leaving it out makes them dependent?
+**Answer:** Independence means P(B∣A) = P(B) — the first event has no influence on the second. Replacing the marble restores the bag to its original composition, so the second draw faces exactly the same probabilities as the first. Leaving it out changes both the count of that colour and the total, so the second draw's probability depends on what was drawn first.
+
+## Q091
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Multiplication rule with replacement
+**Question:** A biologist has six plants: two vascular (V) and four nonvascular (N). Two are selected **with replacement**. Find the probability that both are nonvascular.
+**Answer:** **4/9 ≈ 0.444.** With replacement the draws are independent, so P(N ∩ N) = P(N) × P(N) = 4/6 × 4/6 = 16/36 = 4/9.
+
+## Q092
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Multiplication rule without replacement
+**Question:** For the same six plants (two vascular, four nonvascular), find the probability both selections are nonvascular when made **without replacement**.
+**Answer:** **2/5 = 0.400.** The draws are dependent, so P(N ∩ N) = P(N) × P(N∣N) = 4/6 × 3/5 = 12/30 = 2/5. It is smaller than the with-replacement answer because removing one nonvascular plant leaves proportionally fewer behind.
+
+## Q093
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Repeated independent trials
+**Question:** In a test of a gender-selection method, 12 couples try to have baby girls. If the method has no effect, what is the probability that all 12 babies will be girls?
+**Answer:** **(0.5)¹² = 1/4096 ≈ 0.000244.** With no effect, each birth is independent with P(girl) = 0.5, so the multiplication rule for independent events gives 0.5 multiplied by itself 12 times. The binomial formula gives the same: ₁₂C₁₂ · (0.5)¹² · (0.5)⁰.
+
+## Q094
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** addition-and-multiplication-rules
+**Focus Area:** Interpreting a very small probability
+**Question:** If all 12 babies in the gender-selection trial are girls, does the method appear to be effective? Justify your answer using the probability you computed.
+**Answer:** Yes. Under the assumption that the method does nothing, the probability of that outcome is about 0.000244 — so small that it would almost never occur by chance. Observing it anyway is evidence against the "no effect" assumption, so the method does appear effective.
+
+## Q095
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** permutations-and-combinations
+**Focus Area:** Counting with repetition
+**Question:** A home alarm code has four digits, each 0 through 9, entered in order. How many codes are possible if each digit can be repeated?
+**Answer:** **10,000.** This is choosing from n distinct objects r times with repetition: nʳ = 10⁴ = 10,000.
+
+## Q096
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** permutations-and-combinations
+**Focus Area:** Counting without repetition
+**Question:** For the same four-digit alarm code, how many are possible if no digit can be repeated?
+**Answer:** **5,040.** Each position has one fewer option: 10 × 9 × 8 × 7 = 5,040. Equivalently P(10,4) = 10!/(10−4)! = 10!/6! = 5,040.
+
+## Q097
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** permutations-and-combinations
+**Focus Area:** Evaluating a factorial
+**Question:** Evaluate 6!.
+**Answer:** **720.** 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.
+
+## Q098
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** permutations-and-combinations
+**Focus Area:** Arranging distinct letters
+**Question:** How many ways can the letters T A I S E R be arranged?
+**Answer:** **720.** All six letters are distinct, so this is a straight permutation of n distinct objects: 6! = 720.
+
+## Q099
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** permutations-and-combinations
+**Focus Area:** Permutations with repeated letters
+**Question:** Find the number of arrangements of the letters T T I R R R O G H E.
+**Answer:** **302,400.** There are 10 letters with T appearing twice and R three times, so unique arrangements = 10!/(2! × 3!) = 3,628,800/12 = 302,400. Dividing by 2! and 3! removes rearrangements of the identical letters among themselves.
+
+## Q100
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** permutations-and-combinations
+**Focus Area:** Lottery odds when order matters
+**Question:** In a lottery you select six numbers from 1 to 42 and win only if your numbers come up in the correct order. What is the probability of winning?
+**Answer:** **1/3,776,965,920.** Order matters with no repetition, so the count is a permutation: ₄₂P₆ = 42 × 41 × 40 × 39 × 38 × 37 = 3,776,965,920. Exactly one arrangement wins.
+
+## Q101
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** permutations-and-combinations
+**Focus Area:** Lottery odds when order does not matter
+**Question:** For the same lottery, you now win if you choose the right six numbers regardless of order. What is the probability of winning?
+**Answer:** **1/5,245,786.** Order no longer matters, so the count is a combination: ₄₂C₆ = ₄₂P₆/6! = 3,776,965,920/720 = 5,245,786.
+
+## Q102
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** permutations-and-combinations
+**Focus Area:** Why the r! divisor appears
+**Question:** Dropping the order requirement in the 6-from-42 lottery improves your odds by a factor of exactly 720. Where does that number come from?
+**Answer:** 720 = 6!, the number of ways a single set of six chosen numbers can be arranged. When order matters each of those 720 orderings is a distinct losing-or-winning outcome; when order doesn't matter they all collapse into one selection. That collapse is precisely what the r! in the denominator of C(n, r) = n!/[r!(n−r)!] accounts for.
+
+## Q103
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** permutations-and-combinations
+**Focus Area:** Combinations used to test a claim
+**Question:** A company cut its sales staff from 32 to 28, claiming the four terminated employees were randomly selected — but the four chosen were the four oldest. Find the probability that a random selection would produce this result, and say what it implies.
+**Answer:** **1/35,960 ≈ 0.0000278.** Order doesn't matter in choosing a group of four, so the number of possible groups is ₃₂C₄ = (32 × 31 × 30 × 29)/(4 × 3 × 2 × 1) = 863,040/24 = 35,960. Exactly one of those groups is the four oldest. A probability that small means the outcome would almost never arise by chance, which is evidence against the company's claim of random selection.
+
+## Q104
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** introduction-to-probability
+**Focus Area:** Classical probability with a certain event
+**Question:** If a person is randomly selected, what is the probability that they were born on a day of the week that ends with the letter "y"?
+(a) 1/7 (b) 2/7 (c) 5/7 (d) 1
+**Answer:** **(d) 1.** All seven days of the week end in "y", so all outcomes are favourable: 7/7 = 1. This is a sure event.
+
+## Q105
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** permutations-and-combinations
+**Focus Area:** Choosing between permutation and combination
+**Question:** The alarm-code problem uses a permutation while the staff-termination problem uses a combination, yet both select a fixed number of items from a larger set. What single test tells you which to use?
+**Answer:** Ask whether swapping two selected items creates a different outcome. For an alarm code, 1234 and 4321 are different codes, so order matters → permutation. For a group of four employees to terminate, picking them in any order yields the same group, so order is irrelevant → combination.

@@ -145,10 +145,68 @@ You can always tell which to use by asking: **would swapping two items create a 
 - **Cybersecurity audit teams:** 12 analysts, select 3 for a special audit. C(12,3) = **220** unique teams.
   > Source: Permutations and Combinations.html/practice/config-1763408135740.practice.json
 
+## Worksheet Problems
+
+These problems are posed in the worksheet screenshot without solutions. The workings below apply the counting rules stated above. (The source numbers two separate items as "6"; they are distinguished here by name.)
+
+### Home Alarm Codes — Repetition vs. No Repetition
+
+A home alarm code consists of four digits, each 0 through 9, entered in the correct order. How many codes are possible if:
+
+- **(a) Each digit can be repeated.** This is Case 1 — choosing from n distinct objects r times *with* repetition: nʳ = 10⁴ = **10,000** codes.
+- **(b) No digit can be repeated.** Each position has one fewer option than the last: 10 × 9 × 8 × 7 = **5,040** codes. By the permutation formula, P(10,4) = 10!/(10−4)! = 10!/6! = 5,040.
+
+Barring repetition cuts the code space roughly in half, which is why the "no repeated digits" habit weakens a PIN rather than strengthening it.
+> Source: Capture11.PNG (problem as posed); Case 1 from Combinatorics useful tips.pdf; permutation formula from Permutations and Combinations.html
+
+### Evaluate 6!
+
+6! = 6 × 5 × 4 × 3 × 2 × 1 = **720**.
+> Source: Capture11.PNG (problem as posed); factorial value stated in Permutations and Combinations.html
+
+### Jumble — TAISER
+
+How many ways can the letters T A I S E R be arranged? All six letters are distinct, so this is Case 2 — permuting n distinct objects: 6! = **720** arrangements.
+> Source: Capture11.PNG (problem as posed); Case 2 from Combinatorics useful tips.pdf
+
+### Jumble — TTIRRROGHE
+
+Find the number of arrangements of the letters T T I R R R O G H E. There are 10 letters in total, but they are not all distinct: **T** appears twice and **R** appears three times (I, O, G, H, E appear once each). Using the formula for permutations with identical items:
+
+**n! / (n₁! × n₂! × …) = 10! / (2! × 3!) = 3,628,800 / 12 = 302,400** arrangements.
+
+Dividing by 2! and 3! removes the rearrangements of the identical T's and R's among themselves, which do not produce new visible words.
+> Source: Capture11.PNG (problem as posed); repeated-items formula from Permutations and Combinations.html
+
+### Lottery — Order Matters vs. Order Doesn't
+
+In a lottery you select six numbers from 1 to 42.
+
+- **Winning requires the correct order.** Order matters and there is no repetition, so this is a permutation — Case 3: ₄₂P₆ = 42!/(42−6)! = 42 × 41 × 40 × 39 × 38 × 37 = 3,776,965,920. Exactly one arrangement wins, so **P(win) = 1/3,776,965,920**.
+- **Winning requires the right six numbers regardless of order.** Order no longer matters, so this is a combination — Case 4: ₄₂C₆ = ₄₂P₆ / 6! = 3,776,965,920 / 720 = 5,245,786. So **P(win) = 1/5,245,786**.
+
+Dropping the order requirement improves the odds by a factor of exactly 6! = 720, because each winning set of six numbers can be drawn in 720 different orders. This is the clearest illustration of the r! in the combination formula: it collapses all the orderings of the same selection into one.
+> Source: Capture11.PNG (problem as posed); Cases 3 and 4 from Combinatorics useful tips.pdf; combination formula from Permutations and Combinations.html
+
+### Pitt Software — Was the Selection Random?
+
+The Pitt Software Company reduced its sales staff from 32 employees to 28, claiming the four terminated employees were randomly selected. However, the four chosen were the four oldest among the original 32. Find the probability that this selection was random.
+
+Order does not matter in choosing a group of four to terminate, so the number of possible groups is a combination:
+
+**₃₂C₄ = 32! / [4!(32−4)!] = (32 × 31 × 30 × 29) / (4 × 3 × 2 × 1) = 863,040 / 24 = 35,960**
+
+Exactly one of those 35,960 groups consists of the four oldest employees, so **P = 1/35,960 ≈ 0.0000278**.
+
+A probability this small means that if the selection really were random, this outcome would almost never occur — which is evidence against the company's claim.
+> Source: Capture11.PNG (problem as posed); combination formula from Permutations and Combinations.html; Case 4 from Combinatorics useful tips.pdf
+
 ## Common Misconceptions
 
 - **"Independent choices should be added."** For the 4 browsers × 3 roles × 2 operating systems problem, these are independent choices, not alternatives — multiply them, don't add them.
   > Source: Permutations and Combinations.html/practice/config-1763407986891.practice.json
+- **Forgetting to divide out repeated letters.** Treating TTIRRROGHE as ten distinct letters gives 10! = 3,628,800, twelve times too many. Identical letters must be divided out by 2! × 3!.
+  > Source: Capture11.PNG; Permutations and Combinations.html
 - **Using permutations when order doesn't matter.** If the same three people form one team no matter who's picked first, use combinations, not permutations.
   > Source: Permutations and Combinations.html/practice/config-1763408135740.practice.json
 

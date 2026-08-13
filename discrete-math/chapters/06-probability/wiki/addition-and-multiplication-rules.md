@@ -121,6 +121,61 @@ This form is especially useful when you know the joint probability and want to f
 - **Adding disjoint die faces:** P({1 or 2}) = 1/6 + 1/6 = 2/6 = 1/3. P({1 or 2 or 3}) = 3/6 = 1/2. P({1 or 2 or 3 or 4}) = 4/6 = 2/3, which also equals 2/6 + 3/6 − 1/6.
   > Source: Probability - Copy.pdf
 
+## Worksheet Problems
+
+These problems are posed in the worksheet screenshots without solutions. The workings below apply the rules stated above; only problems the rules settle unambiguously are worked through.
+
+### Titanic — "Or" with and without Overlap
+
+The table summarises results from the sinking of the Titanic:
+
+| | Men | Women | Boys | Girls | total |
+|---|---|---|---|---|---|
+| **Survived** | 332 | 318 | 29 | 27 | 706 |
+| **Died** | 1360 | 104 | 35 | 18 | 1517 |
+| **total** | 1692 | 422 | 64 | 45 | 2223 |
+
+- **(a) P(woman or child).** "Woman" and "child" (boys + girls) are **mutually exclusive** categories — no passenger is both — so the addition rule reduces to P(A∪B) = P(A) + P(B). Women = 422, children = 64 + 45 = 109, giving (422 + 109)/2223 = 531/2223 ≈ **0.239**.
+- **(b) P(child or survived).** These categories **overlap** — 29 + 27 = 56 children survived — so the full addition rule is needed: P(A∪B) = P(A) + P(B) − P(A∩B) = (109 + 706 − 56)/2223 = 759/2223 ≈ **0.341**.
+
+The contrast between (a) and (b) is the point of the problem: only (b) requires subtracting the overlap.
+> Source: Capture5.PNG (problem and table as posed); addition rule applied from Addition and Multiplication Rules.html
+
+### Dependent or Independent?
+
+Determine whether each pair of consecutive events is dependent or independent:
+
+- (a) Randomly selecting a Toonie made before 2001; randomly selecting a second Toonie made before 2001.
+- (b) Randomly selecting a TV viewer who is watching *Dr. Phil*; randomly selecting a second TV viewer who is watching *Dr. Phil*.
+- (c) Wearing plaid shorts with black socks and sandals; asking someone on a date and getting a positive response.
+- (d) Randomly picking a black marble from a bag of black and white marbles and **leaving it outside**; randomly picking another black marble from the bag.
+- (e) Randomly picking a black marble from a bag of black and white marbles and **placing it back inside** the bag; randomly picking another black marble from the bag.
+
+Parts (d) and (e) are settled directly by the rules above: **(d) is dependent** — the marble is not replaced, so the first draw changes the contents of the bag and therefore the probability of the second, which is the defining signature of a without-replacement draw. **(e) is independent** — replacing the marble restores the bag to its original state, so the first draw has no influence on the second and P(B∣A) = P(B).
+> Source: Capture7.PNG (problem as posed); dependence/independence criteria from Addition and Multiplication Rules.html
+
+Parts (a), (b) and (c) are recorded as posed. The source states no answer for them, and settling them requires information the wiki does not supply — for (a) and (b), the size of the population being sampled relative to the sample (the binomial notes give a rule of thumb, n < 0.05 N, for when a without-replacement draw may be *treated* as independent); for (c), whether the two events influence one another at all.
+> Source: Capture7.PNG; rule of thumb from Discrete Random Variables - Copy.pdf
+
+### Vascular and Nonvascular Plants — With and Without Replacement
+
+A biologist has six plants: two *vascular* (**V**) and four *nonvascular* (**N**), coded V V N N N N. She selects two at random. Find the probability that the first selected plant is nonvascular **and** the second is also nonvascular.
+
+- **(a) With replacement — independent.** The first plant goes back, so the pool is unchanged: P(N ∩ N) = P(N) × P(N) = 4/6 × 4/6 = 16/36 = 4/9 ≈ **0.444**.
+- **(b) Without replacement — dependent.** After one nonvascular plant is removed, 5 plants remain of which 3 are nonvascular: P(N ∩ N) = P(N) × P(N∣N) = 4/6 × 3/5 = 12/30 = 2/5 = **0.400**.
+
+The without-replacement probability is smaller because removing a nonvascular plant leaves proportionally fewer of them behind.
+> Source: Capture8.PNG (problem as posed); multiplication rule applied from Addition and Multiplication Rules.html
+
+### Gender-Selection Method — Twelve Girls in Twelve Births
+
+In a test of a gender-selection method, 12 couples try to have baby girls. If the method has **no effect**, what is the probability that all 12 babies will be girls? If 12 girls do occur among 12 children, does the method appear to be effective?
+
+Under "no effect," each birth is independent with P(girl) = 0.5, so the multiplication rule for independent events gives P = (0.5)¹² = 1/4096 ≈ **0.000244**. (The binomial formula gives the same result: ₁₂C₁₂ · (0.5)¹² · (0.5)⁰ = 1 × 1/4096.)
+
+Because that probability is extremely small, observing all 12 girls would be a highly unlikely result under the assumption that the method does nothing — which is evidence that the method **does** appear to be effective.
+> Source: Capture9.PNG (problem as posed); multiplication rule from Addition and Multiplication Rules.html; binomial formula from Discrete Random Variables - Copy.pdf
+
 ## The Monty Hall Problem
 
 The Monty Hall problem is a famous puzzle from the TV game show *Let's Make a Deal*. **The setup:** you're on a game show with three doors — behind one is a car (the prize), behind the other two are goats. You pick one door. The host, Monty Hall, who knows what's behind each door, opens one of the other two doors, always revealing a goat. Then he gives you a choice: **stay** with your original door, or **switch** to the remaining closed door.

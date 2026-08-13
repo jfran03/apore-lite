@@ -102,10 +102,35 @@ The lecture notes use a rule-of-thumb range for what counts as a usual value:
 - **Comparing two algorithms:** Two algorithms both average 10 ms. Algorithm A has σ = 0.2 ms, Algorithm B has σ = 3.5 ms. **Algorithm A is more predictable because its standard deviation is smaller** — a smaller standard deviation means results stay close to the mean, so A's times vary very little.
   > Source: Expected Value, Variance and Standard Deviation.html/practice/config-1763423722051.practice.json
 
+### Worksheet Problem — A Distribution with Negative Values
+
+For the random variable X with the distribution below — where the missing entry P(X = 2) = 0.20 is recovered in [Random Variables and Probability Distributions](random-variables-and-distributions.md) from the condition ∑P(x) = 1 — compute the expected value and the variance.
+
+| X | −4 | 2 | 3 | 5 |
+|---|---|---|---|---|
+| **P(X)** | 0.65 | 0.20 | 0.10 | 0.05 |
+
+**(b) Expected value.** Applying μ = E[X] = ∑ₓ [x · P(x)]:
+
+E[X] = (−4)(0.65) + (2)(0.20) + (3)(0.10) + (5)(0.05) = −2.60 + 0.40 + 0.30 + 0.25 = **−1.65**
+
+Note that the mean is negative and is not one of the four possible values of X — consistent with the rule that the mean need not lie in the spectrum of X, though it does satisfy min x ≤ μ ≤ max x (−4 ≤ −1.65 ≤ 5). The heavy 0.65 weight on x = −4 is what pulls the mean below zero.
+
+**(c) Variance.** Using the shortcut formula Var(X) = E[X²] − (E[X])²:
+
+E[X²] = (−4)²(0.65) + (2)²(0.20) + (3)²(0.10) + (5)²(0.05) = 10.40 + 0.80 + 0.90 + 1.25 = **13.35**
+
+Var(X) = 13.35 − (−1.65)² = 13.35 − 2.7225 = **10.6275**
+
+The squaring of the mean is what makes the negative sign harmless here: (−1.65)² = +2.7225, so the negative mean is subtracted as a positive quantity. Taking the square root gives σ = √10.6275 ≈ **3.26**. The definition formula ∑(x − μ)²P(x) gives the same 10.6275, as it must.
+> Source: Capture.PNG (problem and table as posed); expected-value, shortcut variance and spectrum rules applied from Expected Value, Variance and Standard Deviation.html; Discrete Random Variables - Copy.pdf
+
 ## Common Misconceptions
 
 - **"The expected value is a likely outcome."** It isn't — the expected value is the average of all possible outcomes, weighted by their probabilities. You'll never roll a 3.5 on a die.
   > Source: Expected Value, Variance and Standard Deviation.html/practice/config-1763423476164.practice.json
+- **Losing the sign when squaring a negative mean.** In Var(X) = E[X²] − (E[X])², a negative expected value squares to a positive number — (−1.65)² = 2.7225, not −2.7225 — so it is still subtracted, never added.
+  > Source: Capture.PNG; Expected Value, Variance and Standard Deviation.html
 - **"A larger standard deviation means more predictable."** The opposite — a larger standard deviation indicates greater variation, so run times fluctuate more and are less predictable.
   > Source: Expected Value, Variance and Standard Deviation.html/practice/config-1763423722051.practice.json
 - **"Two processes with the same mean are equally predictable."** The mean describes the central value, not the spread. Two processes can share the same mean but differ drastically in variability.

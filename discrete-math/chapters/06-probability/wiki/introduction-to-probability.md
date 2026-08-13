@@ -111,7 +111,9 @@ Probabilities are first assigned to **simple events**, then combined to determin
 - **Coarse graining an unfair coin:** Consider a coin twice as heavy on the head side. We can simulate that with a *three*-sided coin, all equally weighted, labelling two sides H and one side T. Then P(H) = 1/3 + 1/3 = 2/3 and P(T) = 1/3.
   > Source: Probability - Copy.pdf
 - **Birthday-date probabilities:** For a randomly selected person (ignoring leap years): (a) P(birthday is October 18) = 1/365; (b) P(birthday is in October) = 31/365; (c) P(born on a day of the week ending with the letter "y") = 7/7 = 1, because all seven days of the week end in "y".
-  > Source: Probability - Copy.pdf
+  > Source: Probability - Copy.pdf; Capture4.PNG
+  >
+  > *(Capture4.PNG restates this as worksheet exercise 1(a)–(c) with no solution given; the worked values above come from Probability - Copy.pdf.)*
 - **The Sleeping Beauty problem** is given as an example of the subtleties and difficulties in assigning probabilities: depending on how the question is framed, P(T | sleeping beauty wakes up) is either 1/2 or 1/3.
   > Source: Probability - Copy.pdf
 
