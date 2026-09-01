@@ -16,6 +16,7 @@ Claude AI chat is the runtime. The folder structure is the architecture.
 |--------|--------|----------|
 | Discrete Math | `discrete-math/` | 6 |
 | Algoverse | `algoverse/` | 1 |
+| calculus275 | `calculus275/` | 1 |
 
 ---
 
