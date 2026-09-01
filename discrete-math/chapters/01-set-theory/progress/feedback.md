@@ -13,6 +13,34 @@
 
 ---
 
+## 2026-05-21
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** focused weakness session — all former hard/ok questions cleared to easy
+
+---
+
+## 2026-05-22
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** —
+
+---
+
+## 2026-05-25
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** some questions spell out the answer (e.g. Q035 with explicit identity) — avoid this; questions should require deriving the answer. Session 2: intermediate/advanced with hard+gap topics mixed in — difficulty level appropriate
+
+---
+
+## 2026-05-26
+**Difficulty feel:** about right
+**Coverage gaps:** —
+**Style notes:** good session; intermediate/hard mix with careless mistakes on computation and reading comprehension (strictly between, disjoint check, proper subset symbol). Focus area: large set operations need careful element tracking.
+
+---
+
 <!-- Feedback entry format (do not delete this comment):
 
 ## {YYYY-MM-DD}
