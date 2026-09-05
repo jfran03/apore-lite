@@ -13,7 +13,7 @@ rigorous — precise and proof-aware. State hypotheses explicitly and check that
 
 | # | Title | Folder | Compile Status |
 |---|-------|--------|----------------|
-| 01 | _Untitled_ (Limits) | `chapters/01-untitled/` | compiled 2026-09-01 |
+| 01 | Limits | `chapters/01-limits/` | compiled 2026-09-01 |
 
 ---
 
