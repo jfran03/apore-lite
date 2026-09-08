@@ -206,3 +206,21 @@
 **Focus Area:** sign pattern among trig derivatives
 **Question:** Among tan, cot, sec, and csc, which derivatives carry a negative sign? (a) tan and sec  (b) cot and csc  (c) sec and csc  (d) none of them
 **Answer:** (b) cot and csc: (cot x)' = -csc²x and (csc x)' = -csc x cot x, while (tan x)' = sec²x and (sec x)' = sec x tan x are both positive. (see `trig-derivatives.md`)
+
+## Q022
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** chain rule conditions — where g must be differentiable (targeted follow-up to Q017)
+**Question:** Suppose h(x) = g(f(x)). For the chain rule to apply at x = a, which of the following must be true? (a) g must be differentiable at a  (b) g must be differentiable at f(a)  (c) g must be differentiable at g(a)  (d) g must be continuous at a, but need not be differentiable anywhere
+**Answer:** (b) g must be differentiable at f(a). The chain rule requires g to be differentiable at f(x), and f to be differentiable at x. (see `derivative-rules.md`)
+
+## Q023
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** chain rule conditions — failure case when g fails at f(x) (targeted follow-up to Q017)
+**Question:** Suppose f is differentiable at x = 3 with f(3) = 7, and g is differentiable at x = 3 but NOT at x = 7. Does the chain rule guarantee that (g∘f)'(3) exists? Explain.
+**Answer:** No. The chain rule requires g to be differentiable at f(3) = 7, not at x = 3. Since g is not differentiable at 7, this condition fails, so the chain rule cannot guarantee (g∘f)'(3) exists. (see `derivative-rules.md`)
