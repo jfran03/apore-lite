@@ -377,3 +377,66 @@
 **Focus Area:** chain rule conditions — failure case when g fails at f(x) (targeted follow-up to Q017)
 **Question:** Suppose f is differentiable at x = 3 with f(3) = 7, and g is differentiable at x = 3 but NOT at x = 7. Does the chain rule guarantee that (g∘f)'(3) exists? Explain.
 **Answer:** No. The chain rule requires g to be differentiable at f(3) = 7, not at x = 3. Since g is not differentiable at 7, this condition fails, so the chain rule cannot guarantee (g∘f)'(3) exists. (see `derivative-rules.md`)
+
+## Q041
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** first-principle-derivative
+**Focus Area:** local linear approximation (targeted follow-up to Q022)
+**Question:** Using the local linear approximation formula f(a+h) ≈ f(a) + f'(a)h, and given that for f(x) = ∛x, f(1) = 1 and f'(1) = 1/3, estimate f(1.03). Is this an exact value or an approximation, and why?
+**Answer:** f(1.03) ≈ f(1) + f'(1)(0.03) = 1 + (1/3)(0.03) = 1.01. This is an approximation, not exact — the tangent line is only a first-order local model and omits higher-order terms in h, analogous to how (1+h)² ≈ 1+2h omits h². (see `first-principle-derivative.md`)
+
+## Q042
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** differentiability-and-continuity
+**Focus Area:** finite vs infinite one-sided derivatives (targeted follow-up to Q024)
+**Question:** For f(x) = ∛x at a = 0, both one-sided difference quotients approach +∞. Do f'_-(0) and f'_+(0) "exist" in the sense required for f'(0) to exist? Explain using the definition of one-sided derivatives.
+**Answer:** No. Although the one-sided quotients agree in direction (+∞), a derivative must exist as a finite number — "equals +∞" means the limit diverges rather than settling on a real number. Since f'_-(0) and f'_+(0) do not exist as finite numbers, f'(0) does not exist, even though the one-sided behavior "matches." (see `differentiability-and-continuity.md`, `nondifferentiability.md`)
+
+## Q043
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** differentiability-and-continuity
+**Focus Area:** endpoint one-sided derivatives (targeted follow-up to Q026)
+**Question:** Suppose f is defined on [0, 5]. At x = 0, only f'_+(0) can be computed from within the domain. If f'_+(0) exists and equals 3, can we say f'(0) = 3? Explain.
+**Answer:** No. At an endpoint we can only ask for the one-sided derivative from within the domain — this is not a two-sided derivative. Even though f'_+(0) = 3 exists, f'(0) as a two-sided derivative is not defined here since there's no domain to the left of 0 to compute f'_-(0). (see `differentiability-and-continuity.md`)
+
+## Q044
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** first-principle-derivative
+**Focus Area:** first-order local model, meaning of terms (targeted follow-up to Q041)
+**Question:** In the local linear approximation f(a+h) ≈ f(a) + f'(a)h, why is this called a "first-order" model, and why does the wiki call it "local" rather than a global description of f?
+**Answer:** It is "first-order" because it only keeps the term with h to the first power (f'(a)h), omitting higher-order terms like h². It is "local" because the approximation is only reliable for small h near a — as h grows, the omitted higher-order terms (e.g. h² in the (1+h)² example) grow and the approximation degrades. (see `first-principle-derivative.md`)
+
+## Q045
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** exponential-logarithmic-derivatives
+**Focus Area:** reading prime notation for derivatives (targeted follow-up to Q012)
+**Question:** (log_a x)' means: (a) log_a x multiplied by x  (b) the derivative of log_a x  (c) log_a(x) raised to a power  (d) log_a of x'
+**Answer:** (b) the derivative of log_a x. The prime symbol (') denotes differentiation, not multiplication or exponentiation — (log_a x)' = 1/(x ln a). (see `exponential-logarithmic-derivatives.md`)
+
+## Q046
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-of-inverse-functions
+**Focus Area:** locating a = f⁻¹(b) before applying the formula (targeted follow-up to Q031)
+**Question:** Let f(x) = x⁵ + 2x, which is strictly increasing and has an inverse g = f⁻¹. Find g'(3) by first identifying the input a with f(a) = 3.
+**Answer:** f(1) = 1⁵ + 2(1) = 3, so a = 1 and g(3) = 1. f'(x) = 5x⁴ + 2, so f'(1) = 7 ≠ 0. Therefore g'(3) = 1/f'(1) = 1/7. (see `derivative-of-inverse-functions.md`)
+
+## Q047
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** tangent-line-problems
+**Focus Area:** tangent parallel to a given line, different function (targeted follow-up to Q037)
+**Question:** Find all points on h(x) = x³ - 12x whose tangent line is parallel to y = 15x + 1.
+**Answer:** Need h'(x) = 15: 3x² - 12 = 15 gives 3x² = 27, x² = 9, x = ±3. Since h(3) = 27-36 = -9 and h(-3) = -27+36 = 9, the points are (3,-9) and (-3,9). (see `tangent-line-problems.md`)
