@@ -359,3 +359,21 @@
 **Focus Area:** tangent perpendicular to a given line
 **Question:** Find every point on f(x) = 2x³ - 4x where the tangent is perpendicular to y = -½x + 3.
 **Answer:** The required tangent slope is the negative reciprocal of -½, which is 2. Since f'(x) = 6x²-4 = 2, x = ±1, giving points (1,-2) and (-1,2). (see `tangent-line-problems.md`)
+
+## Q039
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** chain rule conditions — where g must be differentiable (targeted follow-up to Q017)
+**Question:** Suppose h(x) = g(f(x)). For the chain rule to apply at x = a, which of the following must be true? (a) g must be differentiable at a  (b) g must be differentiable at f(a)  (c) g must be differentiable at g(a)  (d) g must be continuous at a, but need not be differentiable anywhere
+**Answer:** (b) g must be differentiable at f(a). The chain rule requires g to be differentiable at f(x), and f to be differentiable at x. (see `derivative-rules.md`)
+
+## Q040
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** chain rule conditions — failure case when g fails at f(x) (targeted follow-up to Q017)
+**Question:** Suppose f is differentiable at x = 3 with f(3) = 7, and g is differentiable at x = 3 but NOT at x = 7. Does the chain rule guarantee that (g∘f)'(3) exists? Explain.
+**Answer:** No. The chain rule requires g to be differentiable at f(3) = 7, not at x = 3. Since g is not differentiable at 7, this condition fails, so the chain rule cannot guarantee (g∘f)'(3) exists. (see `derivative-rules.md`)
