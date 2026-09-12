@@ -14,7 +14,7 @@ rigorous — precise and proof-aware. State hypotheses explicitly and check that
 | # | Title | Folder | Compile Status |
 |---|-------|--------|----------------|
 | 01 | Limits | `chapters/01-limits/` | compiled 2026-09-01 |
-| 02 | Derivatives | `chapters/02-derivatives/` | compiled 2026-09-06 |
+| 02 | Derivatives | `chapters/02-derivatives/` | compiled 2026-09-11 |
 
 ---
 

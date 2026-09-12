@@ -2,13 +2,14 @@
 
 **Domain:** calculus275
 **Topics:** Derivatives, first principle (limit definition), known differentiation rules, trig derivatives
-**Compile Status:** compiled 2026-09-06
+**Compile Status:** compiled 2026-09-11
 
 ## Sources Ingested
 
 | File | Date Ingested |
 |------|--------------|
 | Week 1 Video - Tangent Lines, the Derivative and its Basic Laws.pdf | 2026-09-06 |
+| MATH275-Week02-Lecture-Notes.pdf | 2026-09-11 |
 
 ## Topics Covered
 
@@ -17,6 +18,9 @@
 - derivative-rules
 - exponential-logarithmic-derivatives
 - trig-derivatives
+- derivative-of-inverse-functions
+- nondifferentiability
+- tangent-line-problems
 
 ---
 

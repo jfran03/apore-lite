@@ -206,3 +206,156 @@
 **Focus Area:** sign pattern among trig derivatives
 **Question:** Among tan, cot, sec, and csc, which derivatives carry a negative sign? (a) tan and sec  (b) cot and csc  (c) sec and csc  (d) none of them
 **Answer:** (b) cot and csc: (cot x)' = -csc²x and (csc x)' = -csc x cot x, while (tan x)' = sec²x and (sec x)' = sec x tan x are both positive. (see `trig-derivatives.md`)
+
+## Q022
+**Status:** active
+**Type:** conceptual
+**Difficulty:** introductory
+**Topic:** first-principle-derivative
+**Focus Area:** local linear approximation
+**Question:** What does it mean for the tangent line to be a "first-order local model" of f near x = a? Illustrate with f(x) = x² at a = 1 and h = 0.01.
+**Answer:** For small h, f(a+h) ≈ f(a) + f'(a)h. For f(x) = x² at a = 1, f(1) = 1 and f'(1) = 2, so (1+h)² ≈ 1 + 2h; this omits the small quadratic term h². At h = 0.01, the approximation gives 1.02 while the exact value is 1.0201. (see `first-principle-derivative.md`)
+
+## Q023
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** first-principle-derivative
+**Focus Area:** first-principles derivative of a cube root
+**Question:** Using the limit definition and the difference-of-cubes identity A³-B³ = (A-B)(A²+AB+B²), find f'(1) for f(x) = ∛x.
+**Answer:** With A = ∛(1+h), B = 1: f'(1) = lim_{h→0} [∛(1+h) - 1]/h = lim_{h→0} 1/[∛(1+h)² + ∛(1+h) + 1] = 1/3. (see `first-principle-derivative.md`)
+
+## Q024
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** differentiability-and-continuity
+**Focus Area:** one-sided derivatives
+**Question:** Define f'_-(a) and f'_+(a), and state the condition under which f'(a) exists at an interior point a.
+**Answer:** f'_-(a) = lim_{h→0-} [f(a+h)-f(a)]/h and f'_+(a) = lim_{h→0+} [f(a+h)-f(a)]/h. At an interior point, f'(a) exists exactly when both one-sided derivatives exist as finite numbers and are equal. (see `differentiability-and-continuity.md`)
+
+## Q025
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** differentiability-and-continuity
+**Focus Area:** proof that differentiability implies continuity
+**Question:** Prove that if f'(a) exists as a finite number, then f is continuous at a.
+**Answer:** For h ≠ 0, f(a+h) - f(a) = h · [f(a+h)-f(a)]/h. As h → 0, the right side → 0 · f'(a) = 0, so f(a+h) → f(a), which is continuity at a. (see `differentiability-and-continuity.md`)
+
+## Q026
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** differentiability-and-continuity
+**Focus Area:** endpoint one-sided derivatives
+**Question:** True or false: at an endpoint of an interval, the one-sided derivative from within the domain counts as a full two-sided derivative.
+**Answer:** False. At an endpoint we can only ask for the one-sided derivative from within the domain; this is not a two-sided derivative. (see `differentiability-and-continuity.md`)
+
+## Q027
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** derivative-rules
+**Focus Area:** proof of the product rule
+**Question:** Starting from the limit definition, explain why the product rule (fg)'(a) produces two terms rather than one.
+**Answer:** Adding and subtracting f(a+h)g(a): [f(a+h)g(a+h)-f(a)g(a)]/h = f(a+h)·[g(a+h)-g(a)]/h + g(a)·[f(a+h)-f(a)]/h. Since differentiability implies continuity, f(a+h)→f(a), so taking limits gives (fg)'(a) = f(a)g'(a) + g(a)f'(a) — two terms because both factors change. (see `derivative-rules.md`)
+
+## Q028
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** derivative-rules
+**Focus Area:** nested chain rule, tracking inputs of an unknown function
+**Question:** Suppose f(1) = 2 and f'(1) = -3. If G(x) = f(x²-3) and H(x) = tan(πf(x)), find G'(2) and H'(1).
+**Answer:** G'(2) = f'(2²-3)·2(2) = f'(1)·4 = -12. H'(x) = sec²(πf(x))·πf'(x), so H'(1) = sec²(2π)·π(-3) = -3π (since sec²(2π) = 1). (see `derivative-rules.md`)
+
+## Q029
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** derivative-rules
+**Focus Area:** nested exponential/trig chain rule
+**Question:** Find y' for y = e^(-csc²x).
+**Answer:** The layers are x ↦ csc x ↦ -(csc x)² ↦ e^(-(csc x)²). d/dx(-csc²x) = -2csc x(-csc x cot x) = 2csc²x cot x, so y' = 2csc²x cot x · e^(-csc²x). (see `derivative-rules.md`)
+
+## Q030
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** derivative-of-inverse-functions
+**Focus Area:** inverse function derivative formula and its hypotheses
+**Question:** State the formula for (f⁻¹)'(b), and explain the hypotheses under which it is valid.
+**Answer:** (f⁻¹)'(b) = 1/f'(a) = 1/f'(f⁻¹(b)), where b = f(a). It requires f to be differentiable and strictly monotone on an open interval containing a, and f'(a) ≠ 0 — the formula does not apply if f'(a) = 0. (see `derivative-of-inverse-functions.md`)
+
+## Q031
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-of-inverse-functions
+**Focus Area:** applying the inverse derivative formula without solving for the inverse
+**Question:** Let f(x) = x³ + x, which has an inverse g = f⁻¹. Find g'(2) without finding a formula for g.
+**Answer:** f(1) = 2, so g(2) = 1. f'(x) = 3x² + 1, so f'(1) = 4 ≠ 0, and g'(2) = 1/f'(1) = 1/4. (see `derivative-of-inverse-functions.md`)
+
+## Q032
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** derivative-of-inverse-functions
+**Focus Area:** deriving the arctan derivative
+**Question:** Using the inverse function derivative rule, derive (arctan x)' = 1/(1+x²).
+**Answer:** On (-π/2, π/2), tan is differentiable and strictly increasing with inverse arctan. If y = tan x, then sec²x = 1+tan²x = 1+y². So d/dy arctan y = 1/sec²x = 1/(1+y²); renaming the variable gives (arctan x)' = 1/(1+x²). (see `derivative-of-inverse-functions.md`)
+
+## Q033
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** nondifferentiability
+**Focus Area:** distinguishing corner, cusp, and vertical tangent
+**Question:** At a point where the one-sided difference quotients are both +∞ (matching infinite slopes), the graph has a: (a) corner  (b) cusp  (c) vertical tangent  (d) jump discontinuity
+**Answer:** (c) vertical tangent, modeled by f(x) = ∛x. A corner has finite unequal one-sided slopes (e.g. |x|); a cusp has opposite-signed infinite slopes (e.g. |x|^(2/3)). (see `nondifferentiability.md`)
+
+## Q034
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** nondifferentiability
+**Focus Area:** differentiability despite an absolute value
+**Question:** Show that q(x) = x|x| is differentiable at x = 0, and give q'(x).
+**Answer:** q(x) = x² for x≥0 and -x² for x<0. At 0, using the definition, q'(0) = lim_{h→0} (h|h|-0)/h = lim_{h→0} |h| = 0. So q is differentiable everywhere with q'(x) = 2|x|. (see `nondifferentiability.md`)
+
+## Q035
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** nondifferentiability
+**Focus Area:** checking differentiability at a piecewise junction
+**Question:** For p(x) = x² (x≤1), 2x-1 (1<x≤2), (x-2)²+3 (x>2), determine whether p is differentiable at x=1 and at x=2.
+**Answer:** p is continuous at both junctions. At x=1, both one-sided derivatives equal 2, so p'(1)=2 exists. At x=2, the one-sided derivatives are 2 (left) and 0 (right), which disagree, so p'(2) does not exist. (see `nondifferentiability.md`)
+
+## Q036
+**Status:** active
+**Type:** conceptual
+**Difficulty:** advanced
+**Topic:** nondifferentiability
+**Focus Area:** differentiable but not continuously differentiable
+**Question:** For F(x) = x²sin(1/x) (x≠0), F(0)=0, show F'(0) exists but F' is not continuous at 0.
+**Answer:** By the squeeze theorem, F'(0) = lim_{h→0} h sin(1/h) = 0. For x≠0, F'(x) = 2x sin(1/x) - cos(1/x). Along x_n = 1/(2πn), F'(x_n) = -1; along y_n = 1/((2n+1)π), F'(y_n) = 1. Since the limit would need to agree along both sequences, lim_{x→0} F'(x) does not exist, so F is differentiable everywhere but not continuously differentiable. (see `nondifferentiability.md`)
+
+## Q037
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** tangent-line-problems
+**Focus Area:** tangent parallel to a given line
+**Question:** Find all points on g(x) = x³ - 3x whose tangent line is parallel to y = 9x - 4.
+**Answer:** Need g'(x) = 9: 3x²-3 = 9 gives x = ±2. Since g(2)=2 and g(-2)=-2, the points are (2,2) and (-2,-2). (see `tangent-line-problems.md`)
+
+## Q038
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** tangent-line-problems
+**Focus Area:** tangent perpendicular to a given line
+**Question:** Find every point on f(x) = 2x³ - 4x where the tangent is perpendicular to y = -½x + 3.
+**Answer:** The required tangent slope is the negative reciprocal of -½, which is 2. Since f'(x) = 6x²-4 = 2, x = ±1, giving points (1,-2) and (-1,2). (see `tangent-line-problems.md`)
