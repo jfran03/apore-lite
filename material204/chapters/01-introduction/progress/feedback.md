@@ -6,6 +6,11 @@
 
 ---
 
+## 2026-09-14 (mixed Ch1 + Ch2, 10 questions)
+**Difficulty feel:** about right
+**Coverage gaps:** bonding energy/forces (Ch2), ionic bonding details
+**Style notes:** good starting foundation; ready to continue
+
 <!-- Feedback entry format (do not delete this comment):
 
 ## {YYYY-MM-DD}

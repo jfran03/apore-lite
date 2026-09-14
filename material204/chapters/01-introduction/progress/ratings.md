@@ -7,18 +7,18 @@
 
 | ID | Status | Difficulty | Times Seen | Times Correct | Last Seen | Wrong Reason |
 |----|--------|------------|------------|---------------|-----------|--------------|
-| Q001 | active | new | 0 | 0 | — | — |
+| Q001 | active | easy | 1 | 1 | 2026-09-14 | — |
 | Q002 | active | new | 0 | 0 | — | — |
-| Q003 | active | new | 0 | 0 | — | — |
+| Q003 | active | easy | 1 | 1 | 2026-09-14 | — |
 | Q004 | active | new | 0 | 0 | — | — |
 | Q005 | active | new | 0 | 0 | — | — |
-| Q006 | active | new | 0 | 0 | — | — |
+| Q006 | active | ok | 1 | 0 | 2026-09-14 | didn't answer in specific format |
 | Q007 | active | new | 0 | 0 | — | — |
-| Q008 | active | new | 0 | 0 | — | — |
+| Q008 | active | ok | 1 | 1 | 2026-09-14 | — |
 | Q009 | active | new | 0 | 0 | — | — |
 | Q010 | active | new | 0 | 0 | — | — |
 | Q011 | active | new | 0 | 0 | — | — |
-| Q012 | active | new | 0 | 0 | — | — |
+| Q012 | active | ok | 1 | 0 | 2026-09-14 | haven't understood completely |
 | Q013 | active | new | 0 | 0 | — | — |
 | Q014 | active | new | 0 | 0 | — | — |
 | Q015 | active | new | 0 | 0 | — | — |
