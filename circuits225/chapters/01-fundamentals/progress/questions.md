@@ -197,3 +197,34 @@
 **Focus Area:** Dependent source example calculation
 **Question:** In the dependent-source example circuit, if V_x is calculated to be 2 V and the VCVS is defined as 3V_x, what is the actual voltage of the VCVS, and what does this tell us about points a and b?
 **Answer:** The VCVS becomes a 6 V source (3 × 2 V). This tells us point 'a' is higher in potential than point 'b' by 6 V. Based on sources.md.
+
+## Q021
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** current
+**Focus Area:** Current as charge flow rate — units and electron direction
+**Question:** A conductor carries i(t) = 2 A. (a) How many coulombs of charge pass a given point each second? (b) In which direction are the electrons actually moving, relative to the arrow drawn for i(t)?
+**Answer:** (a) 2 C/s, since 1 A = 1 C/s. (b) i(t) is a measure of equivalent positive charge flow, so the electrons flow in the direction opposite to i(t) — equivalently 12.48×10¹⁸ electrons/sec. Based on current.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q005 -->
+
+## Q022
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** current
+**Focus Area:** Recovering charge from current (integral form)
+**Question:** You're given i(t) for a branch, and you know the charge was q(t₀) at time t₀. Write the expression for the charge q(t) at a later time t.
+**Answer:** q(t) = ∫[t₀ to t] i(t) dt + q(t₀), where q(t₀) is the initial value at t₀. This is the inverse of i(t) = dq(t)/dt. Based on current.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q005 -->
+
+## Q023
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** electric-circuits-and-elements
+**Focus Area:** Short vs. open circuit — which quantity is known in each
+**Question:** For each of a short circuit and an open circuit, state which of voltage and current is known immediately, what its value is, and which one stays unknown until the circuit is solved.
+**Answer:** Short circuit (an ideal conductor): the voltage is known immediately — V = 0 across it — while the current i through it is unknown until the circuit is solved. Open circuit (the absence of a conductor, a gap): the current is known immediately — i = 0 — while the voltage V across the gap is unknown until the circuit is solved. Based on electric-circuits-and-elements.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q003; generated but not asked this session -->
+

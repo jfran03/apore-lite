@@ -359,3 +359,34 @@
 **Focus Area:** Strategy for power problems with dependent sources
 **Question:** For the circuit containing a current source i_g, an 80 V source carrying controlling current i_Δ, a 4 A source, and a CCCS of value 2i_Δ with V₀ = 100 V across it, what strategy does the source give for finding the power in each element?
 **Answer:** All voltages and currents are needed in order to calculate power, so use KVL and KCL to find the unknown voltages and currents, assuming a polarity or direction wherever one is unknown. (The source states this strategy but does not carry out the solution.) Based on parallel-connections.md.
+
+## Q039
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** resistors-and-ohms-law
+**Focus Area:** Ohm's Law sign convention applied, then decoding the sign
+**Question:** A resistor of R = 5 Ω is drawn with its current arrow entering the − terminal of the labelled voltage (`i → − V +`). The voltage is found to be V = 50 V. (a) Which form of Ohm's Law must you write? (b) What value do you compute for i? (c) What is the actual current, in magnitude and direction relative to the drawn arrow?
+**Answer:** (a) V = −iR, because the current is labelled in the direction of voltage rise. (b) i = −V/R = −50/5 = −10 A. (c) The actual current is 10 A flowing opposite to the drawn arrow — the negative sign means the actual direction is the reverse of the assumed reference direction, not a negative physical current. Based on resistors-and-ohms-law.md and current.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q002 -->
+
+## Q040
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** resistors-and-ohms-law
+**Focus Area:** Two opposite reference choices describe one physical current
+**Question:** Two students analyse the same resistor in the same circuit. One draws the current arrow pointing left and computes i = +2 A. The other draws it pointing right and computes i = −2 A. Which student is correct, and what do their two answers tell you about the physical current in that branch?
+**Answer:** Both are correct. The reference direction is chosen arbitrarily, and the sign of the result decodes it: +2 A with a left-pointing arrow and −2 A with a right-pointing arrow both describe the same actual current of 2 A flowing to the left. Choosing the reference direction the opposite way changes the sign of the computed current but yields the same actual current and the same power results. Based on current.md and power-in-resistors.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q002; generated but skipped by user this session -->
+
+## Q041
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** power-in-resistors
+**Focus Area:** Separating Ohm's Law from the power relationships
+**Question:** A resistor with R = 4 Ω has V = 20 V across it, labelled in the passive reference direction. (a) Which relationship gives you the current, and what is its value? (b) Which relationship gives you the power, and what is its value? (c) Name the two resistor-specific power formulas the source derives from combining those two relationships.
+**Answer:** (a) Ohm's Law gives the current; in the passive reference direction the current enters the + terminal, so V = iR and i = V/R = 20/4 = 5 A. (b) P = Vi gives the power: P = (20)(5) = 100 W. (c) Substituting Ohm's Law into P = Vi gives P = i²R and P = V²/R — here (5)²(4) = 100 W and (20)²/4 = 100 W, both agreeing with P = Vi. Based on resistors-and-ohms-law.md, power-and-energy.md, and power-in-resistors.md.
+<!-- Added 2026-09-14 by wrong-answer targeting on Q007 (recurring V=iR / P=Vi crossing) -->
+
