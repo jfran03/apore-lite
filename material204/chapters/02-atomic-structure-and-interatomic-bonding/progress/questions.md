@@ -548,3 +548,21 @@
 **Focus Area:** electronic configuration governs properties
 **Question:** According to the chapter summary, what determines a material's chemical, electrical, thermal, and optical properties, and what does a large bonding energy usually imply?
 **Answer:** These properties are determined by electronic configuration. Materials with large bonding energies usually have high melting temperatures. Valence electrons occupy the outermost unfilled electron shell, and the nature of the bond depends on the electron structure of the constituent atoms. (See [Interatomic Bonding Overview](../wiki/interatomic-bonding-overview.md).)
+
+## Q060
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** periodic-table-and-electronegativity
+**Focus Area:** electropositive vs electronegative terminology (wrong-answer targeting for Q006)
+**Question:** Which term applies to an element that readily acquires electrons to become a negative ion? (A) electropositive  (B) electronegative  (C) covalent  (D) metallic
+**Answer:** (B) electronegative. Electronegative elements readily acquire electrons to become negative ions, while electropositive elements readily give up electrons to become positive ions. (See [Periodic Table and Electronegativity](../wiki/periodic-table-and-electronegativity.md).)
+
+## Q061
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** periodic-table-and-electronegativity
+**Focus Area:** electropositive vs electronegative terminology (wrong-answer targeting for Q006)
+**Question:** Group IA elements give up 1 electron and Group IIA elements give up 2 electrons to form positive ions. Are Group IA and IIA elements electropositive or electronegative, and why?
+**Answer:** Electropositive — because they readily give up electrons to become positive ions, which is the defining behavior of electropositive elements (as opposed to electronegative elements, which readily acquire electrons to become negative ions). (See [Periodic Table and Electronegativity](../wiki/periodic-table-and-electronegativity.md).)
