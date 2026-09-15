@@ -2,17 +2,26 @@
 
 **Domain:** Fundamentals of Engineering Materials
 **Topics:** Atomic structure (electron configuration, the periodic table), and the types of interatomic bonding — ionic, covalent, metallic, and secondary (van der Waals/hydrogen) bonds — including bonding energy/force curves and how bond type governs material properties.
-**Compile Status:** compiled 2026-09-08
+**Compile Status:** compiled 2026-09-14
 
 ## Sources Ingested
 
 | File | Date Ingested |
 |------|--------------|
 | before lecture-Chapter 2 - Atomic Structure and Interatomic Bonding.pdf | 2026-09-08 |
+| F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf | 2026-09-14 |
+| EXAMPLE PROBLEMS 1 - WEEK 2.docx | 2026-09-14 |
+
+### Present in `sources/` but not ingested
+
+| File | Reason |
+|------|--------|
+| EXAMPLE PROBLEMS 2 - WEEK 3.docx | Crystal-structure content (FCC/BCC unit cells, atomic packing factor, density–radius calculations, allotropic transformation of iron) — outside this chapter's scope. |
 
 ## Topics Covered
 
 - atomic-structure
+- atomic-mass-atomic-weight-and-the-mole
 - periodic-table-and-electronegativity
 - bonding-forces-and-energies
 - interatomic-bonding-overview
