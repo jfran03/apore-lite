@@ -15,6 +15,7 @@ rigorous — precise and proof-aware. State hypotheses explicitly and check that
 |---|-------|--------|----------------|
 | 01 | Limits | `chapters/01-limits/` | compiled 2026-09-01 |
 | 02 | Derivatives | `chapters/02-derivatives/` | compiled 2026-09-11 |
+| 03 | Linear Approximation | `chapters/03-linear-approximation/` | compiled 2026-09-15 |
 
 ---
 
