@@ -566,3 +566,93 @@
 **Focus Area:** electropositive vs electronegative terminology (wrong-answer targeting for Q006)
 **Question:** Group IA elements give up 1 electron and Group IIA elements give up 2 electrons to form positive ions. Are Group IA and IIA elements electropositive or electronegative, and why?
 **Answer:** Electropositive — because they readily give up electrons to become positive ions, which is the defining behavior of electropositive elements (as opposed to electronegative elements, which readily acquire electrons to become negative ions). (See [Periodic Table and Electronegativity](../wiki/periodic-table-and-electronegativity.md).)
+
+## Q062
+**Status:** active
+**Type:** mcq
+**Difficulty:** intermediate
+**Topic:** interatomic-bonding-overview
+**Focus Area:** relative strength of intramolecular forces (wrong-answer targeting for Q011)
+**Question:** Which of the four intramolecular bond types is ranked as the weakest? (A) metallic bond  (B) ionic bond  (C) polar covalent bond  (D) nonpolar covalent bond
+**Answer:** (D) nonpolar covalent bond. The ranking from strongest to weakest is: metallic bond > ionic bond > polar covalent bond > nonpolar covalent bond. (See [Interatomic Bonding Overview](../wiki/interatomic-bonding-overview.md).)
+
+## Q063
+**Status:** active
+**Type:** true-false
+**Difficulty:** intermediate
+**Topic:** interatomic-bonding-overview
+**Focus Area:** relative strength of intramolecular forces (wrong-answer targeting for Q011)
+**Question:** True or False: The ionic bond is ranked stronger than the metallic bond, but weaker than the polar covalent bond.
+**Answer:** False. The correct ranking from strongest to weakest is metallic bond > ionic bond > polar covalent bond > nonpolar covalent bond — so the ionic bond is weaker than metallic, and stronger than polar covalent, not the reverse. (See [Interatomic Bonding Overview](../wiki/interatomic-bonding-overview.md).)
+
+## Q064
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** ionic-bonding
+**Focus Area:** direction of electron transfer (wrong-answer targeting for Q014)
+**Question:** In ionic bonding between a metal and a nonmetal, which one donates electrons and which one accepts them, and why?
+**Answer:** The metal atom donates electrons and becomes a stable cation; the nonmetal atom accepts electrons and becomes a stable anion. This occurs when the atoms have dissimilar electronegativities — metals are electropositive (readily give up electrons) and nonmetals are electronegative (readily acquire electrons). (See [Ionic Bonding](../wiki/ionic-bonding.md).)
+
+## Q065
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** ionic-bonding
+**Focus Area:** MgO electron transfer direction (wrong-answer targeting for Q014)
+**Question:** In the formation of MgO, which atom donates electrons and which one accepts them? (A) Mg donates, O accepts  (B) O donates, Mg accepts  (C) both donate equally  (D) neither donates — they share electrons
+**Answer:** (A) Mg donates, O accepts. Mg ([Ne]3s²) donates its 3s² electrons to O (1s²2s²2p⁴), forming Mg²⁺ ([Ne]) and O²⁻ ([Ne]) — Mg is the metal (electropositive) and O is the nonmetal (electronegative). (See [Ionic Bonding](../wiki/ionic-bonding.md).)
+
+## Q066
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** atomic-structure
+**Focus Area:** deriving electron configuration by hand (requested practice — build-your-own configuration)
+**Question:** Using the maximum subshell capacities (s = 2, p = 6, d = 10, f = 14) and the bottom-up filling rule, derive the full electron configuration of phosphorus (atomic number 15).
+**Answer:** 1s² 2s² 2p⁶ 3s² 3p³. Filling bottom-up: 1s holds 2, 2s holds 2, 2p holds its max of 6 (total so far 10), leaving 5 electrons for the 3s/3p subshells — 3s takes 2 (its max) and the remaining 3 go into 3p. (Derived from the subshell maxima and bottom-up rule in [Atomic Structure](../wiki/atomic-structure.md).)
+
+## Q067
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** atomic-structure
+**Focus Area:** deriving electron configuration by hand (requested practice — build-your-own configuration)
+**Question:** Using the maximum subshell capacities (s = 2, p = 6, d = 10, f = 14) and the bottom-up filling rule, derive the full electron configuration of silicon (atomic number 14).
+**Answer:** 1s² 2s² 2p⁶ 3s² 3p². Filling bottom-up: 1s holds 2, 2s holds 2, 2p holds its max of 6 (total so far 10), leaving 4 electrons for the 3s/3p subshells — 3s takes 2 (its max) and the remaining 2 go into 3p. (Derived from the subshell maxima and bottom-up rule in [Atomic Structure](../wiki/atomic-structure.md).)
+
+## Q068
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** covalent-bonding
+**Focus Area:** sp³ hybridization bond angle (wrong-answer targeting for Q017)
+**Question:** What is the bond angle between sp³ hybrid orbitals in carbon? (A) 90°  (B) 109.5°  (C) 120°  (D) 180°
+**Answer:** (B) 109.5°. sp³ hybridization produces four equivalent 2sp³ orbitals arranged with 109.5° angles between them. (See [Covalent Bonding](../wiki/covalent-bonding.md).)
+
+## Q069
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** metallic-bonding
+**Focus Area:** ion cores and delocalized electrons (wrong-answer targeting for Q019)
+**Question:** In metallic bonding, what are the positively charged ion cores surrounded by? (A) a rigid lattice of shared electron pairs  (B) a delocalized "sea" of valence electrons  (C) discrete covalent bonds  (D) individual anions
+**Answer:** (B) a delocalized "sea" of valence electrons. Positively charged ion cores are arranged in a lattice, surrounded by a "sea of valence electrons" forming an "electron cloud" rather than being bound to individual atoms. (See [Metallic Bonding](../wiki/metallic-bonding.md).)
+
+## Q070
+**Status:** active
+**Type:** true-false
+**Difficulty:** introductory
+**Topic:** metallic-bonding
+**Focus Area:** electron delocalization (wrong-answer targeting for Q019)
+**Question:** True or False: In metallic bonding, valence electrons are bound to individual atoms rather than being delocalized.
+**Answer:** False. The valence electrons are delocalized, forming an "electron cloud" or "sea of valence electrons" rather than being bound to individual atoms. (See [Metallic Bonding](../wiki/metallic-bonding.md).)
+
+## Q071
+**Status:** active
+**Type:** mcq
+**Difficulty:** introductory
+**Topic:** secondary-bonding
+**Focus Area:** what makes hydrogen bonding special (wrong-answer targeting for Q022)
+**Question:** Which of the following best describes what makes hydrogen bonding distinct from other types of secondary bonding? (A) It involves full electron transfer between atoms  (B) Hydrogen is one of the constituents, and its magnitude is generally higher than other secondary bonds  (C) It only occurs between metal atoms  (D) It is stronger than covalent bonding
+**Answer:** (B) Hydrogen is one of the constituents, and its magnitude is generally higher than other secondary bonds. Examples include HF, H₂O, and NH₃, whose correspondingly high melting/boiling temperatures reflect this stronger secondary bonding. (See [Secondary Bonding](../wiki/secondary-bonding.md).)
