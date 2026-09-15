@@ -28,13 +28,35 @@ An atom consists of electrons (mass 9.11 x 10⁻³¹ kg), protons, and neutrons 
 - **Example — Iron (Fe, atomic number 26):** electron configuration 1s² 2s²2p² 3s²3p⁶ 3d⁶4s² (3d⁶4s² are the valence electrons).
   > Source: before lecture-Chapter 2 - Atomic Structure and Interatomic Bonding.pdf, slide 9
 
+## Added from the full lecture deck (Part 1 and Part 2)
+
+- **Learning objectives for the chapter:** the structure of an atom is its electronic structure; electron-electron repulsion matters for a many-electron atom; atoms bond due to how electrons distribute around nuclei, giving ionic, covalent, metallic, hydrogen, and van der Waals bonding.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 2
+- **Quantities that describe an atom:** atomic number (Z), atomic mass (A), isotopes, atomic weight, and amu (or 1 gram/mole). These are developed in [Atomic Mass, Atomic Weight, and the Mole](atomic-mass-atomic-weight-and-the-mole.md).
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 4
+- **Wave-like and particle-like character:** electrons have both wave-like and particle-like characteristics. The particle-like characteristic is that electrons exist in a point orbiting a nucleus. The wave-like characteristics are that an electron's position in an orbital is defined by a probability distribution, and that each orbital has a discrete energy level determined by quantum numbers.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 18
+- **Electrons occupy the lowest available states:** electrons have discrete energy values and tend to occupy the lowest available energy states.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 20
+- **Aufbau principle:** atomic properties depend upon the number of electrons present in the valence electrons. Orbitals are filled by a "bottom-up rule."
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slides 21, 22
+- **Maximum electrons per subshell type:** s = 2, p = 6, d = 10, f = 14.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 22
+- **Why most configurations are not stable:** for most elements, electron configurations are not stable, because the valence (outer) shell is usually not completely filled.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 23
+- **Additional electron configurations given:** Beryllium (4) = 1s²2s²; Boron (5) = 1s²2s²2p¹; Sodium (11) = 1s²2s²2p⁶3s¹; Magnesium (12) = 1s²2s²2p⁶3s²; Aluminum (13) = 1s²2s²2p⁶3s²3p¹.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 25
+
 ## Examples
 - How many grams are in one amu of a material, and how many atoms are in a pound-mole of a substance (given mole is taken with units of gram-mole)?
   > Source: before lecture-Chapter 2 - Atomic Structure and Interatomic Bonding.pdf, slide 4
+- **Filling of electrons in nitrogen:** applying the bottom-up filling rule, nitrogen's configuration is 1s² 2s² 2p³, which may also be written [He] 2s² 2p³.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 22
 
 ## Common Misconceptions
 _(none explicitly addressed in this source)_
 
 ## Related Topics
+- [Atomic Mass, Atomic Weight, and the Mole](atomic-mass-atomic-weight-and-the-mole.md)
 - [Periodic Table and Electronegativity](periodic-table-and-electronegativity.md)
 - [Interatomic Bonding Overview](interatomic-bonding-overview.md)

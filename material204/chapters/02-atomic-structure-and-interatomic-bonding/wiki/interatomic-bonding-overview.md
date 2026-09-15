@@ -20,6 +20,15 @@ Atoms bond due to how electrons distribute around nuclei. Interatomic bonding is
 - **Intermolecular forces and boiling/melting points:** boiling and melting points of compounds depend on the type and strength of intermolecular forces present. Rule of thumb: the stronger the intermolecular forces, the more energy is required to break them; ionic and polar covalent compounds have higher boiling and melting points.
   > Source: before lecture-Chapter 2 - Atomic Structure and Interatomic Bonding.pdf, slide 28
 
+## Added from the full lecture deck (Part 1 and Part 2)
+
+- **Chapter summary — properties follow from electronic configuration:** a material's chemical, electrical, thermal, and optical properties are determined by electronic configuration. Materials with large bonding energies usually have high melting temperatures. Valence electrons occupy the outermost unfilled electron shell, and the nature of the bond depends on the electron structure of the constituent atoms.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 62
+- **Primary versus secondary bonding, restated:** primary bonding types include covalent, ionic, and metallic bonding. Secondary bonding exists between virtually all atoms or molecules, but its presence may be obscured if any of the three primary bonding types is present. Secondary or van der Waals bonds are weaker than the primary bonding types but nonetheless influence the physical properties of some materials.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 62
+- **Types of intramolecular forces of attraction:** ionic bond, covalent bond, and metallic bond.
+  > Source: F26-D2L-Chapter 2- Introduction to Engineering Materials-Part 1 and part 2 (full).pdf, slide 59
+
 ## Examples
 - What type(s) of bonding would be expected for brass (copper-zinc alloy), epoxy, barium sulfide (BaS), solid xenon, bronze, nylon, and aluminum phosphide (AlP)?
   > Source: before lecture-Chapter 2 - Atomic Structure and Interatomic Bonding.pdf, slide 25
