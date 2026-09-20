@@ -31,6 +31,7 @@ When the user says one of the following, read the corresponding protocol file in
 | "new domain" / "create a new domain" / "I want a new domain" | `shared/protocols/new-domain.md` |
 | "new chapter" / "add a chapter" / "I want a new chapter" | `shared/protocols/new-chapter.md` |
 | "compile" / "compile this chapter" / "compile [chapter name]" | `shared/protocols/compile.md` |
+| "make notes" / "generate notes" / "notes for [chapter]" | `shared/protocols/notes.md` |
 | "quiz me on [chapter]" / "let's study [chapter]" / "study session" | Load chapter context (see Session Flow below) and enter Question Generation Mode |
 
 ---
@@ -127,11 +128,13 @@ apore-lite/
 ├── CLAUDE.md                      ← you are here
 ├── {domain}/
 │   ├── DOMAIN.md                  ← read when entering a domain
+│   ├── full-notes/                ← generated: combined domain PDF (build_notes.py)
 │   └── chapters/
 │       └── {N}-{chapter}/
 │           ├── CHAPTER.md         ← read before every session
 │           ├── sources/           ← immutable raw inputs (never edit after drop-in)
 │           ├── wiki/              ← compiled knowledge (your only grounding)
+│           ├── notes/             ← LaTeX study guide (notes.tex / notes.pdf)
 │           └── progress/
 │               ├── questions.md   ← question bank
 │               ├── ratings.md     ← spaced repetition state

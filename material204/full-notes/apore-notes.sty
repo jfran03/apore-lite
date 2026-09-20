@@ -1,0 +1,99 @@
+% apore-notes.sty: condensed study-guide style for apore-lite
+% Generated notes are wiki-grounded; every box carries a \src{} citation.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{apore-notes}[2026/09/19 apore-lite condensed notes style]
+
+\newif\ifapore@combined \apore@combinedfalse
+\newif\ifapore@toc      \apore@tocfalse
+\DeclareOption{combined}{\apore@combinedtrue}
+\DeclareOption{toc}{\apore@toctrue}
+\DeclareOption*{\PackageWarning{apore-notes}{Unknown option '\CurrentOption'}}
+\ProcessOptions\relax
+
+\RequirePackage[margin=1in]{geometry}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage{amsthm}
+\RequirePackage{xcolor}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{enumitem}
+\RequirePackage{multicol}
+\RequirePackage{booktabs}
+\RequirePackage{microtype}
+\RequirePackage[hidelinks]{hyperref}
+
+% --- palette -------------------------------------------------------------
+\definecolor{aporeDef}{HTML}{2563EB}
+\definecolor{aporeFormula}{HTML}{7C3AED}
+\definecolor{aporeMethod}{HTML}{059669}
+\definecolor{aporeWorked}{HTML}{D97706}
+\definecolor{aporePitfall}{HTML}{DC2626}
+\definecolor{aporeMuted}{HTML}{6B7280}
+
+% --- document metadata ---------------------------------------------------
+\def\apore@subject{}
+\def\apore@chapter{}
+\def\apore@date{}
+\newcommand{\notesmeta}[3]{%
+  \def\apore@subject{#1}\def\apore@chapter{#2}\def\apore@date{#3}%
+}
+
+\newcommand{\makenotestitle}{%
+  \begin{center}
+    {\Large\bfseries\apore@chapter\par}
+    \vspace{3pt}
+    {\normalsize\apore@subject\par}
+    \vspace{3pt}
+    {\footnotesize\color{aporeMuted}Condensed study notes\quad$\cdot$\quad compiled \apore@date\par}
+  \end{center}
+  \vspace{2pt}\hrule\vspace{12pt}
+  \ifapore@toc\tableofcontents\vspace{12pt}\fi
+}
+
+% --- structure -----------------------------------------------------------
+% Heading level depends on build mode, so one chapter source compiles both
+% standalone and as part of the combined book.
+\ifapore@combined
+  \setcounter{tocdepth}{2}
+  \newcommand{\chapterhead}[1]{\clearpage\section{#1}}
+  \newcommand{\topic}[1]{\subsection{#1}}
+  \newcommand{\subtopic}[1]{\subsubsection{#1}}
+\else
+  \setcounter{tocdepth}{1}
+  % No-op: \makenotestitle already names the chapter.
+  \newcommand{\chapterhead}[1]{\relax}
+  \newcommand{\topic}[1]{\section{#1}}
+  \newcommand{\subtopic}[1]{\subsection{#1}}
+\fi
+
+% --- citation ------------------------------------------------------------
+\newcommand{\src}[1]{{\footnotesize\color{aporeMuted}\textsf{Source: #1}}}
+
+% --- lists ---------------------------------------------------------------
+\newlist{steps}{enumerate}{1}
+\setlist[steps]{leftmargin=*,itemsep=2pt,topsep=3pt,label=\arabic*.}
+\newlist{points}{itemize}{1}
+\setlist[points]{leftmargin=*,itemsep=2pt,topsep=3pt,label=\textbullet}
+
+% --- content boxes -------------------------------------------------------
+\tcbset{aporebox/.style={
+  breakable, enhanced, arc=0pt, outer arc=0pt,
+  boxrule=0pt, leftrule=2.5pt,
+  colback=white, colbacktitle=white,
+  fonttitle=\bfseries\small,
+  boxsep=0pt, left=9pt, right=6pt, top=5pt, bottom=5pt,
+  titlerule=0pt, toptitle=2pt, bottomtitle=3pt,
+  before skip=9pt, after skip=9pt
+}}
+
+\newtcolorbox{keydef}[1]{aporebox,colframe=aporeDef,coltitle=aporeDef,title={Definition: #1}}
+\newtcolorbox{formula}[1]{aporebox,colframe=aporeFormula,coltitle=aporeFormula,title={#1}}
+\newtcolorbox{method}[1]{aporebox,colframe=aporeMethod,coltitle=aporeMethod,title={Method: #1}}
+\newtcolorbox{worked}[1]{aporebox,colframe=aporeWorked,coltitle=aporeWorked,title={Example: #1}}
+\newtcolorbox{pitfall}{aporebox,colframe=aporePitfall,coltitle=aporePitfall,title={Watch out}}
+
+% --- body spacing --------------------------------------------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\endinput

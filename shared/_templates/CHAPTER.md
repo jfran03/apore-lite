@@ -3,6 +3,7 @@
 **Domain:** {domain name}
 **Topics:** {brief description of what this chapter covers}
 **Compile Status:** not compiled
+**Notes:** not generated
 
 ## Sources Ingested
 

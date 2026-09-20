@@ -80,7 +80,7 @@ Loads only packages present in MiKTeX, TeX Live, and Overleaf:
 | `combined` | Combined mode: heading levels demoted one step |
 | `toc` | Force a table of contents on |
 
-Standalone chapter builds default to no TOC — a condensed guide is too short to
+Standalone chapter builds default to no TOC, since a condensed guide is too short to
 earn one. The combined build passes `combined,toc`.
 
 ### Structural macros
@@ -133,7 +133,7 @@ contract; a file missing either marker is a hard error (§7).
 ```latex
 \documentclass[11pt]{article}
 \usepackage{apore-notes}
-\notesmeta{Materials 204}{02 — Atomic Structure and Interatomic Bonding}{2026-09-19}
+\notesmeta{Materials 204}{02. Atomic Structure and Interatomic Bonding}{2026-09-19}
 \begin{document}
 \makenotestitle
 % >>> APORE BODY START
@@ -177,7 +177,7 @@ Input is `wiki/` only. `sources/` is never read during notes generation.
 
 The hard constraint from root `CLAUDE.md` applies without exception. Nothing
 appears in a notes file that is not traceable to a wiki page and its cited source.
-No outside knowledge fills gaps. No "not covered in sources" callouts — a gap is
+No outside knowledge fills gaps. No "not covered in sources" callouts; a gap is
 simply absent. If a wiki topic page yields no definition, formula, method, or
 pitfall, that topic produces no section.
 
@@ -187,28 +187,28 @@ pitfall, that topic produces no section.
 
 Written in the same step-by-step, numbered style as `compile.md`.
 
-**Step 1 — Identify the chapter.** Confirm `{domain}/chapters/{N}-{slug}/`.
+**Step 1: Identify the chapter.** Confirm `{domain}/chapters/{N}-{slug}/`.
 
-**Step 2 — Verify the wiki exists.** If `wiki/` is empty or missing `_index.md`,
+**Step 2: Verify the wiki exists.** If `wiki/` is empty or missing `_index.md`,
 stop: *"No compiled wiki found. Say 'compile' first, then I can generate notes."*
 
-**Step 3 — Check for an existing `notes/notes.tex`.** If present, do not
+**Step 3: Check for an existing `notes/notes.tex`.** If present, do not
 overwrite. Ask which the user wants:
   - regenerate from scratch, replacing the file
   - append only topics not already present in the file
   - skip
 
-**Step 4 — Create `notes/`** and copy `apore-notes.sty` from
+**Step 4: Create `notes/`** and copy `apore-notes.sty` from
 `shared/_templates/notes/`, overwriting any existing copy.
 
-**Step 5 — Read all of `wiki/`**, starting with `_index.md` for topic order.
+**Step 5: Read all of `wiki/`**, starting with `_index.md` for topic order.
 
-**Step 6 — Write `notes/notes.tex`** from the skeleton in
+**Step 6: Write `notes/notes.tex`** from the skeleton in
 `shared/_templates/notes/notes.tex`, applying §4. Fill `\notesmeta` with: the
 `**Domain:**` field from `CHAPTER.md` as subject, the `# Chapter {N}: {Title}`
 heading as chapter, and today's date.
 
-**Step 7 — Build.** Run from the notes folder:
+**Step 7: Build.** Run from the notes folder:
 
 ```
 latexmk -pdf -interaction=nonstopmode -halt-on-error notes.tex
@@ -217,10 +217,10 @@ latexmk -pdf -interaction=nonstopmode -halt-on-error notes.tex
 If `latexmk` is not on PATH, skip the build and tell the user the `.tex` is
 ready and which engine to install (§9). This is not an error.
 
-**Step 8 — Update `CHAPTER.md`.** Set `**Notes:** generated {YYYY-MM-DD}`,
+**Step 8: Update `CHAPTER.md`.** Set `**Notes:** generated {YYYY-MM-DD}`,
 inserting the field after `**Compile Status:**` if it is not already present.
 
-**Step 9 — Confirm.** Report topic count, and the PDF path if it built.
+**Step 9: Confirm.** Report topic count, and the PDF path if it built.
 
 ### Appending on regeneration
 
@@ -246,7 +246,7 @@ Add a `notes/` entry to the Folder Reference tree, and `full-notes/` under
 
 ### `shared/protocols/compile.md`
 
-Add **Step 11 — Offer notes**, after the existing Step 10 confirmation:
+Add **Step 11: Offer notes**, after the existing Step 10 confirmation:
 
 > Ask: *"Generate condensed study notes for this chapter?"*
 > If yes, read `shared/protocols/notes.md` and follow it. If no, stop.
@@ -285,11 +285,12 @@ python shared/scripts/build_notes.py material204 --no-build
 4. A selected chapter with no `notes/notes.tex` is a warning and is skipped. If
    the selection yields zero chapters, exit with an error.
 5. Extract each chapter's body from between the §3 markers. A file missing either
-   marker is a hard error naming the file — never a silent skip, since dropping a
+   marker is a hard error naming the file, never a silent skip, since dropping a
    chapter from a study book without saying so is worse than failing.
-6. Create `{domain}/full-notes/`. Copy `apore-notes.sty` from
-   `shared/_templates/notes/`, overwriting. Copy
-   `shared/_templates/notes/full-notes-README.md` to `README.md` only if absent.
+6. Create `{domain}/full-notes/`. Copy both `apore-notes.sty` and
+   `full-notes-README.md` from `shared/_templates/notes/`, overwriting. The
+   README states that edits in that folder are lost on the next build, so
+   keeping a stale copy would make the folder contradict its own instructions.
 7. Write the master `.tex`: preamble with `\usepackage[combined,toc]{apore-notes}`,
    then `\notesmeta{<domain name>}{Full Notes}{<today>}`, `\makenotestitle`, then
    each body in order. The domain name is read from the first `#` heading of
@@ -318,8 +319,8 @@ A subset build never overwrites the complete book.
 |---|---|
 | 0 | Success, PDF built (or `--no-build` and `.tex` written) |
 | 1 | Usage or input error: unknown domain, no chapters selected, missing marker |
-| 2 | `.tex` written, but `latexmk` is not on PATH — message names the engine to install |
-| 3 | `latexmk` ran and failed — the last 20 lines of its output are printed |
+| 2 | `.tex` written, but `latexmk` is not on PATH; message names the engine to install |
+| 3 | `latexmk` ran and failed; the last 20 lines of its output are printed |
 
 Exit code 2 is distinct from 3 on purpose: a missing toolchain is a setup task,
 a failed build is a content bug, and they need different responses.
@@ -375,7 +376,7 @@ Appended:
 The only requirement is `latexmk` plus a TeX engine on PATH. Nothing in this
 design depends on an editor or an extension.
 
-- **Windows:** `winget install MiKTeX.MiKTeX` — ships `latexmk`, fetches packages
+- **Windows:** `winget install MiKTeX.MiKTeX`, which ships `latexmk` and fetches packages
   on demand.
 - **macOS:** MacTeX, or BasicTeX plus `tlmgr install latexmk`.
 - **Optional:** VS Code's LaTeX Workshop extension (already installed on the
@@ -403,7 +404,7 @@ installed, generation produces `.tex` files that cannot be verified to build.
    is written under its own name with `full-notes.pdf` untouched.
 5. Exercise each error path: missing marker, unknown domain, empty selection,
    `latexmk` absent.
-6. Spot-check the generated PDF against `wiki/` — every box traceable to a wiki
+6. Spot-check the generated PDF against `wiki/`: every box traceable to a wiki
    claim, every `\src{}` matching the wiki's `> Source:` line, nothing present
    that the wiki does not state.
 

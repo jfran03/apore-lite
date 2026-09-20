@@ -131,6 +131,13 @@ In `{domain-slug}/DOMAIN.md`, update the chapter's Compile Status in the Chapter
 Tell the user:
 > "Compiled. Wiki has {N} topic pages, question bank has {N} questions. Say 'quiz me on {Chapter Title}' to start a session."
 
+### Step 11 — Offer notes
+
+Ask:
+> "Generate condensed study notes for this chapter?"
+
+If yes, read `shared/protocols/notes.md` in full and follow it. If no, stop.
+
 ---
 
 ## On Recompile
@@ -144,3 +151,4 @@ When the user adds new files to `sources/` and runs compile again:
 5. Append a new row to the Compile History in `wiki/_index.md`
 6. Update `CHAPTER.md` Sources Ingested and Compile Status
 7. Confirm: "Recompiled. Added {N} new topic sections and {N} new questions."
+8. If `notes/notes.tex` exists, offer to append the newly-added topics to it, following the "On Append" section of `shared/protocols/notes.md`. Never regenerate it without asking; the user may have edited it.
