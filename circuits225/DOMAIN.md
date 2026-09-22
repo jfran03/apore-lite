@@ -17,6 +17,7 @@ Socratic & rigorous — lead with guiding questions, hold to precise definitions
 |---|-------|--------|----------------|
 | 1 | Circuit Fundamentals | `chapters/01-fundamentals/` | compiled 2026-09-05 |
 | 2 | Ohm's Law and Kirchhoff's Laws | `chapters/02-ohms-law-and-kirchhoffs-laws/` | compiled 2026-09-14 |
+| 3 | Resistors in Circuits | `chapters/03-resistors-in-circuits/` | compiled 2026-09-21 |
 
 ---
 
