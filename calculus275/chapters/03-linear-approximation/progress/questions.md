@@ -341,3 +341,39 @@
 **Focus Area:** approximate change in volume of a sphere
 **Question:** Determine the approximate increase in volume if the radius of a sphere is increased from 50 m to 51 m.
 **Answer:** Here r = 50 m and Δr = 1 m, with V(r) = (4/3)πr³. Then ΔV ≈ dV = V'(r)Δr = 4πr²Δr = 4π(50)²·1 = 10000π m³. See `applied-differential-problems.md`.
+
+## Q037
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** linear-approximation
+**Focus Area:** Assignment 1, Problem 9: tangent-line approximation of √81.4
+**Question:** Let f(x) = √x. Find the tangent line to f at x = 81 in the form y = mx + b, and use it to approximate √81.4.
+**Answer:** f'(x) = 1/(2√x), so m = f'(81) = 1/18. The line is y − 9 = (1/18)(x − 81), so y = x/18 + 9/2, giving b = 9/2. Then √81.4 ≈ 81.4/18 + 9/2 = 9 + 0.4/18 = 9 + 1/45 = 406/45 ≈ 9.0222. See `linear-approximation.md`.
+
+## Q038
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** linear-approximation
+**Focus Area:** Assignment 1, Problem 15: local linear approximation at x₀ = 3
+**Question:** Find the local linear approximation of f(x) = √(1 + x) at x₀ = 3 and use it to approximate √3.9 and √4.1, as fractions.
+**Answer:** f(3) = 2 and f'(x) = 1/(2√(1 + x)), so f'(3) = 1/4. Hence L(x) = 2 + (1/4)(x − 3). Since √3.9 = f(2.9): L(2.9) = 2 + (1/4)(−0.1) = 2 − 1/40 = 79/40 = 1.975. Since √4.1 = f(3.1): L(3.1) = 2 + (1/4)(0.1) = 81/40 = 2.025. See `linear-approximation.md`.
+
+## Q039
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** differentials-and-exact-changes
+**Focus Area:** Assignment 1, Problem 17: approximating powers by differentials
+**Question:** Use differentials (not a calculator's power function) to approximate 8.05², 7.98², 3.08³ and 2.98³ to four decimal places.
+**Answer:** Use Δy ≈ dy = f'(x)dx from a convenient base input. For f(x) = x² at x = 8, f'(8) = 16: 8.05² ≈ 64 + 16(0.05) = 64.8000 and 7.98² ≈ 64 + 16(−0.02) = 63.6800. For f(x) = x³ at x = 3, f'(3) = 27: 3.08³ ≈ 27 + 27(0.08) = 29.1600 and 2.98³ ≈ 27 + 27(−0.02) = 26.4600. See `differentials-and-exact-changes.md`.
+
+## Q040
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** applied-differential-problems
+**Focus Area:** Assignment 1, Problem 18: maximum error in a cube's volume
+**Question:** The edge of a cube was measured as 30 cm with a possible error of 0.2 cm. Use differentials to estimate the maximum possible error in the calculated volume.
+**Answer:** V(x) = x³, so V'(x) = 3x². With x = 30 and dx = 0.2: ΔV ≈ dV = 3(30)²(0.2) = 540 cm³. See `applied-differential-problems.md`.
