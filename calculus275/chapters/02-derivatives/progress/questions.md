@@ -440,3 +440,111 @@
 **Focus Area:** tangent parallel to a given line, different function (targeted follow-up to Q037)
 **Question:** Find all points on h(x) = x³ - 12x whose tangent line is parallel to y = 15x + 1.
 **Answer:** Need h'(x) = 15: 3x² - 12 = 15 gives 3x² = 27, x² = 9, x = ±3. Since h(3) = 27-36 = -9 and h(-3) = -27+36 = 9, the points are (3,-9) and (-3,9). (see `tangent-line-problems.md`)
+
+## Q048
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 1: product rule with a power
+**Question:** Given f(x) = x⁶h(x), h(−1) = 5 and h'(−1) = 8, calculate f'(−1).
+**Answer:** By the product rule, f'(x) = 6x⁵h(x) + x⁶h'(x). At x = −1: f'(−1) = 6(−1)⁵(5) + (−1)⁶(8) = −30 + 8 = −22. See `derivative-rules.md`.
+
+## Q049
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 2: constant multiple and quotient rules
+**Question:** Given f(5) = −2 and f'(5) = 3, find g'(5) for (a) g(x) = 3x² − 5f(x) and (b) g(x) = (2x + 1)/f(x).
+**Answer:** (a) g'(x) = 6x − 5f'(x), so g'(5) = 30 − 15 = 15. (b) By the quotient rule, g'(x) = [2f(x) − (2x + 1)f'(x)]/[f(x)]², so g'(5) = [2(−2) − 11(3)]/(−2)² = −37/4. See `derivative-rules.md`.
+
+## Q050
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 3: sum, product and quotient rules from values
+**Question:** Given f(0) = 3, f'(0) = −4, g(0) = 6 and g'(0) = −7, find (a) (f + g)'(0), (b) (fg)'(0), (c) (f/g)'(0).
+**Answer:** (a) f'(0) + g'(0) = −4 − 7 = −11. (b) f'(0)g(0) + f(0)g'(0) = (−4)(6) + (3)(−7) = −45. (c) [f'(0)g(0) − f(0)g'(0)]/[g(0)]² = [−24 + 21]/36 = −1/12. See `derivative-rules.md`.
+
+## Q051
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 4: product, quotient and nested chain rule together
+**Question:** Find f'(x) for f(x) = x sin³(x²)/√(x⁶ + 1).
+**Answer:** Use the quotient rule with numerator u = x sin³(x²) and denominator v = √(x⁶ + 1). By the product and chain rules, u' = sin³(x²) + x·3sin²(x²)cos(x²)·2x = sin³(x²) + 6x² sin²(x²)cos(x²). By the chain rule, v' = (1/2)(x⁶ + 1)^(−1/2)·6x⁵ = 3x⁵/√(x⁶ + 1). So f'(x) = [u'√(x⁶ + 1) − x sin³(x²)(1/2)(x⁶ + 1)^(−1/2)(6x⁵)]/(x⁶ + 1). See `derivative-rules.md`.
+
+## Q052
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** first-principle-derivative
+**Focus Area:** Assignment 1, Problem 5: recognising a limit as a derivative
+**Question:** Find lim_{h→0} [f(−12 + h) − f(−12)]/h for f(x) = ∛(1376 − 6x²).
+**Answer:** The limit is the derivative f'(−12) by definition. By the chain rule, f'(x) = (1/3)(1376 − 6x²)^(−2/3)(−12x). At x = −12: 1376 − 6(144) = 512 and ∛512 = 8, so (512)^(−2/3) = 1/64, and −12x = 144. Hence f'(−12) = (1/3)(1/64)(144) = 3/4. See `first-principle-derivative.md` and `derivative-rules.md`.
+
+## Q053
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** differentiability-and-continuity
+**Focus Area:** Assignment 1, Problem 6: continuous and differentiable piecewise function
+**Question:** Find a and b so that f(x) = 2x³ − 2x² + 7 for x < −2 and f(x) = ax + b for x ≥ −2 is both continuous and differentiable.
+**Answer:** Differentiable at −2 requires continuity there (differentiability implies continuity) and equal one-sided derivatives. Continuity: the left value is 2(−8) − 2(4) + 7 = −17, so −2a + b = −17. Derivatives: for x < −2, f'(x) = 6x² − 4x, which gives 24 + 8 = 32 at −2; for x > −2, f'(x) = a. Equal one-sided derivatives give a = 32. Then b = −17 + 2a = 47. So a = 32, b = 47. See `differentiability-and-continuity.md`.
+
+## Q054
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** tangent-line-problems
+**Focus Area:** Assignment 1, Problem 7: tangent line through a second point
+**Question:** The tangent line to y = f(x) at (−9, −7) passes through (5, −2). Find f(−9) and f'(−9).
+**Answer:** The tangent line touches the graph at (−9, −7), so f(−9) = −7. f'(−9) is the slope of the tangent line, which passes through (−9, −7) and (5, −2): f'(−9) = (−2 − (−7))/(5 − (−9)) = 5/14. See `tangent-line-problems.md` and `first-principle-derivative.md`.
+
+## Q055
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 8: chain rule from a table of values
+**Question:** Let f(7) = 34, f'(7) = 5, f(34) = 12, f'(34) = −5, g(34) = −29, g'(34) = −10, g(12) = −27, g'(12) = 41. Find (a) (g∘f)'(34) and (b) (f∘f)'(7).
+**Answer:** (a) (g∘f)'(34) = g'(f(34))·f'(34) = g'(12)·(−5) = 41(−5) = −205. (b) (f∘f)'(7) = f'(f(7))·f'(7) = f'(34)·5 = (−5)(5) = −25. Track the input at each layer, working from the outside in. See `derivative-rules.md`.
+
+## Q056
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** tangent-line-problems
+**Focus Area:** Assignment 1, Problem 11: tangent and normal lines
+**Question:** Find the equations of the tangent and normal lines to g(t) = (4 sin t − 2 cos t)³ at t = π/2.
+**Answer:** g(π/2) = (4·1 − 0)³ = 64. By the chain rule, g'(t) = 3(4 sin t − 2 cos t)²(4 cos t + 2 sin t), so g'(π/2) = 3(16)(2) = 96. Tangent: y − 64 = 96(t − π/2), i.e. y = 96t − 48π + 64. Normal (slope −1/96): y − 64 = −(1/96)(t − π/2), i.e. y = −t/96 + π/192 + 64. See `tangent-line-problems.md`.
+
+## Q057
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 12: product and chain rules, then a second derivative
+**Question:** Let f(x) = 3x² cos(4x). Find f'(x), f'(1), f''(x) and f''(1).
+**Answer:** By the product and chain rules, f'(x) = 6x cos(4x) − 12x² sin(4x), so f'(1) = 6 cos 4 − 12 sin 4. Differentiating again, f''(x) = 6 cos(4x) − 24x sin(4x) − 24x sin(4x) − 48x² cos(4x) = 6 cos(4x) − 48x sin(4x) − 48x² cos(4x), so f''(1) = 6 cos 4 − 48 sin 4 − 48 cos 4 = −42 cos 4 − 48 sin 4. See `derivative-rules.md`. (Note: this topic is not covered in the wiki; included at the user's request as assumed prior calculus knowledge.)
+
+## Q058
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 13: product and chain rules, then a second derivative
+**Question:** Let f(x) = 5x² cos(3x). Find f'(x), f'(5), f''(x) and f''(5).
+**Answer:** By the product and chain rules, f'(x) = 10x cos(3x) − 15x² sin(3x), so f'(5) = 50 cos 15 − 375 sin 15. Differentiating again, f''(x) = 10 cos(3x) − 30x sin(3x) − 30x sin(3x) − 45x² cos(3x) = 10 cos(3x) − 60x sin(3x) − 45x² cos(3x), so f''(5) = 10 cos 15 − 300 sin 15 − 1125 cos 15 = −1115 cos 15 − 300 sin 15. See `derivative-rules.md`. (Note: this topic is not covered in the wiki; included at the user's request as assumed prior calculus knowledge.)
+
+## Q059
+**Status:** active
+**Type:** short-answer
+**Difficulty:** advanced
+**Topic:** derivative-rules
+**Focus Area:** Assignment 1, Problem 14: position, velocity and total distance
+**Question:** A particle moves along a line with position s(t) = 2t³ − 24t² + 72t (feet, t in seconds). (a) Find its velocity at t = 0. (b) It is at rest twice, at t = A and t = B with A < B; find A and B. (c) What is its position at t = 16? (d) What is the total distance travelled between t = 0 and t = 16?
+**Answer:** Velocity is v(t) = s'(t) = 6t² − 48t + 72 = 6(t − 2)(t − 6). (a) v(0) = 72 ft/s. (b) v = 0 at t = 2 and t = 6, so A = 2, B = 6. (c) s(16) = 2(4096) − 24(256) + 72(16) = 8192 − 6144 + 1152 = 3200 ft. (d) The direction changes at A and B, so add the pieces: s(2) = 64 (distance 64 from 0 to 2), s(6) = 0 (distance 64 from 2 to 6), s(16) = 3200 (distance 3200 from 6 to 16). Total = 64 + 64 + 3200 = 3328 ft. See `derivative-rules.md` for the derivative computation. (Note: this topic is not covered in the wiki; included at the user's request as assumed prior calculus knowledge.)
