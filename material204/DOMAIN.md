@@ -15,6 +15,7 @@ Socratic & rigorous — lead with guiding questions, hold to precise definitions
 |---|-------|--------|----------------|
 | 1 | Introduction | `chapters/01-introduction/` | compiled 2026-09-05 |
 | 2 | Atomic Structure and Interatomic Bonding | `chapters/02-atomic-structure-and-interatomic-bonding/` | compiled 2026-09-14 |
+| 3 | Crystalline Structure | `chapters/03-crystalline-structure/` | compiled 2026-09-23 |
 
 ---
 
