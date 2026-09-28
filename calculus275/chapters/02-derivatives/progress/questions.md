@@ -548,3 +548,21 @@
 **Focus Area:** Assignment 1, Problem 14: position, velocity and total distance
 **Question:** A particle moves along a line with position s(t) = 2t³ − 24t² + 72t (feet, t in seconds). (a) Find its velocity at t = 0. (b) It is at rest twice, at t = A and t = B with A < B; find A and B. (c) What is its position at t = 16? (d) What is the total distance travelled between t = 0 and t = 16?
 **Answer:** Velocity is v(t) = s'(t) = 6t² − 48t + 72 = 6(t − 2)(t − 6). (a) v(0) = 72 ft/s. (b) v = 0 at t = 2 and t = 6, so A = 2, B = 6. (c) s(16) = 2(4096) − 24(256) + 72(16) = 8192 − 6144 + 1152 = 3200 ft. (d) The direction changes at A and B, so add the pieces: s(2) = 64 (distance 64 from 0 to 2), s(6) = 0 (distance 64 from 2 to 6), s(16) = 3200 (distance 3200 from 6 to 16). Total = 64 + 64 + 3200 = 3328 ft. See `derivative-rules.md` for the derivative computation. (Note: this topic is not covered in the wiki; included at the user's request as assumed prior calculus knowledge.)
+
+## Q060
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** differentiability-and-continuity
+**Focus Area:** two junction conditions for a piecewise function (targeted follow-up to Q053)
+**Question:** Find a and b so that f(x) = 3x² + 1 for x ≤ 1 and f(x) = ax + b for x > 1 is both continuous and differentiable at x = 1. State the two conditions you impose and why each is needed.
+**Answer:** Continuity at 1 requires the left value 3(1)² + 1 = 4 to equal the right-hand value: a + b = 4. Differentiability requires continuity (differentiability implies continuity) and equal one-sided derivatives: the left branch has f'(x) = 6x, so 6 at x = 1, and the right branch has derivative a, so a = 6. Then b = 4 − 6 = −2. So a = 6, b = −2. See `differentiability-and-continuity.md` and `nondifferentiability.md`.
+
+## Q061
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** differentiability-and-continuity
+**Focus Area:** why matching junction values and one-sided derivatives are separate conditions (targeted follow-up to Q053)
+**Question:** For a piecewise function whose branches are both polynomials, why is "each branch has a limit at the junction" not enough to conclude the function is continuous there, and why does continuity alone not give differentiability?
+**Answer:** Each polynomial branch always has a limit at the junction, so that fact imposes no condition. Continuity requires the left-hand limit, right-hand limit and the function value to agree. Differentiability additionally requires both one-sided derivatives to exist as finite numbers and be equal; continuity is necessary but not sufficient (for example |x| is continuous at 0 with one-sided derivatives −1 and 1). See `differentiability-and-continuity.md` and `nondifferentiability.md`.

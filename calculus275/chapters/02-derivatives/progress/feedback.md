@@ -15,6 +15,11 @@
 
 -->
 
+## 2026-09-28
+**Difficulty feel:** about right ("good difficulty"); 5-question mixed session across chapters 2, 3 and 4
+**Coverage gaps:** none flagged by user
+**Style notes:** user states the right idea quickly but often stops before giving the full justification (interval for the concavity sign, the distinction between vertical tangent and cusp, both junction conditions in a piecewise problem); Socratic prompting resolves this. Recurring slips are procedural, not conceptual: flipped x and a in the signed input change (Ch3 Q018), differentiated with respect to y instead of x (Ch4 Q014), and treated existence of a polynomial branch's limit as the continuity check (Q053). Compare with the 2026-09-12 note on notation and procedure slips.
+
 ## 2026-09-12
 **Difficulty feel:** about right (user's overall take: "session is good")
 **Coverage gaps:** none flagged by user; session covered the newly-compiled topics (first-principle-derivative local approximation, differentiability-and-continuity one-sided/endpoint derivatives, derivative-of-inverse-functions, nondifferentiability, tangent-line-problems) that were previously all "new"

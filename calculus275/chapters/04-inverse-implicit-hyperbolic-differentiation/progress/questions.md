@@ -494,3 +494,21 @@
 **Focus Area:** matching problem to method
 **Question:** For each, state the method: (a) find (f⁻¹)'(b); (b) differentiate arcsin(g(x)); (c) differentiate an inverse hyperbolic formula explicitly.
 **Answer:** (a) Find the corresponding point a with f(a) = b, then take the reciprocal of f'(a). (b) Use the derivative formula for the outer inverse function, then multiply by g'(x). (c) Use the inverse-function derivative rule; to obtain an explicit form, rewrite with exponentials and solve for eʸ. See `choosing-a-differentiation-strategy.md`.
+
+## Q054
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** implicit-differentiation
+**Focus Area:** differentiating with respect to x and tangent line, exponential term (targeted follow-up to Q014)
+**Question:** The curve x eʸ + y² = 1 passes through (1, 0). After checking that the point lies on the curve, find y' (differentiating with respect to x) and the tangent line at (1, 0).
+**Answer:** Check: 1·e⁰ + 0² = 1, so the point is on the curve. Differentiating with respect to x (product rule on x eʸ, chain rule on eʸ and y²): eʸ + x eʸ y' + 2y y' = 0, so (x eʸ + 2y) y' = −eʸ and y' = −eʸ/(x eʸ + 2y), valid where x eʸ + 2y ≠ 0. At (1, 0), y' = −1/1 = −1, so the tangent line is y = −(x − 1) = −x + 1. See `implicit-differentiation.md`.
+
+## Q055
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** implicit-differentiation
+**Focus Area:** checking a point lies on the curve (targeted follow-up to Q014)
+**Question:** Does (1, 1) lie on the curve x eʸ + y² = 1? Explain why this check comes before computing a tangent slope, and how it differs from the "substituting too early" mistake.
+**Answer:** Substituting into the original equation: 1·e¹ + 1² = e + 1 ≠ 1, so (1, 1) is not on the curve and no tangent line exists there, even though the formula for y' would return a number. This check on the original equation is done to confirm the point is on the curve; the mistake to avoid is substituting the point before differentiating, which turns the relation into a numerical identity with nothing left to differentiate. See `implicit-differentiation.md`.

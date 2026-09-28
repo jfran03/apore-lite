@@ -20,7 +20,7 @@
 | Q011 | active | new | 0 | 0 | — | — |
 | Q012 | active | new | 0 | 0 | — | — |
 | Q013 | active | new | 0 | 0 | — | — |
-| Q014 | active | new | 0 | 0 | — | — |
+| Q014 | active | ok | 1 | 0 | 2026-09-28 | differentiated with respect to y (solved for dx/dy, not the slope) with product-rule and constant-derivative errors; after redoing in x the work was clean; did not know how to verify that the point lies on the curve |
 | Q015 | active | new | 0 | 0 | — | — |
 | Q016 | active | new | 0 | 0 | — | — |
 | Q017 | active | new | 0 | 0 | — | — |
@@ -60,3 +60,5 @@
 | Q051 | active | new | 0 | 0 | — | — |
 | Q052 | active | new | 0 | 0 | — | — |
 | Q053 | active | new | 0 | 0 | — | — |
+| Q054 | active | new | 0 | 0 | — | — |
+| Q055 | active | new | 0 | 0 | — | — |

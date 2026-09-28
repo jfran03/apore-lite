@@ -377,3 +377,12 @@
 **Focus Area:** Assignment 1, Problem 18: maximum error in a cube's volume
 **Question:** The edge of a cube was measured as 30 cm with a possible error of 0.2 cm. Use differentials to estimate the maximum possible error in the calculated volume.
 **Answer:** V(x) = x³, so V'(x) = 3x². With x = 30 and dx = 0.2: ΔV ≈ dV = 3(30)²(0.2) = 540 cm³. See `applied-differential-problems.md`.
+
+## Q041
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** overestimates-and-underestimates
+**Focus Area:** signed input change and target left of a (targeted follow-up to Q018)
+**Question:** Estimate 1/3.92 by linearizing f(x) = 1/x at a = 4. State the signed input change x − a, the linearization, and the estimate. Then decide whether the estimate is an overestimate or an underestimate, and justify it on the whole interval between a and the target.
+**Answer:** The signed input change is 3.92 − 4 = −0.08. With f(x) = x^(−1), f(4) = 1/4 and f'(4) = −1/16, so L_4(x) = 1/4 − (1/16)(x − 4) and 1/3.92 ≈ 1/4 − (1/16)(−0.08) = 0.25 + 0.005 = 0.255. Since f''(x) = 2/x³ > 0 on (0, ∞), and in particular on [3.92, 4], the graph is concave up and the tangent line lies below it, so 0.255 is an underestimate. The target lying to the left of a does not change this, because (x − a)² > 0 on either side. See `linear-approximation.md`, `choosing-the-expansion-point.md` and `overestimates-and-underestimates.md`.

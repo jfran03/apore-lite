@@ -24,7 +24,7 @@
 | Q015 | active | new | 0 | 0 | — | — |
 | Q016 | active | new | 0 | 0 | — | — |
 | Q017 | active | new | 0 | 0 | — | — |
-| Q018 | active | new | 0 | 0 | — | — |
+| Q018 | active | ok | 1 | 0 | 2026-09-28 | flipped x and a in the input change (got 1.003 and overestimate instead of 0.97 and underestimate); did not know the concavity rule holds on both sides of a |
 | Q019 | active | new | 0 | 0 | — | — |
 | Q020 | active | new | 0 | 0 | — | — |
 | Q021 | active | new | 0 | 0 | — | — |
@@ -47,3 +47,4 @@
 | Q038 | active | new | 0 | 0 | — | — |
 | Q039 | active | new | 0 | 0 | — | — |
 | Q040 | active | new | 0 | 0 | — | — |
+| Q041 | active | ok | 1 | 1 | 2026-09-28 | — |

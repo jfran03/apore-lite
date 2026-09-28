@@ -39,7 +39,7 @@
 | Q030 | active | new | 0 | 0 | — | — |
 | Q031 | active | ok | 1 | 0 | 2026-09-11 | wasn't familiar with the inverse-function derivative formula and the need to first find a = f⁻¹(b) before evaluating f'(a) |
 | Q032 | active | new | 0 | 0 | — | — |
-| Q033 | active | new | 0 | 0 | — | — |
+| Q033 | active | easy | 1 | 1 | 2026-09-28 | — |
 | Q034 | active | ok | 1 | 1 | 2026-09-12 | — |
 | Q035 | active | ok | 1 | 0 | 2026-09-12 | evaluated the branch functions at the junction instead of comparing the one-sided derivatives of the branches; needed the two-step continuity-then-derivative-agreement procedure |
 | Q036 | active | new | 0 | 0 | — | — |
@@ -59,10 +59,12 @@
 | Q050 | active | new | 0 | 0 | — | — |
 | Q051 | active | new | 0 | 0 | — | — |
 | Q052 | active | new | 0 | 0 | — | — |
-| Q053 | active | new | 0 | 0 | — | — |
+| Q053 | active | ok | 1 | 0 | 2026-09-28 | treated the existence of the left polynomial piece's limit as the continuity check; needed prompting to match the junction values (one equation) and then the one-sided derivatives (second equation) |
 | Q054 | active | new | 0 | 0 | — | — |
 | Q055 | active | new | 0 | 0 | — | — |
 | Q056 | active | new | 0 | 0 | — | — |
 | Q057 | active | new | 0 | 0 | — | — |
 | Q058 | active | new | 0 | 0 | — | — |
 | Q059 | active | new | 0 | 0 | — | — |
+| Q060 | active | new | 0 | 0 | — | — |
+| Q061 | active | new | 0 | 0 | — | — |
