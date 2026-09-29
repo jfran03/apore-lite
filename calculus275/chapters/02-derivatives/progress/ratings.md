@@ -52,7 +52,7 @@
 | Q043 | active | new | 0 | 0 | — | — |
 | Q044 | active | new | 0 | 0 | — | — |
 | Q045 | active | new | 0 | 0 | — | — |
-| Q046 | active | new | 0 | 0 | — | — |
+| Q046 | active | ok | 1 | 1 | 2026-09-29 | — |
 | Q047 | active | new | 0 | 0 | — | — |
 | Q048 | active | new | 0 | 0 | — | — |
 | Q049 | active | new | 0 | 0 | — | — |

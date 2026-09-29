@@ -56,9 +56,9 @@
 | Q047 | active | new | 0 | 0 | — | — |
 | Q048 | active | new | 0 | 0 | — | — |
 | Q049 | active | new | 0 | 0 | — | — |
-| Q050 | active | new | 0 | 0 | — | — |
+| Q050 | active | easy | 1 | 1 | 2026-09-29 | — |
 | Q051 | active | new | 0 | 0 | — | — |
 | Q052 | active | new | 0 | 0 | — | — |
 | Q053 | active | new | 0 | 0 | — | — |
-| Q054 | active | new | 0 | 0 | — | — |
+| Q054 | active | ok | 1 | 0 | 2026-09-29 | didn't switch the sign when solving for b in the point-slope step (b = 0 − m·x₁), after correctly computing y' = −1; derivative/product-rule work took two attempts (first omitted the standalone eʸ term, then forgot to differentiate the RHS to 0) |
 | Q055 | active | new | 0 | 0 | — | — |

@@ -386,3 +386,12 @@
 **Focus Area:** signed input change and target left of a (targeted follow-up to Q018)
 **Question:** Estimate 1/3.92 by linearizing f(x) = 1/x at a = 4. State the signed input change x − a, the linearization, and the estimate. Then decide whether the estimate is an overestimate or an underestimate, and justify it on the whole interval between a and the target.
 **Answer:** The signed input change is 3.92 − 4 = −0.08. With f(x) = x^(−1), f(4) = 1/4 and f'(4) = −1/16, so L_4(x) = 1/4 − (1/16)(x − 4) and 1/3.92 ≈ 1/4 − (1/16)(−0.08) = 0.25 + 0.005 = 0.255. Since f''(x) = 2/x³ > 0 on (0, ∞), and in particular on [3.92, 4], the graph is concave up and the tangent line lies below it, so 0.255 is an underestimate. The target lying to the left of a does not change this, because (x − a)² > 0 on either side. See `linear-approximation.md`, `choosing-the-expansion-point.md` and `overestimates-and-underestimates.md`.
+
+## Q042
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** overestimates-and-underestimates
+**Focus Area:** the sign condition must hold on the whole interval, not just at a (targeted follow-up to Q016)
+**Question:** Suppose f''(a) > 0, but f'' changes sign somewhere between a and the target input x. Can you conclude from f''(a) alone that L_a(x) is an underestimate of f(x)? Explain what checking only the base point misses.
+**Answer:** No. The sign condition must hold throughout the interval between a and the input being approximated — checking f''(a) alone is not enough. If f'' changes sign somewhere in that interval, the concavity test does not determine whether the approximation is an overestimate or an underestimate; the graph could bend both above and below the tangent line at different points in the interval. See `overestimates-and-underestimates.md`.

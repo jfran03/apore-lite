@@ -15,6 +15,11 @@
 
 -->
 
+## 2026-09-29
+**Difficulty feel:** about right ("good session"); 5-question mixed session across chapters 2, 3 and 4
+**Coverage gaps:** none flagged by user
+**Style notes:** the Ch4 implicit-differentiation tangent-line question (x eʸ + y² = 1) took three attempts — first missing the product-rule term on x eʸ, then forgetting to differentiate the RHS to 0, and finally a sign slip solving 0 = m(1) + b for b — each error was distinct and self-corrected once flagged, suggesting the remaining gap is procedural carefulness on multi-step algebra rather than the calculus itself. User proactively asked a Tutor Mode clarifying question mid-question (why f(a)=b lets you use f⁻¹(3)=1) rather than guessing, and resolved it quickly once shown the "reverses inputs and outputs" wiki line. The Ch3 concavity-on-the-whole-interval gap (Q016, missed) was immediately and correctly re-answered on its follow-up (Q042) in concise conceptual form, so once the specific misconception is named the user grasps it fast — consistent with the 2026-09-28 note that the user states the right idea quickly but sometimes needs the full justification drawn out explicitly.
+
 ## 2026-09-28
 **Difficulty feel:** about right ("good difficulty"); 5-question mixed session across chapters 2, 3 and 4
 **Coverage gaps:** none flagged by user

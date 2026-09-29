@@ -22,7 +22,7 @@
 | Q013 | active | new | 0 | 0 | — | — |
 | Q014 | active | new | 0 | 0 | — | — |
 | Q015 | active | new | 0 | 0 | — | — |
-| Q016 | active | new | 0 | 0 | — | — |
+| Q016 | active | ok | 1 | 0 | 2026-09-29 | did not know the sign condition must hold on the whole interval, not just at a; will remember next time |
 | Q017 | active | new | 0 | 0 | — | — |
 | Q018 | active | ok | 1 | 0 | 2026-09-28 | flipped x and a in the input change (got 1.003 and overestimate instead of 0.97 and underestimate); did not know the concavity rule holds on both sides of a |
 | Q019 | active | new | 0 | 0 | — | — |
@@ -48,3 +48,4 @@
 | Q039 | active | new | 0 | 0 | — | — |
 | Q040 | active | new | 0 | 0 | — | — |
 | Q041 | active | ok | 1 | 1 | 2026-09-28 | — |
+| Q042 | active | easy | 1 | 1 | 2026-09-29 | — |
