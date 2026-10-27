@@ -17,6 +17,11 @@ rigorous — precise and proof-aware. State hypotheses explicitly and check that
 | 02 | Derivatives | `chapters/02-derivatives/` | compiled 2026-09-11 |
 | 03 | Linear Approximation | `chapters/03-linear-approximation/` | compiled 2026-09-15 |
 | 04 | Inverse, Implicit & Hyperbolic Differentiation | `chapters/04-inverse-implicit-hyperbolic-differentiation/` | compiled 2026-09-26 |
+| 05 | Logarithmic Differentiation & L'Hôpital's Rule | `chapters/05-log-diff-lhopitals/` | compiled 2026-10-27 |
+| 06 | Mean Value Theorem & Curve Sketching | `chapters/06-mvt-curve-sketching/` | compiled 2026-10-27 |
+| 07 | Optimization | `chapters/07-optimization/` | compiled 2026-10-27 |
+| 08 | Antiderivatives & the Fundamental Theorem of Calculus (Part 1) | `chapters/08-antiderivatives-ftoc1/` | compiled 2026-10-27 |
+| 09 | The Fundamental Theorem of Calculus (Part 2), Substitution & Integration by Parts | `chapters/09-ftoc2-sub-parts/` | compiled 2026-10-27 |
 
 ---
 
