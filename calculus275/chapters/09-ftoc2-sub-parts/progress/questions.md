@@ -305,3 +305,21 @@
 **Focus Area:** accumulation functions in answers
 **Question:** Let S(x) = ∫₀ˣ cos(t²) dt. (a) Find S′(x) and S(0). (b) For x ≥ 1, express H(x) = ∫₁^{x²} (cos t/√t) dt in terms of S. (c) Express K(x) = ∫₀ˣ S(t) dt in terms of S and elementary functions.
 **Answer:** (a) By FTC Part I, S′(x) = cos(x²); S(0) = 0. (b) t = u², u ≥ 1, dt = 2u du, √t = u, upper limit u = x: H(x) = 2∫₁ˣ cos(u²) du = 2(S(x) − S(1)). (c) Parts with U = S(t), dV = dt: K(x) = [tS(t)]₀ˣ − ∫₀ˣ t cos(t²) dt = xS(x) − (1/2) sin(x²). See `combining-methods.md`.
+
+## Q033
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** ftoc-part-2
+**Focus Area:** checking continuity on the interval before applying FTC
+**Question:** What must you check about the integrand and the interval before evaluating ∫ₐᵇ f(x) dx as F(b) − F(a)? Apply this check to ∫₋₁¹ 1/x² dx.
+**Answer:** f must be continuous on [a, b] (with F continuous on [a, b] and F′ = f on (a, b)). The integrand 1/x² is undefined at 0, so it is not continuous on [−1, 1], and FTC Part II cannot be applied; such integrals require a separate definition and analysis. See `ftoc-part-2.md`.
+
+## Q034
+**Status:** active
+**Type:** conceptual
+**Difficulty:** intermediate
+**Topic:** definite-substitution
+**Focus Area:** contrast: valid FTC use when endpoints give equal values
+**Question:** Both ∫₋₁¹ (1/x) dx and ∫₋₁¹ 2x e^(x²) dx give an antiderivative with equal values at −1 and 1. Why is the second computation valid and the first not?
+**Answer:** The integrand 2x e^(x²) is continuous on [−1, 1] and (e^(x²))′ = 2x e^(x²), so FTC gives e¹ − e¹ = 0 (equivalently, u = x² gives ∫₁¹ eᵘ du = 0). The integrand 1/x is undefined at 0 and not continuous on [−1, 1], so FTC does not apply. See `ftoc-part-2.md` and `definite-substitution.md`.
