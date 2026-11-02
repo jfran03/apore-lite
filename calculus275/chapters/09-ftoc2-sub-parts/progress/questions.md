@@ -323,3 +323,30 @@
 **Focus Area:** contrast: valid FTC use when endpoints give equal values
 **Question:** Both ∫₋₁¹ (1/x) dx and ∫₋₁¹ 2x e^(x²) dx give an antiderivative with equal values at −1 and 1. Why is the second computation valid and the first not?
 **Answer:** The integrand 2x e^(x²) is continuous on [−1, 1] and (e^(x²))′ = 2x e^(x²), so FTC gives e¹ − e¹ = 0 (equivalently, u = x² gives ∫₁¹ eᵘ du = 0). The integrand 1/x is undefined at 0 and not continuous on [−1, 1], so FTC does not apply. See `ftoc-part-2.md` and `definite-substitution.md`.
+
+## Q035
+**Status:** active
+**Type:** short-answer
+**Difficulty:** introductory
+**Topic:** ftoc-part-2
+**Focus Area:** order of subtraction, F(b) − F(a) applied to an antiderivative
+**Question:** Evaluate ∫₀² (3x² − 4x + 2) dx. Which function do you evaluate at the endpoints, and which endpoint value is subtracted from which?
+**Answer:** An antiderivative is F(x) = x³ − 2x² + 2x. Evaluate F (not the integrand) and subtract the lower endpoint value from the upper: [x³ − 2x² + 2x]₀² = (8 − 8 + 4) − 0 = 4. See `ftoc-part-2.md`.
+
+## Q036
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** ftoc-part-2
+**Focus Area:** FTC II with a trig antiderivative
+**Question:** Evaluate ∫_{π/4}^{π/2} cot θ csc θ dθ using FTC Part II.
+**Answer:** (csc θ)′ = −csc θ cot θ, so an antiderivative is −csc θ. [−csc θ]_{π/4}^{π/2} = −1/sin(π/2) + 1/sin(π/4) = −1 + √2. See `ftoc-part-2.md`.
+
+## Q037
+**Status:** active
+**Type:** short-answer
+**Difficulty:** intermediate
+**Topic:** definite-substitution
+**Focus Area:** consistent variable and limits, changing endpoints
+**Question:** Evaluate ∫₀^{π/4} sin(2x)/(2 + cos(2x)) dx by changing the endpoints before integrating. State which values you use as the u-limits and why you never return to x.
+**Answer:** u = 2 + cos(2x), du = −2 sin(2x) dx; x = 0 ⇒ u = 3, x = π/4 ⇒ u = 2. The integral is −(1/2)∫₃² du/u = (1/2)∫₂³ du/u = (1/2) ln(3/2). Since the limits were changed to u-values before integrating, the u-antiderivative is evaluated at u-limits and there is no need to return to x. See `definite-substitution.md`.
