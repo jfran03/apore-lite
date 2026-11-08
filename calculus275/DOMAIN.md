@@ -22,6 +22,7 @@ rigorous — precise and proof-aware. State hypotheses explicitly and check that
 | 07 | Optimization | `chapters/07-optimization/` | compiled 2026-10-27 |
 | 08 | Antiderivatives & the Fundamental Theorem of Calculus (Part 1) | `chapters/08-antiderivatives-ftoc1/` | compiled 2026-10-27 |
 | 09 | The Fundamental Theorem of Calculus (Part 2), Substitution & Integration by Parts | `chapters/09-ftoc2-sub-parts/` | compiled 2026-10-27 |
+| 10 | Inverse Trigonometric Substitution & Partial Fraction Decomposition | `chapters/10-inverse-trig-partial-decomp/` | compiled 2026-11-07 |
 
 ---
 
